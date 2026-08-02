@@ -1,0 +1,24 @@
+{{/*
+  The theme's documented per-site <head> hook.
+
+  Console styles .prose img and .item__notes iframe, but not .prose iframe.
+  The YouTube embeds pasted into the project briefs carry hard width="560"
+  height="315" attributes, which push the page sideways below ~600px. Let them
+  scale to the column instead.
+*/}}
+<style>
+  .prose iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  /* A bare URL pasted as its own link text is one unbreakable token and will
+     push the page sideways on a phone. Let long words break. */
+  .prose a,
+  .prose p,
+  .prose li {
+    overflow-wrap: anywhere;
+  }
+</style>

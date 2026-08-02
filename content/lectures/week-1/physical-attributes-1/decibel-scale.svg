@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <line x1="50" y1="250" x2="350" y2="250" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="250" x2="50" y2="50" stroke="black" stroke-width="2"/>
+  <text x="200" y="280" text-anchor="middle" font-size="14">Decibel (dB) Level</text>
+  <text x="30" y="150" text-anchor="middle" font-size="14" transform="rotate(-90 30 150)">Sound Examples</text>
+  
+  <!-- Scale markings -->
+  <line x1="50" y1="250" x2="50" y2="240" stroke="black" stroke-width="2"/>
+  <text x="50" y="265" text-anchor="middle" font-size="12">0</text>
+  <line x1="200" y1="250" x2="200" y2="240" stroke="black" stroke-width="2"/>
+  <text x="200" y="265" text-anchor="middle" font-size="12">100</text>
+  <line x1="350" y1="250" x2="350" y2="240" stroke="black" stroke-width="2"/>
+  <text x="350" y="265" text-anchor="middle" font-size="12">200</text>
+  
+  <!-- Sound examples -->
+  <text x="70" y="230" font-size="12">Breathing (10 dB)</text>
+  <text x="120" y="190" font-size="12">Normal conversation (60 dB)</text>
+  <text x="200" y="150" font-size="12">City traffic (80 dB)</text>
+  <text x="280" y="110" font-size="12">Rock concert (110 dB)</text>
+  <text x="340" y="70" font-size="12">Jet engine (140 dB)</text>
+</svg>

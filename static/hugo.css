@@ -1,0 +1,14 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.image-grid img {
+    /* width: 100%; */
+}
+
+.image-grid figcaption {
+    font-size: 0.8em;
+    text-align: center;
+}

@@ -1,0 +1,79 @@
+baseURL = "https://dsu-digital-sound-design.github.io/f-26-DAD-422-Audio-Production-III/"
+languageCode = "en-us"
+title = "DAD 422: Audio Production III"
+enableRobotsTXT = true
+
+# Console renders the course pages; reveal-hugo renders the lecture decks.
+# Order matters: Console is listed first so its templates win for HTML output,
+# while reveal-hugo's *.reveal.html templates win for the Reveal output format.
+theme = ["t-console-theme", "reveal-hugo"]
+
+[outputFormats.Reveal]
+  baseName = "index"
+  mediaType = "text/html"
+  isHTML = true
+
+[params]
+  accent = "#6ec1ff"
+  description = "Spatial audio and immersive sound design — stereo, binaural, ambisonics, surround, and Dolby Atmos."
+
+  [params.course]
+    code = "DAD 422"
+    title = "Audio Production III"
+    term = "Fall 2026"
+    meeting = "MWF 2:00–2:50"
+    instructor = "Tate Carson"
+    final = "Monday, December 14 · 3:30–5:30 PM"
+
+  [params.schedule]
+    # Monday of week 1. DSU Fall 2026 classes begin Aug 24.
+    start = "2026-08-24"
+    filterPlaceholder = 'filter — try "ambisonics" or "due"'
+
+  [[params.facts]]
+    key = "Meets"
+    value = "MWF 2:00–2:50"
+  [[params.facts]]
+    key = "Room"
+    value = "TCB 209 · Studio A / Studio B"
+  [[params.facts]]
+    key = "Instructor"
+    value = "Tate Carson"
+  [[params.facts]]
+    key = "Credits"
+    value = "3"
+  [[params.facts]]
+    key = "Prerequisite"
+    value = "DAD 322"
+  [[params.facts]]
+    key = "Software"
+    value = "REAPER, Ambisonic Toolkit, Logic Pro"
+  [[params.facts]]
+    key = "Grading"
+    value = "Projects 50% · Attendance 30% · Final 20%"
+
+[[menus.main]]
+  name = "schedule"
+  pageRef = "/schedule"
+  weight = 10
+[[menus.main]]
+  name = "projects"
+  pageRef = "/projects"
+  weight = 20
+[[menus.main]]
+  name = "syllabus"
+  pageRef = "/syllabus"
+  weight = 30
+[[menus.main]]
+  name = "resources"
+  pageRef = "/resources"
+  weight = 40
+
+[markup.goldmark.renderer]
+  # Lecture decks contain raw HTML (iframes, embeds).
+  unsafe = true
+
+[markup.tableOfContents]
+  ordered = false
+  startLevel = 1
+  endLevel = 2

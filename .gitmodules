@@ -1,0 +1,6 @@
+[submodule "themes/t-console-theme"]
+	path = themes/t-console-theme
+	url = https://github.com/DSU-Digital-Sound-Design/t-console-theme
+[submodule "themes/reveal-hugo"]
+	path = themes/reveal-hugo
+	url = https://github.com/dzello/reveal-hugo.git

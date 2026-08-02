@@ -1,0 +1,178 @@
+groups:
+  - group: Core readings
+    items:
+      - name: "Physical attributes of acoustic waves: Part I"
+        url: "http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1"
+        desc: "Read for week 1. Waveforms, frequency, amplitude."
+      - name: "Physical attributes of acoustic waves: Part II"
+        url: "http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a"
+        desc: "The second half, discussed on Friday of week 1."
+      - name: "Fundamentals of Sound"
+        url: "http://www.acousticslab.org/RECA220/PMFiles/Module01.htm#1a"
+        desc: "Source material for the opening lecture."
+      - name: "Auditory distance perception in humans: a review"
+        url: "https://doi.org/10.3758/s13414-015-1015-1"
+        desc: "Kolarik et al. (2015). Background for the distance perception lecture."
+      - name: "Companion website for the Routledge textbook"
+        url: "https://routledgetextbooks.com/textbooks/9780367470364/audio_files.php"
+        desc: "Audio examples that go with the readings."
+
+  - group: Reaper and ambisonics
+    items:
+      - name: REAPER
+        url: "https://www.reaper.fm/"
+        desc: "Primary DAW for the course. Free 60-day evaluation."
+      - name: Ambisonic Toolkit for Reaper
+        url: "https://www.ambisonictoolkit.net/download/reaper/"
+        desc: "The ATK plugins used for every ambisonic project."
+      - name: ATK example recordings
+        url: "https://www.ambisonictoolkit.net/download/recordings/"
+        desc: "A-format and B-format examples to listen through."
+      - name: ReaSurroundPan in the REAPER user guide
+        url: "https://dlz.reaper.fm/userguide/ReaperUserGuide723d.pdf#page=186.08"
+        desc: "The surround panner, documented."
+      - name: "An introduction to spatial audio with Matt Glenn (part 1)"
+        url: "https://www.youtube.com/watch?v=KBLvTttsTaw"
+        desc: "Watched in class alongside the ReaSurroundPan demo."
+      - name: "How to use ReaSurroundPan for spatial audio in REAPER (part 2)"
+        url: "https://www.youtube.com/watch?v=vg28Dok2vqQ"
+        desc: "The practical follow-up to part 1."
+
+  - group: Binaural and HRTF
+    items:
+      - name: Anaglyph
+        url: "http://anaglyph.dalembert.upmc.fr/"
+        desc: "Free binaural spatialiser used for Project 2."
+      - name: Anaglyph project gallery
+        url: "http://anaglyph.dalembert.upmc.fr/page-gallery.html"
+        desc: "Making-of write-ups from other people's binaural projects."
+      - name: SOFA convention files
+        url: "https://www.sofaconventions.org/mediawiki/index.php/Files"
+        desc: "HRTF databases. Add them to the package contents to see them in the VST."
+      - name: Panagement
+        url: "https://www.auburnsounds.com/products/Panagement.html"
+        desc: "Binaural panning and spatial effects."
+      - name: dearVR PRO 2 (Sennheiser)
+        url: "https://www.sennheiser.com/en-us/immersive/dear-reality"
+        desc: "Advanced spatialiser, stereo through 9.1.6."
+
+  - group: Atmos and surround
+    items:
+      - name: Logic Pro
+        url: "https://www.apple.com/logic-pro/"
+        desc: "Used for the Dolby Atmos project."
+      - name: Dolby Atmos Renderer
+        url: "https://professional.dolby.com/product/dolby-atmos-renderer/"
+        desc: "7.1.4 monitoring and spatialisation."
+      - name: Dolby Atmos Composer Essential (Fiedler Audio)
+        url: "https://fiedler-audio.com/dolby-atmos-composer-essential/"
+        desc: "Looked at during the commercial and hybrid systems week."
+      - name: Audio Ease 360pan suite
+        url: "https://www.audioease.com/360/"
+        desc: "Third-order ambisonics mixing plugins."
+      - name: "Brave with Atmos — Wired"
+        url: "https://www.wired.com/2012/06/dolby-atmos-brave/"
+        desc: "How the first Atmos feature was mixed."
+      - name: "The BEST DAWs for Dolby Atmos"
+        url: "https://www.youtube.com/watch?v=Bl47XfRjuXc"
+        desc: "Comparison of the current options."
+      - name: "Dolby Atmos — Immersive Audio Podcast"
+        url: "https://www.youtube.com/watch?v=LyBLVKesPK4"
+        desc: "David Gould on Atmos content creation."
+
+  - group: Free ambisonics plugin suites
+    items:
+      - name: SPARTA
+        url: "https://leomccormack.github.io/sparta-site/"
+        desc: "Real-time 3D audio tools."
+      - name: IEM Plug-in Suite
+        url: "https://plugins.iem.at/"
+        desc: "Comprehensive ambisonics and binaural tools."
+      - name: AMBIX
+        url: "https://github.com/kronihias/ambix"
+        desc: "Open-source ambisonics plugins."
+      - name: MCFX
+        url: "https://github.com/kronihias/mcfx"
+        desc: "Multichannel effects suite."
+      - name: O3A Core
+        url: "https://o3a.org/"
+        desc: "Object-based audio tools."
+      - name: EAR Production Suite
+        url: "https://ear-production-suite.ebu.io/"
+        desc: "Open source VST plugins for object-based spatialisation."
+
+  - group: Other spatial tools
+    items:
+      - name: SpatGRIS
+        url: "http://gris.musique.umontreal.ca/"
+        desc: "Free spatialisation controller for multichannel setups."
+      - name: Sound Particles
+        url: "https://soundparticles.com/"
+        desc: "3D audio software for immersive sound design and mixing."
+      - name: Audiocube
+        url: "https://www.audiocube.app/"
+        desc: "Standalone 3D audio environment."
+      - name: BlackHole
+        url: "https://existential.audio/blackhole/"
+        desc: "Audio routing for multichannel output."
+      - name: Facebook 360 Spatial Workstation
+        url: "https://facebook360.fb.com/spatial-workstation/"
+        desc: "Free ambisonics tools."
+      - name: "Best immersive audio metering tools"
+        url: "https://www.youtube.com/watch?v=0PD57ySF_0U"
+        desc: "Ten metering plugins worth knowing about."
+
+  - group: Sound libraries and listening
+    items:
+      - name: Ambisonia
+        url: "https://www.ambisonia.com/"
+        desc: "Ambisonic compositions and longer field recordings."
+      - name: Rode / Soundfield library
+        url: "https://library.soundfield.com/"
+        desc: "Ambisonic sound effects."
+      - name: "The 'Mixing Secrets' Free Multitrack Download Library"
+        url: "https://cambridge-mt.com/ms/mtk/"
+        desc: "Source multitracks for the ambisonic and surround mixes."
+      - name: UHJ format samples
+        url: "https://www.ambisonic.info/tetramic/samples.html"
+        desc: "Ambisonic sample material."
+      - name: Freesound
+        url: "https://freesound.org/"
+        desc: "Creative Commons sound effects for the mono project."
+      - name: "TPA presents: The art and science of immersive sound design"
+        url: "https://www.youtube.com/watch?v=olkePwn5qts"
+        desc: "A good overview talk."
+      - name: "Immersive audio basics playlist (ADAM Audio)"
+        url: "https://www.youtube.com/playlist?list=PLGSZx_3dmWXpkLaQbsG5uKG48sAEbCkK3"
+        desc: "Short explainers on the fundamentals."
+      - name: "Spatial music: exploring space and sound"
+        url: "https://www.youtube.com/watch?v=1srKmyQDmEc"
+        desc: "Spatial music in a concert context."
+
+  - group: Books
+    items:
+      - name: "Ambisonics: A Practical 3D Audio Theory — Zotter & Frank (2019)"
+        desc: "Open access. The comprehensive ambisonics reference."
+      - name: "Immersive Sound: The Art and Science of Binaural and Multi-Channel Audio — Roginska & Geluso (2017)"
+        desc: "Broad survey of multichannel sound."
+      - name: "Spatial Audio — Francis Rumsey (2017)"
+        desc: "Principles and practice of spatial recording and reproduction."
+      - name: "Instant Surround Sound — Jeffrey P. Fisher (2004)"
+        desc: "Practical multichannel mixing and encoding."
+      - name: "Sound and Recording (2014)"
+        desc: "Updated edition covering Atmos and Auro 3D."
+
+  - group: Organisations and further reading
+    items:
+      - name: Audio Engineering Society
+        url: "https://www.aes.org/"
+        desc: "Papers, conventions, and student membership."
+      - name: Mix With The Masters
+        url: "https://www.mixwiththemasters.com/"
+        desc: "Long-form sessions with working engineers."
+      - name: DSU Sound Design Discord
+        url: "https://discord.gg/w85WUcpQ"
+        desc: "Where projects and program news get shared."
+      - name: Student Research Initiatives
+        url: "https://dsu.edu/research/forms.html"
+        desc: "Funding for undergraduate work."
