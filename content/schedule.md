@@ -217,12 +217,13 @@ funds undergraduate work.
   - Meet in small groups to set up your project and ask questions
 
 ## 12/2
+- Undergraduate Research showcase — Science Center Lobby, **2–4 PM**
+  - Our class period sits inside the showcase window, so we go as a group
+
+## 12/4
 - [lab] Midpoint critique
   - Each student shows their progress so far, playing 1–2 minutes of a mix or composition
   - Other students provide feedback and encouragement
-
-## 12/4
-- Go check out the Undergraduate Research projects in the Science Center Lobby
 
 ## 12/7
 - Remaining students show their work
