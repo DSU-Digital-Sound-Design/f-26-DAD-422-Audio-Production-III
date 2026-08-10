@@ -181,10 +181,14 @@ funds undergraduate work.
 - [slides] [Advanced ambisonics and spatial audio](/lectures/week-11/advanced-ambisonics/)
 
 ## 11/11
-- [lab] Pick one thing we've learned recently and experiment with it in class
+- **No class meeting — I'm at [ATMI](https://atmimusic.com/) in Grand Rapids, MI** (Nov 11–14). These two days are independent work days; they don't count against attendance.
+- [lab] Pick one thing we've learned recently and experiment with it on your own
+- Studio A / Studio B won't be supervised — work on laptops unless you've already arranged studio access
 
 ## 11/13
-- Hear progress on the Atmos mixes due Monday
+- **No class meeting — I'm at [ATMI](https://atmimusic.com/) in Grand Rapids, MI** (Nov 11–14)
+- [lab] Independent work on the Atmos mix due Monday
+- Post a progress bounce (1–2 minutes) to D2L by end of day in place of the in-class check-in — I'll listen and reply over the weekend
 
 ## 11/16
 - [due] **Project 4: Atmos Mix** — due today
