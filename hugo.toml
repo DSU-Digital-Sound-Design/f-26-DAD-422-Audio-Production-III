@@ -17,6 +17,11 @@ theme = ["t-console-theme", "reveal-hugo"]
   accent = "#6ec1ff"
   description = "Spatial audio and immersive sound design — stereo, binaural, ambisonics, surround, and Dolby Atmos."
 
+  [params.reveal_hugo]
+  custom_theme = "reveal-console.css"
+  transition = "fade"
+  slide_number = true
+
   [params.course]
     code = "DAD 422"
     title = "Audio Production III"
