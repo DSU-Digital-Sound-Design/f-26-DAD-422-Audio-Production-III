@@ -145,11 +145,11 @@ separator = "##"
 
 - Electronic music expanded spatial possibilities with multi-channel setups.
 - Stockhausen's *Kontakte* uses rotating speakers to create movement in sound.
-  - [Listen here](https://www.youtube.com/watch?v=cjKVJ2z66fk).
+  - [Listen here](https://www.youtube.com/watch?v=nbdmzSeFy_Y).
 - Oliveros’s *Deep Listening* merges environmental acoustics with musical improvisation.
   - [Listen here](https://www.youtube.com/watch?v=MoHuHBkT4es).
 - Installations like *Dream House* and *Forty Part Motet* offer immersive sound environments.
-  - [Watch *Dream House*](https://www.youtube.com/watch?v=WC6bhnu5Luc), [Watch *Forty Part Motet*](https://www.youtube.com/watch?v=OxIeulpigws).
+  - [Watch *Dream House*](https://www.youtube.com/watch?v=icPHdwH06yA), [Watch *Forty Part Motet*](https://www.youtube.com/watch?v=OxIeulpigws).
 
 {{% note %}}
 

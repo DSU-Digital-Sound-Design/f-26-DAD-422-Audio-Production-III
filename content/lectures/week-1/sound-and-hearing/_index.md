@@ -169,7 +169,7 @@ The Fletcher-Munson equal-loudness contour curves (Figure 2.26) indicate the ear
 
 ## Beats 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/srNqPEJJCLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V8W4Djz6jnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
 Two tones that differ only slightly in frequency and have approximately the same amplitude will produce an effect known as beats. What you'll hear is changes in amplitude. This is how many people tune instruments. 
