@@ -343,3 +343,26 @@
 .reveal .slides section .fragment.highlight-current-blue.current-fragment {
   color: var(--a);
 }
+
+/* --------------------------------------------------------------------------
+   Full-bleed background slides ({{< slide background-image="..." >}})
+   Text sits on the dimmed photo: bigger, brighter, shadowed, no hairlines.
+   -------------------------------------------------------------------------- */
+
+.reveal .slides section[data-background-image] h1,
+.reveal .slides section[data-background-image] h2,
+.reveal .slides section[data-background-image] h3,
+.reveal .slides section[data-background-image] p,
+.reveal .slides section[data-background-image] li {
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.85), 0 0 2px rgba(0, 0, 0, 0.9);
+}
+
+.reveal .slides section[data-background-image] h1,
+.reveal .slides section[data-background-image] h2 {
+  color: #fff;
+  border-bottom: none;
+}
+
+.reveal .slides section[data-background-image] h2 {
+  font-size: 1.6em;
+}
