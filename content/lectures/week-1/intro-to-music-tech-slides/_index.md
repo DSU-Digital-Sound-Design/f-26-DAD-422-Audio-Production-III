@@ -2,9 +2,7 @@
 title = "Introduction to Music Technology"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "moon"
 margin = 0.2
-separator = "##"
 +++
 
 ## Intro to Music Technology

@@ -2,9 +2,10 @@
 title = "Stereo microphone techniques"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "moon"
 margin = 0.2
 +++
+
+{{< slide background-image="Decca-tree-Hero_1024x1024@2x-3032459495.jpg" background-opacity="0.4" >}}
 
 # Stereo microphone techniques
 

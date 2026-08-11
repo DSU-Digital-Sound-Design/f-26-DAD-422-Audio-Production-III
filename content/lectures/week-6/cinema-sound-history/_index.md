@@ -2,7 +2,6 @@
 title = "Cinema's Hidden Multi-Channel History and the Origins of Digital Surround"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "serif"
 margin = 0.2
 custom_css = "hugo.css"
 +++

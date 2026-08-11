@@ -2,7 +2,6 @@
 title = "Stereo Reproduction and Microphone Techniques"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "moon"
 margin = 0.2
 +++
 

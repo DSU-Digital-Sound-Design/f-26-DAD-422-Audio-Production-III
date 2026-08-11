@@ -2,7 +2,6 @@
 title = "Atmos Movies"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "serif"
 margin = 0.2
 +++
 

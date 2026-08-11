@@ -2,9 +2,7 @@
 title = "Sound and hearing"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "moon"
 margin = 0.2
-separator = "##"
 +++
 
 # Sound and hearing

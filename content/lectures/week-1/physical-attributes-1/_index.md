@@ -2,9 +2,7 @@
 title = "Physical Attributes of Sound - Part I"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "moon"
 margin = 0.2
-separator = "##"
 +++
 
 ## Oscillation and Vibration

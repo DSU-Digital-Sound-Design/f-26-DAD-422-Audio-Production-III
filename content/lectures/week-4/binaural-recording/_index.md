@@ -2,9 +2,10 @@
 title = "Binaural Audio"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "moon"
 margin = 0.2
 +++
+
+{{< slide background-image="KK1.jpg" background-opacity="0.4" >}}
 
 # Binaural Audio
 

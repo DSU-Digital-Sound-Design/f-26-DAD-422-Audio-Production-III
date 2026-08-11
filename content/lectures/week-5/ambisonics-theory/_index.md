@@ -2,7 +2,6 @@
 title = "Ambisonics Introduction"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "moon"
 margin = 0.2
 +++
 

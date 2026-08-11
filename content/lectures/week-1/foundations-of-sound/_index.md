@@ -2,7 +2,6 @@
 title = "Foundations of Sound"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "moon"
 margin = 0.2
 +++
 

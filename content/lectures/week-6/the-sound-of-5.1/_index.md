@@ -2,7 +2,6 @@
 title = "The Sound Of 5.1: Aural Aesthetics"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "serif"
 margin = 0.2
 +++
 

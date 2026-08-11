@@ -2,7 +2,6 @@
 title = "Spatial audio psychoacoustics"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "moon"
 margin = 0.2
 +++
 
