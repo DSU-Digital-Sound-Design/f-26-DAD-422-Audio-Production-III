@@ -39,6 +39,10 @@ The decision was a compromise: good enough, backward compatible, cost-manageable
 
 ---
 
+<h2 class="r-fit-text">5.1 was a compromise &mdash; and it won.</h2>
+
+---
+
 ## The Origins of Multi-channel
 
 * Advances in technology
@@ -59,6 +63,8 @@ The decision was a compromise: good enough, backward compatible, cost-manageable
 
 ---
 
+{{< slide class="stepped" >}}
+
 ### Milestones in Multi-Channel Cinema Sound
 
 - 1881: Clément Ader’s Théâtrophone – 2-channel opera relays in Paris.
@@ -73,6 +79,8 @@ This expanded timeline fills the missing bridge from Fantasound to Dolby Stereo:
 {{%/ note %}}
 
 ---
+
+{{< slide class="stepped" >}}
 
 - 1955: Todd-AO 70 mm – 6-track mag (*Oklahoma!*).
 - 1974: Sensurround (*Earthquake*).

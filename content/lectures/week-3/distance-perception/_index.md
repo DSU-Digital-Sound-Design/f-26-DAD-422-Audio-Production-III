@@ -128,6 +128,8 @@ Demo plan (2–3 minutes):
 
 ---
 
+{{< slide class="stepped" >}}
+
 ## Automation Essentials in REAPER
 
 * **Linear**: smooth, constant-rate change
@@ -221,6 +223,8 @@ Keep demo under 60 seconds:
 
 ---
 
+
+{{< slide class="stepped" >}}
 
 ## Direct-to-Reverberant Ratio (DRR)
 

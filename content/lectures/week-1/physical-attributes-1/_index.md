@@ -115,6 +115,8 @@ margin = 0.2
 ---
 
 
+{{< slide class="stepped" >}}
+
 ## Frequency and Period Conversion
 
 ### Frequency (f)
