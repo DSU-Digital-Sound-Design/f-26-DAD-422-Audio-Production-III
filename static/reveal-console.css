@@ -19,8 +19,8 @@
   --fg-label: #5d6a5a;
   --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo,
     Consolas, "Liberation Mono", monospace;
-  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-    Arial, sans-serif;
+  --sans: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
 
   --r-background-color: var(--bg);
   --r-main-font: var(--sans);
@@ -284,6 +284,19 @@
   max-width: 100%;
   border: 1px solid var(--rule-panel);
   border-radius: 4px;
+}
+
+/* Slides that stack several images: shrink them so they share the frame
+   instead of running off the bottom. */
+.reveal section:has(img ~ img) img {
+  max-height: 34vh;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0.3em 0.4em;
+}
+
+.reveal section:has(img ~ img) p {
+  text-align: center;
 }
 
 .reveal section video {
