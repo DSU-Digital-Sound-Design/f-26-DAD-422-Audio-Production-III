@@ -8,6 +8,8 @@ margin = 0.2
 
 # Historical context
 
+---
+
 ## film
 
 {{% note %}}

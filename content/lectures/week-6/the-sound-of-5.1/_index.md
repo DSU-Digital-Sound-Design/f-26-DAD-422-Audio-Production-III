@@ -8,6 +8,8 @@ margin = 0.2
 
 ## The Sound Of 5.1
 
+---
+
 ## Aural Aesthetics
 
 ---
@@ -204,4 +206,3 @@ Scene breakdown:
 {{% note %}}
 Anchor this to students’ own deliverables: theatrical 5.1 vs. “home” 5.1. Keep the story beats intact by prioritizing contrast and intelligibility rather than raw loudness.
 {{%/ note %}}
-

@@ -8,6 +8,8 @@ margin = 0.2
 
 # Dolby Atmos with films
 
+---
+
 ## A somewhat critical take
 
 {{% note %}}

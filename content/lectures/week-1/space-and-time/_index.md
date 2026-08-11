@@ -179,5 +179,3 @@ separator = "##"
 - These methods turn passive listeners into active participants, enhancing the spatial dimension of the performance.
 
 {{%/ note %}}
-
----
