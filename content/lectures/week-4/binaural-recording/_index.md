@@ -68,7 +68,7 @@ margin = 0.2
 
 ## Neuman Head
 
-<img src="KK1.jpg" width="400">
+<img src="KK1.jpg" width="320">
 <br>
 <audio src="Kunstkopf.wav" controls>
 
@@ -132,6 +132,8 @@ Some of the best binaural recordings are those made by Richard Duda at San Jose 
 - The original chainsaw, heard first, was recorded in a stationary position, then using HRTF processing it appears to fly around you (try not to duck!)
   (Source: Pierce 39 & 40)
   - <audio src="Kendall-ChainSaw.wav" controls>
+---
+
 - The footsteps are recorded moving in place, and then processed as if they were first in a dry, then a reverberant stairwell. Do the steps go up or down? Does your contextual knowledge of stairwells help the vertical localization?
   - <audio src="Kendall-Footsteps.wav" controls>
 

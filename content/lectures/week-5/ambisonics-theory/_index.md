@@ -136,6 +136,8 @@ This means a single Ambisonic recording can play back on anything—from stereo 
     - [NEVATON VR](https://nevaton.eu/product/nevaton-vr-ambisonic-microphone/?v=fa868488740a)
     - [Zoom H3-VR](https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h3-vr-360-audio-recorder/)
     - [Soundfield SPS200](https://www.soundfield.com/#/products/sps200)
+---
+
 - **Virtual Source**:
     - Ambisonic signals can also be created by panning a mono signal to place it in a specific position within a 3D sound field, useful in **VR/AR** and **game audio**.
 
