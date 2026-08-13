@@ -7,8 +7,19 @@ assigned: "2026-08-31"
 due: "2026-09-14"
 summary: "A 1–2 minute walk through an environment built entirely from mono sources. Depth and movement without a stereo field."
 tools: ["REAPER", "Field recorder"]
-# the brief in the body already spells out deliverables and grading
-rubric: false
+rubric:
+  - key: "Spatial illusion"
+    weight: "35%"
+    detail: "Depth, distance, and movement are convincing within a single mono channel — reverb, delay, filtering, and level doing the work."
+  - key: "Composition"
+    weight: "25%"
+    detail: "A clear journey through the environment with at least 10 distinct elements; the walk tells a story."
+  - key: "Technical execution"
+    weight: "20%"
+    detail: "Mono-only sources and output, clean edits, delivered to the format spec."
+  - key: "Written document"
+    weight: "20%"
+    detail: "About 250 words: the environment and narrative, three timestamped techniques, and the mono challenges you hit."
 ---
 
 ## Objective
@@ -27,7 +38,7 @@ Create a 1-2 minute audio-only piece that simulates a walk through a specific en
 
 ## Technical Constraints
 - Final output should be a single mono audio file.
-- Sample rate: 44kHz
+- Sample rate: 44.1 kHz
 - Bit depth: 24-bit
 
 ## Creative Guidelines

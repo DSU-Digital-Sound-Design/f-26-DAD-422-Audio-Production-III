@@ -7,8 +7,22 @@ assigned: "2026-09-30"
 due: "2026-10-19"
 summary: "An original first-order ambisonic piece, or an ambisonic mix of a 20-plus track multitrack session. Ambisonic Toolkit throughout."
 tools: ["REAPER", "Ambisonic Toolkit", "Zoom H3-VR"]
-# the brief in the body already spells out deliverables and grading
-rubric: false
+rubric:
+  - key: "Spatialization"
+    weight: "30%"
+    detail: "Purposeful use of depth, height, and rotation that serves the piece — see the expectations in the brief."
+  - key: "FOA compliance"
+    weight: "25%"
+    detail: "Everything encoded to FOA before spatial transforms, AmbiX/FuMa conversions in place, decoder on the master bus — nothing rotated or tilted."
+  - key: "Recordings"
+    weight: "15%"
+    detail: "Project A: the H3-VR ambisonic recording plus a documented stereo technique. Project B: 2–3 focal elements supported by spatialization."
+  - key: "Automation"
+    weight: "15%"
+    detail: "At least two meaningful spatial moves, visible as automation lanes."
+  - key: "Renders & reflection"
+    weight: "15%"
+    detail: "Binaural and 7.1 renders, consolidated project, and the 250–400 word reflection with screenshot(s)."
 ---
 
 ## Project Overview

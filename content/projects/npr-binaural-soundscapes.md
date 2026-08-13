@@ -25,5 +25,6 @@ Listen to a selection of binaural soundscapes from the NPR archives on SoundClou
 ![](/projects/spatial-impression.png)
 
 **Submission**:
-- Submit a **one-paragraph reflection** (150-200 words) on D2L by **Friday, Sept 20rd**.
+- Submit a **one-paragraph reflection** (150–200 words) on D2L; the due date is posted with the assignment on D2L.
+- This counts toward your **participation grade**, complete/incomplete.
 

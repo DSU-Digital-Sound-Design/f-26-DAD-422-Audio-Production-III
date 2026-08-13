@@ -42,6 +42,17 @@ By the end of the course, students will be able to:
 - **Surround** — cinema sound history, 5.1 and 7.1 aesthetics, ReaSurroundPan
 - **Dolby Atmos** — object versus channel-based audio, mixing and delivery in Logic Pro
 
+## Semester at a glance
+
+The [schedule](/schedule/) has the day-by-day plan. In broad strokes:
+
+- **Weeks 1–2** — Acoustics, space and time in music and sound art, historical context; the mono sound walk (Project 1)
+- **Weeks 3–4** — Psychoacoustics; stereo reproduction and recording; binaural with the Zoom H3-VR and Anaglyph (Project 2)
+- **Weeks 5–6** — Ambisonics: theory, recording, and mixing with the Ambisonic Toolkit (Project 3)
+- **Weeks 6–8** — Cinema sound history; 5.1 and 7.1 aesthetics; ReaSurroundPan
+- **Weeks 8–11** — Dolby Atmos in Logic Pro (Project 4); commercial and hybrid spatial tools
+- **Weeks 12–16** — Final projects: proposals, work sessions, midpoint critique, and the exam-slot presentation
+
 ## Course structure
 
 - **Lectures** — theory, listening, and demonstrations
@@ -52,6 +63,21 @@ By the end of the course, students will be able to:
 ## Assessment
 
 Projects 50% · Attendance and participation 30% · Final project 20%.
+
+### Attendance and participation (30%)
+
+- **Attendance (20%)** — three absences are free; after that, 10 points come off
+  a 50-point attendance pot for each additional absence (see the attendance
+  policy below).
+- **Participation (10%)** — graded complete/incomplete, earned by the small
+  assignments and in-class exercises:
+  - The week 1 reading discussions (Physical Attributes of Acoustic Waves, parts I and II)
+  - The [NPR Binaural Soundscapes reflection](/projects/npr-binaural-soundscapes/)
+  - The [Like Lambs 5.1 group mix](/projects/like-lambs-5-1/) and the 7.1 ReaSurroundPan lab
+  - The progress bounce posted to D2L during the ATMI conference week
+  - Feedback during the ambisonics check-in, the proposal workshop, and the
+    midpoint critique — one specific observation and one concrete suggestion
+    when a classmate's work is played
 
 | Grade | Range |
 | --- | --- |
@@ -69,7 +95,8 @@ All projects are played out loud in class. Be ready to share what you have made.
 ## Attendance and make-up policy
 
 Students are expected to attend all scheduled classes. After three absences, 10
-points will be deducted from the attendance grade for each additional absence.
+points will be deducted from the 50-point attendance pot for each additional
+absence.
 
 Late work will only be accepted with a documented excuse. Students may redo work
 they received an undesirable grade on once, but only if they turned in something
@@ -95,53 +122,9 @@ Headphones are also available to rent — ask about the request form.
 - **Office hours:** MWF 10 AM – 12 PM, T/Th 1 – 2 PM. [Book a meeting](https://calendly.com/tate-carson/office-hours).
 - **Feedback on assignments:** within 1–2 weeks of the due date.
 
-## Accessibility
+## University policies
 
-Dakota State University strives to ensure that physical resources, as well as
-information and communication technologies, are reasonably accessible to users
-to provide equal access to all. If you encounter any accessibility issue, please
-contact me and DSU's Office of Disability Services immediately so it can be
-resolved as quickly as possible.
-
-The Office of Disability Services is located in the Learning Engagement Center
-and can be reached at 605-256-5121 or
-[dsu-ada@dsu.edu](mailto:dsu-ada@dsu.edu). Students seeking accommodations — such
-as non-standard note taking, extended time, or a quiet space for exams — can find
-more information and the request form on the
-[Disability Services site](https://dsu.edu/student-life/disability-services/index.html).
-You will need to provide documentation of your disability, and the ADA
-Coordinator must confirm the need before accommodations are officially
-authorised.
-
-## Academic integrity
-
-Cheating and other forms of academic dishonesty and misconduct run contrary to
-the purposes of higher education and will not be tolerated. Academic dishonesty
-includes, but is not limited to, plagiarism, copying answers or work done by
-another student — on an exam or an assignment — allowing another student to copy
-from you, and using unauthorised materials during an exam. The Regental
-Institution's policy and procedures on cheating and academic dishonesty are in
-your home institution's Student Handbook, and the governing Board of Regents
-policies are BOR Policy 2.9.2 and BOR Policy 3.4.1. The consequences are
-outlined in policy.
-
-## Freedom in learning
-
-Under Board of Regents and Regental Institutions policy, student academic
-performance may be evaluated solely on an academic basis, not on opinions or
-conduct in matters unrelated to academic standards. Students should be free to
-take reasoned exception to the data or views offered in any course of study and
-to reserve judgement about matters of opinion, but they are responsible for
-learning the content of any course of study in which they are enrolled. Students
-who believe that an academic evaluation reflects prejudiced or capricious
-consideration of student opinions or conduct unrelated to academic standards
-should contact their home institution to initiate a review of the evaluation.
-
-## Student support
-
-- [DSU Knowledge Base](https://support.dsu.edu/) — accounts, software, WiFi, printing, and the Support Desk
-- [D2L support for students](https://d2l.sdbor.edu/) — guides and tutorials for the learning environment
-- Grade appeals, complaints, and the emergency alert system are covered in the PDF syllabus and the DSU student handbook
+University policies (accessibility, academic integrity, freedom in learning, grade appeals, and student support) are in the [signed syllabus PDF](/syllabus.pdf).
 
 ## Key resources
 

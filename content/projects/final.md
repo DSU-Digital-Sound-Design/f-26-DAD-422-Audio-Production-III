@@ -22,13 +22,15 @@ The process has two parts:
 1. A proposal (30 points) that lays out your concept, goals, and approach.
 2. The final project (100 points) that develops your idea into a finished piece.
 
-We’re using an ungrading approach—your work will be evaluated based on how you set goals, work toward them, and reflect on what you’ve learned.
+We’re using a goal-based (contract) grading approach—your proposal sets the goals, and your work is evaluated on how you work toward them and reflect on what you’ve learned. See [How the grade is produced](#how-the-grade-is-produced) below for exactly how that becomes a grade.
 
 ---
 
 ## Part 1: Proposal (30 points)
 
 Your proposal is a roadmap for your project. It should help you think through your creative and technical plan before you start. You don’t have to follow it perfectly, but your final project will be partly evaluated on how it grows from what you outline here.
+
+The proposal earns its 30 points for being complete — all three elements below, genuinely thought through — not for having a “perfect” idea. The quality conversation happens at the proposal workshop in class.
 
 **Structure**
 
@@ -70,9 +72,15 @@ Your proposal is a roadmap for your project. It should help you think through yo
 
 ---
 
-## Ungrading: How You’ll Be Evaluated
+## How the grade is produced
 
-Instead of traditional grading, you’ll get detailed feedback and a chance to reflect on your own work. The final grade will be based on:
+This is a goal-based (contract) approach: instead of measuring your piece against a fixed rubric, I grade it against **the goals you set in your proposal**.
+
+1. **Your proposal is the rubric.** An A-range project meets the goals you set for yourself — technically and creatively — with evidence of iteration along the way. The further the finished work lands from the contracted goals without explanation, the lower the grade.
+2. **Goals can be revised through the midpoint critique (12/4).** Post an updated goal list to D2L any time before then. After that, the contract is fixed, and any later pivots get explained in your reflection.
+3. **You propose the grade.** Your self-assessment ends with the grade you believe the project earns, argued from evidence — timestamps, screenshots, drafts. I confirm it or adjust it with a short explanation. If we differ by more than a letter step, we meet before the grade is final.
+
+Along the way you’ll get detailed feedback rather than running point totals. The four things I read for are the same ones you should write your self-assessment toward:
 
 1. **Process** – Did you stay engaged and work consistently toward your goals?
 2. **Growth** – Did your skills and ideas develop from proposal to final piece?
@@ -99,4 +107,8 @@ Included with the project files, you’ll submit a 1 page self-assessment answer
 3. **Future Directions**
 
    * If you had more time, what would you improve or explore next?
+
+4. **Proposed Grade**
+
+   * State the grade you believe this project earns and make the case from evidence — your goals review above, plus timestamps, screenshots, or drafts that show the work.
 
