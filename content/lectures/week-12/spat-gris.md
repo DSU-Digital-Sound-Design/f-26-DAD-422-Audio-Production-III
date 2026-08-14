@@ -1,61 +1,100 @@
 ---
-title: "SpatGris"
+title: "SpatGRIS"
 ---
 
-[SpatGRIS](http://gris.musique.umontreal.ca/) is a software package for sound spatialization. It differs slightly from the other programs we've used in the course.
+[SpatGRIS](http://gris.musique.umontreal.ca/) is a free, open-source system for spatializing sound over multichannel speaker arrays. This lecture uses SpatGRIS4 and the ControlGRIS2 plug-in.
 
-SpatGRIS is a controller program that lets you setup your speaker configuration. It also takes audio as an input from your DAW and sends the audio out to your speakers. Audio is sent from your DAW using the BlackHole software for inter app audio routing.
+The two applications divide the work:
 
-The first thing I had to do was setup the speaker array in the _Speaker Setup Edition_. There is a useful interface that can be reached using _Opt+W_. I tested the speaker layout using the pink noise generator then soloed each speaker to hear it was correct. I then saved this layout as a speaker setup.
+- SpatGRIS receives audio, spatializes it for the selected speaker setup, and sends the result to the audio interface.
+- ControlGRIS2 runs in the DAW and sends source positions and trajectories to SpatGRIS through Open Sound Control (OSC).
 
-While audio is sent to the SpatGRIS app from your DAW using BlackHole, panning data is sent using Open Sound Control (OSC). This means that the panning can be controlled from anything that sends OSC. This is your phone, computer, or whatever you can think of.
+On the lab Macs, BlackHole carries audio between the DAW and SpatGRIS. It does not carry the panning data.
 
-## Reaper Setup
+```text
+Audio: DAW -> BlackHole -> SpatGRIS -> audio interface -> speakers
+Control: ControlGRIS2 -> OSC -> SpatGRIS
+```
 
-In Reaper setup a new track. Take it out of the master send and create a new hardware output to outputs 1 / 2. This makes it send to BlackHole instead of your speakers directly. Add a ControlGris plugin.
+Because control and audio follow separate paths, SpatGRIS can also receive position data from Max, Open Stage Control, or another device that sends OSC.
 
-## Source Link
+## Set up the speakers
 
-These determine the relationship between stereo sources.
+Create or load a speaker setup in SpatGRIS before routing audio from the DAW.
+
+1. Select BlackHole as the input device and the room's audio interface as the output device.
+2. Open the speaker setup editor and place each virtual speaker in the position of its physical counterpart.
+3. Use the reference pink-noise generator to test the array.
+4. Solo each speaker and confirm that its label, output channel, and physical location agree.
+5. Save the speaker setup for later sessions.
+
+Do not begin spatializing until every output passes this test. A wrong channel assignment can make a correct trajectory sound wrong.
+
+## Reaper setup
+
+These steps assume that Reaper is using BlackHole as its output device.
+
+1. Create a stereo track and add an audio file.
+2. Disable the track's master/parent send. Otherwise, the track may reach an unintended output or be monitored twice.
+3. Add a hardware output to BlackHole channels 1/2.
+4. Insert ControlGRIS2 on the track.
+5. Set the first source ID to 1 and configure the plug-in for the two channels in the track.
+6. Start playback and confirm that SpatGRIS receives audio on inputs 1 and 2.
+
+The source IDs in ControlGRIS2 must match the BlackHole channels carrying the audio. For a second stereo track, use BlackHole channels 3/4 and begin with source ID 3. Do not reuse source IDs unless you intend two tracks to control the same sources.
+
+## Source links
+
+The source-link controls determine how the channels in a stereo or multichannel source move in relation to one another. Try the available link modes and watch both source markers in SpatGRIS. Listen for changes in image width, orientation, and motion before choosing a mode.
 
 ## Trajectories
 
-Try the different trajectories. This is actually way more powerful than the atmos panner in ProTools. Choose a trajectory type then click activate to start moving your sources around. Trajectories can go back and forth. Derivation degrees per cycle changes your trajectory a little bit each time. You can also change the speed of the trajectory. Also try to draw in trajectories.
+ControlGRIS2 can generate repeatable motion without drawing every position by hand.
 
-To make these trajectories stick you need to record them as automation.
+1. Choose a trajectory type and activate it.
+2. Adjust the cycle duration or speed.
+3. Turn on Back & Forth when the source should reverse direction at the end of each cycle.
+4. Change Deviation Degrees per Cycle to vary the path on successive cycles.
+5. Compare the preset paths with a trajectory you draw yourself.
 
-To add a new track you need to set it's output to hardware 3/4. This next source should be set to source ID 3.
+If you need an exact, editable performance, write the ControlGRIS2 position parameters as Reaper automation. Then return the track to automation read mode and play it back to confirm that the movement was captured.
 
-Also try a multichannel file. This requires some more routing.
+## Multichannel sources
 
-Spat can also be controlled from MaxMSP.
+A multichannel file uses the same idea with more routing. Increase the track's channel count, route each channel to a corresponding BlackHole output, and assign the same range of source IDs in ControlGRIS2. Check the input meters in SpatGRIS before working on movement.
 
-To export your project you can record either as mono files or interleaved.
+Keep a simple channel map in your notes. Once a session contains several sources, duplicate or skipped IDs become difficult to diagnose by ear.
+
+## External control
+
+SpatGRIS can receive OSC from software other than ControlGRIS2. Max can generate positions, map a controller to source movement, or build behaviors that respond to analysis data. Open Stage Control can provide a touch interface from a phone or tablet.
+
+The audio routing does not change when you use an external controller. Only the source of the OSC messages changes.
+
+## Record the result
+
+Use the recorder in SpatGRIS to capture the spatialized output. You can record separate mono files or one interleaved multichannel file.
+
+Use mono files when you need to inspect or process speaker feeds separately. Use an interleaved file when the destination expects one multichannel asset. In either case, document the channel order and verify the recording before dismantling the session.
 
 ## The same idea at concert scale
 
-SpatGRIS is the free, research end of a family of systems that do object-based
-spatialization for live rooms. The concepts transfer directly: sources as
-objects, a speaker setup that describes the room, trajectories, and external
-control.
+SpatGRIS is a research system, but its basic workflow also appears in commercial spatial-audio systems: define the speaker layout, treat inputs as movable sources, and control their positions over time.
 
-- [L-ISA](https://www.l-acoustics.com/spatial-systems/) (L-Acoustics): frontal,
-  lateral, and overhead arrays with objects positioned by pan, width, distance,
-  and elevation. The touring-concert end of the field.
-- [d&b Soundscape](https://www.dbaudio.com/global/en/solutions/soundscape/):
-  the DS100 engine with En-Scene, which places up to 64 objects on a virtual
-  stage map, and En-Space, which adds room emulation. Common in theater and
-  installed venues.
-- [Spacemap Go](https://meyersound.com/product/spacemap-go/) (Meyer Sound):
-  spatial panning driven from an iPad on Meyer rigs.
-- [4DSound](https://4dsound.net/): the installation-art end, an omnidirectional
-  speaker grid treated as an instrument, with artist residencies rather than
-  tours.
+- [L-ISA](https://www.l-acoustics.com/spatial-systems/) uses object controls such as pan, width, distance, and elevation in systems built around L-Acoustics hardware.
+- [d&b Soundscape](https://www.dbaudio.com/global/en/solutions/soundscape/) combines the DS100 signal engine with En-Scene for object positioning and En-Space for room emulation.
+- [Spacemap Go](https://meyersound.com/product/spacemap-go/) uses an iPad interface to control spatial panning on Meyer Sound GALAXY processors.
+- [4DSOUND](https://4dsound.net/) combines proprietary spatial software with custom arrays of omnidirectional loudspeakers for performance, installation, and research spaces.
 
-These systems are where spatial audio meets employment outside of streaming:
-touring, theater, theme parks, and installations. If ControlGris and OSC make
-sense to you, the mental model for all four is already in place.
+The products differ, but the habits developed here transfer: plan the array, keep the audio and control paths organized, test every output, and rehearse movement as part of the mix.
 
 ## Project idea
 
-If anyone wanted to it would be cool to combine the projects from the topics class and this class and build a website that can control spatialization in SpatGRIS.
+Combine work from the Topics course with this course by building a web interface for SpatGRIS. A browser cannot send OSC over UDP by itself, so the project would also need a small bridge that translates browser messages into OSC.
+
+Begin with X/Y control for one source. Then add source selection, trajectory controls, or parameters derived from sound analysis.
+
+## References
+
+- [GRIS software and documentation](https://gris.musique.umontreal.ca/)
+- [SpatGRIS4 downloads and current manual](https://sourceforge.net/projects/spatgris4/files/)
