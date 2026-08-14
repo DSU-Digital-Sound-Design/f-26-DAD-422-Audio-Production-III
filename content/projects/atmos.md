@@ -61,14 +61,14 @@ By completing this project, you will:
 
 * Use panning automation on at least four object tracks, varying motion type and speed.
 * Avoid stereo panning modes for object tracks—use full spatial controls for Atmos authenticity.
-* On your Master track, meter **after** the Dolby Atmos Renderer plugin. Match Dolby Atmos standards of **-18 LUFS-I** and **-1 dBTP**.
+* On your Master track, meter **after** the Dolby Atmos Renderer plugin with the plugin's monitoring format set to **5.1** — the spec measures a 5.1 render, not your 7.1.4 monitor mix. Match Dolby Atmos standards of **-18 LUFS-I** and **-1 dBTP**. See the [Atmos delivery lesson](/lectures/week-11/atmos-delivery/) for the full QC pass.
 
 ## Submission Requirements
 
 Submit the following:
 
 1. Logic Pro X project folder with all media included.
-2. ADM BWF export of your final mix.
+2. ADM BWF export of your final mix, verified by re-importing it into an empty project.
 3. Written reflection (1–2 paragraphs) addressing:
    * Your approach to bed vs. object allocation.
    * The reasoning behind your spatial automation choices.

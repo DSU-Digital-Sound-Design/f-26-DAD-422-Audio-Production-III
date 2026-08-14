@@ -178,6 +178,8 @@ funds undergraduate work.
 - [Sound Particles](https://soundparticles.com/) — 3D audio software for immersive sound design and mixing
 
 ## 11/9
+- [slides] [Atmos delivery: loudness, the ADM master, and binaural QC](/lectures/week-11/atmos-delivery/) — make your Project 4 mix submission-ready before the independent work days
+- [lab] Measure your mix on the 5.1 render and bring it into spec
 - [slides] [Advanced ambisonics and spatial audio](/lectures/week-11/advanced-ambisonics/)
 
 ## 11/11
