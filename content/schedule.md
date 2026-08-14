@@ -97,9 +97,9 @@ funds undergraduate work.
 - [due] **Project 3: Ambisonics** — due Monday 10/19
 
 ## 10/2
-- Two options:
-  - Continue with the ambisonic mix from last class, or get practice setting up another mix
-  - Start a new project with ambisonic recordings from the Zoom H3-VR — combine with other recordings we find online and render in ambisonics
+- [slides] [Publishing ambisonics: 360 video for YouTube](/lectures/week-5/youtube-360/)
+- [lab] Publish one minute of ambisonics: spatialize against a 360 clip, convert to ambiX, inject metadata, and upload unlisted
+- Or continue with the ambisonic mix from last class — the upload lab can also happen alongside Project 3 work
 
 ## 10/5
 - Move to **5.1 mixing** and some history of cinema sound
