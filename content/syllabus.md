@@ -122,6 +122,17 @@ Headphones are also available to rent — ask about the request form.
 - **Office hours:** MWF 10 AM – 12 PM, T/Th 1 – 2 PM. [Book a meeting](https://calendly.com/tate-carson/office-hours).
 - **Feedback on assignments:** within 1–2 weeks of the due date.
 
+## AI tools
+
+Audio software increasingly ships with AI features, and they aren't all alike.
+Tools that process your own recordings, such as stem separation or noise
+reduction, are fine to use in this class; mention them in your submission notes
+the same way you'd name a sample source. Tools that generate the creative
+material itself, such as loop or full-song generators, don't belong in graded
+work unless an assignment says otherwise. When you're not sure which side of
+the line a tool falls on, ask before you submit. If this territory interests
+you, DAD 492 (Topics: AI and Music) spends a whole semester on it.
+
 ## University policies
 
 University policies (accessibility, academic integrity, freedom in learning, grade appeals, and student support) are in the [signed syllabus PDF](/syllabus.pdf).
