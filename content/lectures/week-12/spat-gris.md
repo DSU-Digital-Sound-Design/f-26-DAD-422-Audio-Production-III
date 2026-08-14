@@ -32,6 +32,30 @@ Spat can also be controlled from MaxMSP.
 
 To export your project you can record either as mono files or interleaved.
 
+## The same idea at concert scale
+
+SpatGRIS is the free, research end of a family of systems that do object-based
+spatialization for live rooms. The concepts transfer directly: sources as
+objects, a speaker setup that describes the room, trajectories, and external
+control.
+
+- [L-ISA](https://www.l-acoustics.com/spatial-systems/) (L-Acoustics): frontal,
+  lateral, and overhead arrays with objects positioned by pan, width, distance,
+  and elevation. The touring-concert end of the field.
+- [d&b Soundscape](https://www.dbaudio.com/global/en/solutions/soundscape/):
+  the DS100 engine with En-Scene, which places up to 64 objects on a virtual
+  stage map, and En-Space, which adds room emulation. Common in theater and
+  installed venues.
+- [Spacemap Go](https://meyersound.com/product/spacemap-go/) (Meyer Sound):
+  spatial panning driven from an iPad on Meyer rigs.
+- [4DSound](https://4dsound.net/): the installation-art end, an omnidirectional
+  speaker grid treated as an instrument, with artist residencies rather than
+  tours.
+
+These systems are where spatial audio meets employment outside of streaming:
+touring, theater, theme parks, and installations. If ControlGris and OSC make
+sense to you, the mental model for all four is already in place.
+
 ## Project idea
 
 If anyone wanted to it would be cool to combine the projects from the topics class and this class and build a website that can control spatialization in SpatGRIS.

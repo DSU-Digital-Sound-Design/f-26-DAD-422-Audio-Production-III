@@ -206,6 +206,7 @@ funds undergraduate work.
 
 ## 11/20
 - Open session to talk about proposals
+- [slides] [SpatGris](/lectures/week-12/spat-gris/) — spatialization outside the DAW, and where the same idea runs at concert scale (L-ISA, Soundscape, 4DSound)
 - SuperCollider
 
 ## 11/23
