@@ -1,70 +1,98 @@
 ---
 title: "Publishing Ambisonics: 360 Video for YouTube"
-summary: "The delivery pipeline that turns a B-format mix into a head-tracked video anyone can watch on a phone."
+summary: "How to prepare an ATK mix for head-tracked playback with a 360-degree YouTube video."
 tags: [ambisonics, 360 video, delivery, YouTube]
 ---
 
-Everything you have mixed with the ATK so far has stayed in this room. YouTube
-plays first-order ambisonics on 360 video with head tracking, which makes it
-the one place you can publish an ambisonic mix and hand someone a link. The
-viewer turns their phone, and your sound field turns with the picture.
+YouTube can render first-order Ambisonics with a 360-degree or VR video. As
+the viewer changes direction, the platform rotates the sound field to match
+the view. This gives you a practical way to publish an ambisonic mix and share
+it with a link.
 
-## What YouTube accepts
+## Supported audio formats
+
+YouTube accepts two first-order Ambisonics formats. Both use AmbiX with ACN
+channel order, SN3D normalization, a 48 kHz sample rate, and one audio track in
+the uploaded video file.
 
 {{< stats >}}
-{{< stat value="AmbiX FOA" label="The audio format" note="Four channels in ACN order (W, Y, Z, X) with SN3D normalization, 48 kHz, as the video's only audio track." >}}
-{{< stat value="Discontinued" label="Head-locked stereo" note="YouTube previously accepted four ambisonic channels plus a head-locked stereo pair. It now accepts plain four-channel ambiX only." >}}
+{{< stat value="4 channels" label="AmbiX FOA" note="Use the channel order W, Y, Z, X. All four channels rotate with the 360-degree view." >}}
+{{< stat value="6 channels" label="FOA with head-locked stereo" note="Use the channel order W, Y, Z, X, L, R. The final stereo pair stays fixed to the listener." >}}
 {{< /stats >}}
 
-The head-locked idea still matters as a design concept. Diegetic sound belongs
-to the world and rotates as the viewer turns: the birds stay behind you when
-you turn away from them. Head-locked sound sticks to the viewer's head:
-narration or score that should not move. On YouTube's current pipeline there
-is no separate head-locked track, so anything you include will rotate with the
-world. Plan the mix accordingly: put narration at front center and accept that
-it turns, or leave it out.
+The six-channel format does not contain a separate stereo audio track. It is
+one multichannel track with the Ambisonics channels first and the head-locked
+left and right channels last.
 
-## FuMa to ambiX
+## World-locked and head-locked sound
 
-The ATK works in FuMa B-format; YouTube requires ambiX. The two differ in
-channel order and normalization, and a FuMa file uploaded as ambiX plays back
-with the sound field scrambled. Convert at the end of the chain with the ATK's
-FuMa to ambiX transform as the last insert on the master, after the mix and
-before the render. Render a 4-channel WAV at 48 kHz.
+World-locked sound turns with the scene. If a bird is behind the viewer, it
+stays in that part of the scene when the viewer looks elsewhere. Most
+diegetic sound belongs in the Ambisonics channels.
 
-## The pipeline
+Head-locked sound does not move when the viewer turns. Narration and
+non-diegetic music often work better this way. To use head-locked audio,
+deliver the six-channel format and route the stereo signal to channels 5 and
+6. If you deliver four channels, every sound in the mix rotates with the
+scene.
 
-1. Mix in the ATK as usual, monitoring binaural or through the room decoder.
-2. Add the FuMa to ambiX transform last, then render a 4-channel 48 kHz WAV.
-3. Replace the 360 video's audio with your 4-channel file. REAPER can render
-   video with the new audio track, or use ffmpeg.
-4. Run Google's [Spatial Media Metadata
-   Injector](https://github.com/google/spatial-media/releases) on the file and
-   check both the 360 and spatial audio boxes. This writes the metadata that
-   tells YouTube how to interpret the file.
-5. Upload, wait for processing, then verify with headphones: drag the view
-   around and confirm the sound field rotates opposite your drag. If the image
-   moves and the sound does not, the metadata or channel order is wrong.
+## Convert ATK output to AmbiX
 
-The verification step is the QC habit from the Atmos unit in another form:
-delivery is not done until you have played back the published version.
+ATK processes first-order Ambisonics in FuMa B-format, while YouTube expects
+AmbiX. The formats use different channel orders and normalization. Uploading
+FuMa without conversion will distort the level and direction of the sound
+field.
+
+Place ATK's `BtoAmbiX` plug-in last in the four-channel Ambisonics path. Choose
+the S3DN option for YouTube's SN3D normalization. For a four-channel delivery,
+render channels 1 through 4 as W, Y, Z, X. For a six-channel delivery, route
+the head-locked stereo mix to channels 5 and 6 before rendering W, Y, Z, X, L,
+R.
+
+## Prepare and upload the video
+
+1. Finish the ATK mix while monitoring through the room decoder or a binaural
+   decoder.
+2. Add `BtoAmbiX` as the final process in the Ambisonics path and select S3DN.
+3. Render one 48 kHz multichannel WAV. Use four channels for AmbiX alone or
+   six channels when the project includes head-locked stereo.
+4. Replace the video's temporary audio with the multichannel file. For this
+   lab, use PCM audio in a MOV container. YouTube also accepts four-channel
+   AAC in MP4 or MOV and four- or six-channel Opus in MP4, subject to its
+   bitrate and channel-mapping requirements.
+5. Run Google's [Spatial Media Metadata
+   Injector](https://github.com/google/spatial-media/releases) on the finished
+   video. Select `My video is spherical (360)` and
+   `My video has spatial audio`. The tool identifies head-locked stereo from
+   the six-channel audio layout.
+6. Upload the result as unlisted and wait for YouTube to finish processing it.
+
+Check the uploaded version with headphones. Drag the view to the right. A
+world-locked source should appear to move left relative to your head, while a
+head-locked source should stay in place. If the picture moves but the sound
+field does not, check the metadata. If directions are wrong, check the AmbiX
+conversion and channel order.
 
 {{< drill label="Lab: publish one minute of ambisonics" >}}
-Use a 360 video clip provided in class and material from your ambisonics
+Use a 360-degree video provided in class and material from your ambisonics
 project.
 
-1. Spatialize at least three sources against the picture: something fixed in
-   the world, something that moves, and an ambience bed.
-2. Convert FuMa to ambiX, render 4 channels at 48 kHz, and mux it with the
-   video.
-3. Inject metadata, upload as unlisted, and verify with headphones that the
-   field rotates correctly.
-4. Trade links with another student and QC each other's uploads before the end
-   of class.
+1. Place at least three sources against the picture. Include one stationary
+   source, one moving source, and an ambience bed.
+2. Add `BtoAmbiX`, select S3DN, and render a four-channel 48 kHz WAV. If the
+   project uses head-locked narration or music, render six channels instead.
+3. Mux the audio with the video, inject the required metadata, and upload the
+   result as unlisted.
+4. Check the published video with headphones. Confirm that the world-locked
+   field follows the scene and that any head-locked audio stays with the
+   listener.
+5. Exchange links with another student and check each other's uploads before
+   the end of class.
 {{< /drill >}}
 
-## Reference
+## References
 
-- [YouTube: use spatial audio in 360 and VR videos](https://support.google.com/youtube/answer/6395969), the current format requirements
-- [Spatial Media Metadata Injector](https://github.com/google/spatial-media/releases)
-- [VRTonung: YouTube ambisonics guide](https://www.vrtonung.de/en/youtube-ambisonics-the-spatial-audio-experience-for-vr-video-2/)
+- [YouTube: Use Spatial Audio in 360-Degree and VR Videos](https://support.google.com/youtube/answer/6395969)
+- [Google Spatial Media Metadata Tools](https://github.com/google/spatial-media)
+- [Spatial Media Metadata Injector Releases](https://github.com/google/spatial-media/releases)
+- [ATK for REAPER: FuMa and AmbiX Conversion](https://www.ambisonictoolkit.net/publications/2016/07/24/atk-reaper-1.0.0b9.html)

@@ -313,6 +313,21 @@ A concise industry briefing for students:
 
 ---
 
+{{< slide class="stepped" >}}
+
+## The Other Camp: MPEG-H
+
+* Fraunhofer's NGA codec, the main alternative to Dolby's stack
+* Broadcast: chosen for ATSC 3.0 in South Korea, on air in Brazil since 2021 (US broadcast chose Dolby AC-4)
+* Music: Sony 360 Reality Audio is built on MPEG-H
+* Its differentiator: listener interactivity — the viewer can raise dialogue or change the balance at home
+
+{{% note %}}
+Who wins where: the US broadcast market went AC-4, Korea and Brazil went MPEG-H, Europe's DVB supports both. On the music side, 360 Reality Audio (Amazon Music, Tidal, nugs) is the MPEG-H ecosystem answer to Atmos music. The interactivity point is the conceptual difference worth dwelling on: MPEG-H metadata can expose sliders to the listener (dialogue level, home-team vs away-team commentary), while Atmos playback is fixed by the mixer. Ask: which model do you want as a mixer? As a listener?
+{{%/ note %}}
+
+---
+
 #### Services Snapshot
 
 * Apple Music, Tidal, Amazon Music: Atmos catalogs
