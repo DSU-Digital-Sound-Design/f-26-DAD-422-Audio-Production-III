@@ -74,11 +74,11 @@ The proposal earns its 30 points for being complete — all three elements below
 
 ## Your portfolio
 
-The finals from DAD 222, DAD 310, and DAD 422 are designed to add up to a
-portfolio: a produced track, a film sound design, and an immersive piece.
-Treat this one accordingly. Render it clean, name the files properly, and
-archive the project folder somewhere you will still have after graduation.
-When you apply for work or graduate programs, these pieces are the demo reel.
+The final projects in DAD 222, DAD 310, and DAD 422 can become a three-part
+portfolio: a produced track, a film sound design, and an immersive piece. This
+is the third one. Make a clean render, use clear filenames, and keep the full
+project in storage you can access after graduation. Together, the three pieces
+can anchor a demo reel for jobs or graduate programs.
 
 ## How the grade is produced
 
@@ -119,4 +119,3 @@ Included with the project files, you’ll submit a 1 page self-assessment answer
 4. **Proposed Grade**
 
    * State the grade you believe this project earns and make the case from evidence — your goals review above, plus timestamps, screenshots, or drafts that show the work.
-
