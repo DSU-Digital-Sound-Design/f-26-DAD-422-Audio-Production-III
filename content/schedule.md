@@ -138,7 +138,9 @@ funds undergraduate work.
 - Listen to ambisonics mixes in class and talk about your process
 
 ## 10/21
-- [lab] Group mix in 7.1 using ReaSurroundPan to learn how it works
+- [slides] [Speaker layouts and room calibration](/lectures/week-7/room-calibration/)
+- [lab] Calibrate the immersive room as a group: measure the layout, set every channel to reference with pink noise and an SPL meter, and log the results
+- [lab] Group mix in 7.1 using ReaSurroundPan to learn how it works — in the room you just calibrated
   - This is an option: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
   - Or we can pick a different song
 
