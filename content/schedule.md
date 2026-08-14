@@ -171,13 +171,15 @@ funds undergraduate work.
 
 ## 11/4
 ### Focus: commercial and hybrid systems
-- Explore full-featured or industry-standard spatial mixing software — compare interfaces, rendering algorithms, and export pipelines
-- Fiedler Audio — 360pan suite, Dolby Atmos tools
-  - [Dolby Atmos Composer Essential](https://fiedler-audio.com/dolby-atmos-composer-essential/)
-- [EAR Production Suite (BBC R&D / IRT)](https://ear-production-suite.ebu.io/)
+- One comparative survey: interfaces, rendering, and export pipelines across three tools
+  - Fiedler Audio — [Dolby Atmos Composer Essential](https://fiedler-audio.com/dolby-atmos-composer-essential/)
+  - [EAR Production Suite (BBC R&D / IRT)](https://ear-production-suite.ebu.io/)
+  - [Sound Particles](https://soundparticles.com/) — 3D audio for immersive sound design
+- What does each assume about your workflow, and what does it export?
 
 ## 11/6
-- [Sound Particles](https://soundparticles.com/) — 3D audio software for immersive sound design and mixing
+- [lab] Atmos mix work session — supervised time on [Project 4](/projects/atmos/) in Logic, due 11/16
+- Bring a question about your mix; we'll solve a few as a group
 
 ## 11/9
 - [slides] [Atmos delivery: loudness, the ADM master, and binaural QC](/lectures/week-11/atmos-delivery/) — make your Project 4 mix submission-ready before the independent work days
@@ -207,7 +209,7 @@ funds undergraduate work.
 ## 11/20
 - Open session to talk about proposals
 - [slides] [SpatGris](/lectures/week-12/spat-gris/) — spatialization outside the DAW, and where the same idea runs at concert scale (L-ISA, Soundscape, 4DSound)
-- SuperCollider
+- SuperCollider is available as a final-project tool — if your proposal heads that way, ask me for a starting point
 
 ## 11/23
 - [due] **Final project proposal** — due today via D2L
