@@ -16,21 +16,21 @@ funds undergraduate work.
 - Listen to surround in the immersive room
   - Atmos demos
   - Some 5.1 surround
-- [due] **Read:** [Physical attributes of acoustic waves, Part I](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1) — see D2L for details
+- **Read:** [Physical attributes of acoustic waves, Part I](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1) — due Wednesday, see D2L for details
 
 ## 8/26
-- Discuss [Physical attributes of acoustic waves, Part I](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
+- [due] **Read:** [Physical attributes of acoustic waves, Part I](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1) — we discuss it today
 - [slides] [Physical attributes of acoustic waves](/lectures/week-1/physical-attributes-1/)
-- [slides] [Space and time in music and sound art](/lectures/week-1/space-and-time/)
-- [due] **Read:** [Physical attributes of acoustic waves, Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a) — be ready to discuss on Friday, details on D2L
+- **Read:** [Physical attributes of acoustic waves, Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a) — due Friday, details on D2L
 
 ## 8/28
-- Discuss [Physical attributes of acoustic waves, Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
+- [due] **Read:** [Physical attributes of acoustic waves, Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a) — we discuss it today
+- [slides] [Space and time in music and sound art](/lectures/week-1/space-and-time/)
 
 ## 8/31
 - [slides] [Historical context — audio](/lectures/week-1/historical-context/)
 - [project] Introduce [Project 1: Mono Sound Walk](/projects/mono/)
-- [due] **Project 1: Mono Sound Walk** — due Monday 9/14 by class
+- **Project 1: Mono Sound Walk** — due Monday 9/14 by class
 
 ## 9/2
 - [slides] [Introduction to spatial audio](/lectures/week-2/intro-spatial-audio/)
@@ -56,10 +56,10 @@ funds undergraduate work.
 - [due] **Project 1: Mono Sound Walk** — due today by class
 - Listen to mono projects in class and talk about process
 - [slides] [Stereo reproduction](/lectures/week-3/stereo/)
-- [lab] Experiment with different stereo micing techniques in the studio
 
 ## 9/16
 - [slides] [Recording stereo](/lectures/week-3/recording-stereo/)
+- [lab] Experiment with different stereo micing techniques in the studio
 
 ## 9/18
 - [slides] [Binaural audio and recording](/lectures/week-4/binaural-recording/)
@@ -71,30 +71,32 @@ funds undergraduate work.
   - Try a few [SOFA convention files](https://www.sofaconventions.org/mediawiki/index.php/Files); add them to the package contents to get them to show up in the VST
 - Anaglyph projects, making of — [gallery](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 - [project] Introduce [Project 2: Binaural/Stereo](/projects/stereo/)
-- [due] **Project 2: Binaural/Stereo** — due Friday 10/9
+- **Project 2: Binaural/Stereo** — due Friday 10/9
 
 ## 9/23
 - Meet in the immersive room
-- Listen to ambisonics recordings in the immersive studio
-  - [Ambisonia](https://www.ambisonia.com/) — compositions and longer field recordings
-  - [Rode ambisonic recordings](https://library.soundfield.com/) — good for sound effects
-- [slides] [How do ambisonics work?](/lectures/week-5/ambisonics-theory/)
+- [slides] [Speaker layouts and room calibration](/lectures/week-7/room-calibration/)
+- [lab] Calibrate the immersive room as a group: measure the layout, set every channel to reference with pink noise and an SPL meter, and log the results
+  - Every listening and mixing session in this room from here on happens over the reference we set today
 
 ## 9/25
+- [slides] [How do ambisonics work?](/lectures/week-5/ambisonics-theory/)
+- Listen to ambisonics recordings in the immersive studio — in the room we just calibrated
+  - [Ambisonia](https://www.ambisonia.com/) — compositions and longer field recordings
+  - [Rode ambisonic recordings](https://library.soundfield.com/) — good for sound effects
+
+## 9/28
 - [slides] [Ambisonics recording](/lectures/week-5/ambisonics-recording/)
 - Listen to [ATK recording](https://www.ambisonictoolkit.net/download/recordings/) examples
   - A format — raw microphone signals
   - B format — ambisonic encoded signals
-
-## 9/28
 - [slides] [ATK setup in Reaper](/lectures/week-5/atk-setup/)
 
 ## 9/30
 - [lab] Ambisonics music mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
 - Any questions about setup of the ambisonic project
-- [lab] Ambisonic recording with the Zoom H3-VR in the studio, mixed in Reaper with the Ambisonic Toolkit
-- [project] Introduce [Project 3: Ambisonics](/projects/ambisonics/)
-- [due] **Project 3: Ambisonics** — due Monday 10/19
+- [project] Introduce [Project 3: Ambisonics](/projects/ambisonics/) — the H3-VR is available for checkout if you want ambisonic recordings in your project
+- **Project 3: Ambisonics** — due Monday 10/19
 
 ## 10/2
 - [slides] [Publishing ambisonics: 360 video for YouTube](/lectures/week-5/youtube-360/)
@@ -125,8 +127,8 @@ funds undergraduate work.
 ## 10/16
 - Listen to binaural projects
 - [lab] Ambisonics check-in day
-  - Each student presents their project and discusses their process for about 10 minutes
-  - Students then give feedback and constructive comments for 3–4 minutes
+  - Each student presents their project and discusses their process for about 5 minutes
+  - Students then give feedback and constructive comments for about 2 minutes
   - Feedback areas:
     - How well is the spatialization working?
     - If you did an original work, how did you use the stereo or ambisonic recordings?
@@ -138,9 +140,7 @@ funds undergraduate work.
 - Listen to ambisonics mixes in class and talk about your process
 
 ## 10/21
-- [slides] [Speaker layouts and room calibration](/lectures/week-7/room-calibration/)
-- [lab] Calibrate the immersive room as a group: measure the layout, set every channel to reference with pink noise and an SPL meter, and log the results
-- [lab] Group mix in 7.1 using ReaSurroundPan to learn how it works — in the room you just calibrated
+- [lab] Group mix in 7.1 using ReaSurroundPan to learn how it works — in the room we calibrated on 9/23
   - This is an option: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
   - Or we can pick a different song
 
@@ -159,7 +159,7 @@ funds undergraduate work.
 ## 10/30
 - [lab] Continue mixing the song in Atmos using Logic Pro
 - [project] Introduce [Project 4: Atmos Mix](/projects/atmos/)
-- [due] **Project 4: Atmos Mix** — due Monday 11/16
+- **Project 4: Atmos Mix** — due Monday 11/16
 
 ## 11/2
 - Show the [Like Lambs film project](/projects/like-lambs-5-1/)
@@ -200,7 +200,7 @@ funds undergraduate work.
 - [due] **Project 4: Atmos Mix** — due today
 - Listen to your mixes
 - [project] Introduce the [Final Project](/projects/final/)
-- [due] **Final project proposal** — due Monday 11/23, submitted via D2L
+- **Final project proposal** — due Monday 11/23, submitted via D2L
 
 ## 11/18
 - [lab] Proposal workshop
