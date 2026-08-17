@@ -143,3 +143,18 @@ University policies (accessibility, academic integrity, freedom in learning, gra
 - [Physical attributes of acoustic waves, Part I](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1) and [Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
 - [Ambisonia](https://www.ambisonia.com/) and the [ATK example recordings](https://www.ambisonictoolkit.net/download/recordings/)
 - The full [resources page](/resources/) collects every tool, reading, and reference used in the course
+
+---
+
+## The signed syllabus
+
+This page is the readable version. The signed PDF below is the official
+document and carries the university policies in full.
+
+<object data="/syllabus.pdf" type="application/pdf" width="100%" height="760"
+        style="border:1px solid var(--line, #2a2f38); border-radius:6px; background:#fff">
+  <p>Your browser will not display the PDF inline.
+  <a href="/syllabus.pdf">Download the syllabus (PDF)</a>.</p>
+</object>
+
+<p><a href="/syllabus.pdf">Open the syllabus in a new tab</a></p>
