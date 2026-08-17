@@ -98,14 +98,14 @@ Submit the following:
 
 ---
 
-## Grading Rubric (60 points total)
+## Grading Rubric (70 points total)
 
 | Criterion | Exemplary | Proficient | Developing | Emerging | Points |
 | --- | --- | --- | --- | --- | --- |
-| **Spatialization (18 pts)** | Depth, height, and rotation are used purposefully and serve the piece, meeting the expectations in the brief | Spatial movement is present and effective in most of the piece | Some spatialization, applied without evident purpose | Static field | /18 |
-| **FOA Compliance (15 pts)** | Everything encoded to FOA before spatial transforms, AmbiX and FuMa conversions in place, decoder on the master, nothing rotated or tilted | Signal chain correct with one conversion out of place | Chain order wrong in places, or the decoder misplaced | Chain does not produce valid ambisonics | /15 |
-| **Recordings (9 pts)** | Project A: the H3-VR ambisonic recording plus a documented stereo technique. Project B: two or three focal elements supported by spatialization | Required recordings present; documentation thin | A required recording missing or unusable | Recordings absent | /9 |
-| **Automation (9 pts)** | At least two meaningful spatial moves, visible as automation lanes and audible in the render | Two moves present; one is subtle | One move, or automation that does not read | No automation | /9 |
-| **Renders and Reflection (9 pts)** | Binaural and 7.1 renders, consolidated project, and a 250 to 400 word reflection with screenshots | All deliverables present; the reflection runs short | A render missing, or no screenshots | Deliverables incomplete | /9 |
+| **Spatialization (21 pts)** | Depth, height, and rotation are used purposefully and serve the piece, meeting the expectations in the brief | Spatial movement is present and effective in most of the piece | Some spatialization, applied without evident purpose | Static field | /21 |
+| **FOA Compliance (17 pts)** | Everything encoded to FOA before spatial transforms, AmbiX and FuMa conversions in place, decoder on the master, nothing rotated or tilted | Signal chain correct with one conversion out of place | Chain order wrong in places, or the decoder misplaced | Chain does not produce valid ambisonics | /17 |
+| **Recordings (11 pts)** | Project A: the H3-VR ambisonic recording plus a documented stereo technique. Project B: two or three focal elements supported by spatialization | Required recordings present; documentation thin | A required recording missing or unusable | Recordings absent | /11 |
+| **Automation (11 pts)** | At least two meaningful spatial moves, visible as automation lanes and audible in the render | Two moves present; one is subtle | One move, or automation that does not read | No automation | /11 |
+| **Renders and Reflection (10 pts)** | Binaural and 7.1 renders, consolidated project, and a 250 to 400 word reflection with screenshots | All deliverables present; the reflection runs short | A render missing, or no screenshots | Deliverables incomplete | /10 |
 
-**Total: \_\_\_ / 60**
+**Total: \_\_\_ / 70**

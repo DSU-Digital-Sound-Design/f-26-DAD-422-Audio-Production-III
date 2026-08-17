@@ -74,13 +74,13 @@ Remember, your goal is not to replicate these works, but to draw inspiration and
 
 ---
 
-## Grading Rubric (60 points total)
+## Grading Rubric (50 points total)
 
 | Criterion | Exemplary | Proficient | Developing | Emerging | Points |
 | --- | --- | --- | --- | --- | --- |
-| **Spatial Illusion (21 pts)** | Depth, distance, and movement are convincing within one mono channel, built from reverb, delay, filtering, and level | The illusion holds for most of the walk; one or two elements sit flat | Some depth attempted, but most elements sit at the same distance | No spatial treatment | /21 |
-| **Composition (15 pts)** | At least 10 distinct elements form a clear journey through the environment | 10 elements present; the journey is implied rather than shaped | Fewer than 10 elements, or a static scene rather than a walk | A few sounds with no through-line | /15 |
-| **Technical Execution (12 pts)** | Mono sources and mono output throughout, clean edits, delivered to the format spec | Mono maintained; a rough edit or a format deviation | Stereo material present, or several audible edits | Stereo throughout, or off spec | /12 |
-| **Written Document (12 pts)** | About 250 words covering the environment and narrative, three timestamped techniques, and the mono challenges you hit | All three parts present; one is thin | One part missing, or no timestamps | Missing or too brief | /12 |
+| **Spatial Illusion (18 pts)** | Depth, distance, and movement are convincing within one mono channel, built from reverb, delay, filtering, and level | The illusion holds for most of the walk; one or two elements sit flat | Some depth attempted, but most elements sit at the same distance | No spatial treatment | /18 |
+| **Composition (12 pts)** | At least 10 distinct elements form a clear journey through the environment | 10 elements present; the journey is implied rather than shaped | Fewer than 10 elements, or a static scene rather than a walk | A few sounds with no through-line | /12 |
+| **Technical Execution (10 pts)** | Mono sources and mono output throughout, clean edits, delivered to the format spec | Mono maintained; a rough edit or a format deviation | Stereo material present, or several audible edits | Stereo throughout, or off spec | /10 |
+| **Written Document (10 pts)** | About 250 words covering the environment and narrative, three timestamped techniques, and the mono challenges you hit | All three parts present; one is thin | One part missing, or no timestamps | Missing or too brief | /10 |
 
-**Total: \_\_\_ / 60**
+**Total: \_\_\_ / 50**
