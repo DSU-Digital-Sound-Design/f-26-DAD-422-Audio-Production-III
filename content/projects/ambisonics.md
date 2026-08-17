@@ -7,22 +7,8 @@ assigned: "2026-09-30"
 due: "2026-10-19"
 summary: "An original first-order ambisonic piece, or an ambisonic mix of a 20-plus track multitrack session. Ambisonic Toolkit throughout."
 tools: ["REAPER", "Ambisonic Toolkit", "Zoom H3-VR"]
-rubric:
-  - key: "Spatialization"
-    weight: "30%"
-    detail: "Purposeful use of depth, height, and rotation that serves the piece — see the expectations in the brief."
-  - key: "FOA compliance"
-    weight: "25%"
-    detail: "Everything encoded to FOA before spatial transforms, AmbiX/FuMa conversions in place, decoder on the master bus — nothing rotated or tilted."
-  - key: "Recordings"
-    weight: "15%"
-    detail: "Project A: the H3-VR ambisonic recording plus a documented stereo technique. Project B: 2–3 focal elements supported by spatialization."
-  - key: "Automation"
-    weight: "15%"
-    detail: "At least two meaningful spatial moves, visible as automation lanes."
-  - key: "Renders & reflection"
-    weight: "15%"
-    detail: "Binaural and 7.1 renders, consolidated project, and the 250–400 word reflection with screenshot(s)."
+# this project carries its own rubric table in the body
+rubric: false
 ---
 
 ## Project Overview
@@ -110,3 +96,16 @@ Submit the following:
 - Master channel count left at 2 while auditioning 7.1.
 - Skipping FOA encoding for stereo items before spatial transforms.
 
+---
+
+## Grading Rubric (60 points total)
+
+| Criterion | Exemplary | Proficient | Developing | Emerging | Points |
+| --- | --- | --- | --- | --- | --- |
+| **Spatialization (18 pts)** | Depth, height, and rotation are used purposefully and serve the piece, meeting the expectations in the brief | Spatial movement is present and effective in most of the piece | Some spatialization, applied without evident purpose | Static field | /18 |
+| **FOA Compliance (15 pts)** | Everything encoded to FOA before spatial transforms, AmbiX and FuMa conversions in place, decoder on the master, nothing rotated or tilted | Signal chain correct with one conversion out of place | Chain order wrong in places, or the decoder misplaced | Chain does not produce valid ambisonics | /15 |
+| **Recordings (9 pts)** | Project A: the H3-VR ambisonic recording plus a documented stereo technique. Project B: two or three focal elements supported by spatialization | Required recordings present; documentation thin | A required recording missing or unusable | Recordings absent | /9 |
+| **Automation (9 pts)** | At least two meaningful spatial moves, visible as automation lanes and audible in the render | Two moves present; one is subtle | One move, or automation that does not read | No automation | /9 |
+| **Renders and Reflection (9 pts)** | Binaural and 7.1 renders, consolidated project, and a 250 to 400 word reflection with screenshots | All deliverables present; the reflection runs short | A render missing, or no screenshots | Deliverables incomplete | /9 |
+
+**Total: \_\_\_ / 60**

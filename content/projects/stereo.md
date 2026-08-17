@@ -58,28 +58,15 @@ Submit the following materials to D2L:
 * Reflect on any challenges you encountered and how you addressed them.
 * Share any additional insights or interesting decisions in your creative process.
 
+---
 
-### Grading Criteria
+## Grading Rubric (60 points total)
 
-### 1. Technical Execution – 25 points
-| Criterion | Excellent | Good | Needs Work |
-|-----------|----------|------|-----------|
-| **Stereo Recording (7 pts)** | Clean, well-balanced capture using the chosen technique; clear documentation. | Minor noise or balance issues. | Weak capture or missing documentation. |
-| **Binaural Recording (7 pts)** | Immersive, high-fidelity track with strong spatial depth. | Minor technical flaws. | Poor spatial effect or serious artifacts. |
-| **Mono Sources & Anaglyph (6 pts)** | Creative, accurate spatialization with clear parameter control. | Adequate spatial variety. | Minimal or incorrect use of Anaglyph. |
-| **Panning Automation (5 pts)** | Two or more smooth, dynamic automation moves (e.g., fly-by, circle). | Only one strong move or minor issues. | Missing or poorly executed automation. |
+| Criterion | Exemplary | Proficient | Developing | Emerging | Points |
+| --- | --- | --- | --- | --- | --- |
+| **Technical Execution (15 pts)** | Clean captures and edits; the stereo or binaural technique is applied correctly throughout | Sound is clean with one or two technical lapses | Recurring noise, phase problems, or an inconsistently applied technique | Technique not evident in the result | /15 |
+| **Spatial Image (10 pts)** | A stable, believable image with width and depth that survives on headphones and speakers | A convincing image that narrows or collapses in places | Image present but vague or centre-heavy | Effectively mono | /10 |
+| **Creativity and Aesthetic Impact (20 pts)** | The spatial choices serve an idea; the piece is engaging on its own terms | Clear intent with an effective result, if conventional | Technique demonstrated without a shaping idea | No discernible intent | /20 |
+| **Documentation and Professionalism (15 pts)** | Documentation explains technique, setup, and decisions; files named, consolidated, and delivered to spec | Documentation covers the work with minor gaps; files complete | Thin documentation, or files not consolidated | Missing documentation or files | /15 |
 
-### 2. Creativity & Aesthetic Impact – 20 points
-| Criterion | Excellent | Good | Needs Work |
-|-----------|----------|------|-----------|
-| **Spatial Immersion (8 pts)** | Vivid 3-D soundstage; listener feels fully enveloped. | Clear spatial intent, limited depth. | Flat or confusing spatial image. |
-| **Sound Design & Composition (8 pts)** | Strong narrative/musical arc and compelling sonic palette. | Some creative moments but uneven pacing. | Lacks coherence or interest. |
-| **Dynamic Contrast (4 pts)** | Effective use of near/far or loud/quiet textures. | Some variation, somewhat predictable. | Little to no dynamic variation. |
-
-### 3. Documentation & Professionalism – 15 points
-| Criterion | Excellent | Good | Needs Work |
-|-----------|----------|------|-----------|
-| **Written Response (10 pts)** | Thorough explanation of setups, parameters, challenges, and creative choices. | Adequate detail with minor gaps. | Sparse or incomplete explanation. |
-| **File Organization (5 pts)** | Correct WAV format, zipped Reaper project, clear naming conventions. | Minor formatting or naming issues. | Disorganized or missing required files. |
-
-**Total: 60 points**
+**Total: \_\_\_ / 60**

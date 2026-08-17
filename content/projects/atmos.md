@@ -116,3 +116,16 @@ Submit the following:
 * Reflection missing or lacking substance.
 * Submission incomplete, nonfunctional, or disorganized.
 
+---
+
+## Grading Rubric (60 points total)
+
+| Criterion | Exemplary | Proficient | Developing | Emerging | Points |
+| --- | --- | --- | --- | --- | --- |
+| **Bed and Object Use (16 pts)** | Beds carry what belongs in the bed; objects are reserved for material that benefits from placement or movement | The split is mostly sound, with one or two elements in the wrong place | Objects used indiscriminately, or almost everything left in the bed | No meaningful distinction | /16 |
+| **Spatial Design (14 pts)** | Height and surround placement serve the music or scene rather than demonstrating the format | Placement is effective and mostly purposeful | Elements placed around the field without evident reason | Effectively a stereo mix in an Atmos session | /14 |
+| **Mix Balance (12 pts)** | The mix holds together across the bed and objects; nothing masks anything else | Balanced with one or two elements competing | Several elements masked or jumping forward | No balancing attempted | /12 |
+| **Loudness and Delivery (10 pts)** | Loudness meets the delivery target; the ADM master renders cleanly to spec | On target with a minor delivery deviation | Loudness off target, or the ADM master has problems | Will not render to spec | /10 |
+| **Binaural QC (8 pts)** | Checked on headphones; the binaural fold-down holds up with no collapsed or lost elements | Fold-down works with one element weaker than intended | Fold-down noticeably degrades the mix | Not checked | /8 |
+
+**Total: \_\_\_ / 60**

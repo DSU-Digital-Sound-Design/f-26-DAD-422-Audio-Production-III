@@ -7,19 +7,8 @@ assigned: "2026-08-31"
 due: "2026-09-14"
 summary: "A 1–2 minute walk through an environment built entirely from mono sources. Depth and movement without a stereo field."
 tools: ["REAPER", "Field recorder"]
-rubric:
-  - key: "Spatial illusion"
-    weight: "35%"
-    detail: "Depth, distance, and movement are convincing within a single mono channel — reverb, delay, filtering, and level doing the work."
-  - key: "Composition"
-    weight: "25%"
-    detail: "A clear journey through the environment with at least 10 distinct elements; the walk tells a story."
-  - key: "Technical execution"
-    weight: "20%"
-    detail: "Mono-only sources and output, clean edits, delivered to the format spec."
-  - key: "Written document"
-    weight: "20%"
-    detail: "About 250 words: the environment and narrative, three timestamped techniques, and the mono challenges you hit."
+# this project carries its own rubric table in the body
+rubric: false
 ---
 
 ## Objective
@@ -82,3 +71,16 @@ While these examples are in stereo, they demonstrate techniques and approaches t
 - How might you recreate some of the stereo effects in mono?
 
 Remember, your goal is not to replicate these works, but to draw inspiration and techniques that you can apply creatively to your own unique mono sound walk.
+
+---
+
+## Grading Rubric (60 points total)
+
+| Criterion | Exemplary | Proficient | Developing | Emerging | Points |
+| --- | --- | --- | --- | --- | --- |
+| **Spatial Illusion (21 pts)** | Depth, distance, and movement are convincing within one mono channel, built from reverb, delay, filtering, and level | The illusion holds for most of the walk; one or two elements sit flat | Some depth attempted, but most elements sit at the same distance | No spatial treatment | /21 |
+| **Composition (15 pts)** | At least 10 distinct elements form a clear journey through the environment | 10 elements present; the journey is implied rather than shaped | Fewer than 10 elements, or a static scene rather than a walk | A few sounds with no through-line | /15 |
+| **Technical Execution (12 pts)** | Mono sources and mono output throughout, clean edits, delivered to the format spec | Mono maintained; a rough edit or a format deviation | Stereo material present, or several audible edits | Stereo throughout, or off spec | /12 |
+| **Written Document (12 pts)** | About 250 words covering the environment and narrative, three timestamped techniques, and the mono challenges you hit | All three parts present; one is thin | One part missing, or no timestamps | Missing or too brief | /12 |
+
+**Total: \_\_\_ / 60**
