@@ -67,11 +67,52 @@ R.
    the six-channel audio layout.
 6. Upload the result as unlisted and wait for YouTube to finish processing it.
 
-Check the uploaded version with headphones. Drag the view to the right. A
-world-locked source should appear to move left relative to your head, while a
-head-locked source should stay in place. If the picture moves but the sound
+Check the uploaded version with headphones, in Chrome on the desktop or in
+the YouTube mobile app. Other browsers play a stereo downmix and will make
+correct metadata look broken. Drag the view to the right. A world-locked
+source should appear to move left relative to your head, while a head-locked
+source should stay in place. If the picture moves but the sound
 field does not, check the metadata. If directions are wrong, check the AmbiX
 conversion and channel order.
+
+## Listening list
+
+You will not be able to record ambisonics of the scene in the video. That is
+the normal condition for this work. The pieces below built their sound fields
+entirely in post, from library material, foley, and synthesis, encoded to FOA
+and placed against the picture.
+
+Play these in Chrome on the desktop or in the YouTube mobile app. Other
+browsers fall back to a stereo downmix without telling you.
+
+### Designed fields
+
+- [Pearl](https://www.youtube.com/watch?v=WqCH4DNQBUA). Google Spotlight
+  Stories, 2016. An Emmy winner and the first VR film nominated for an Oscar.
+  Nearly all of it happens inside one car, so the world-locked field is easy to
+  follow as the view turns.
+- [Sonaria](https://www.youtube.com/watch?v=LQhfXrl9kUQ). Directed by Scot
+  Stafford, Google's creative director for audio. Built with UC San Diego's
+  Sonic Arts department to get sources above and below the listener.
+- [Behind the scenes: Sonaria](https://www.youtube.com/watch?v=Z6wXsIDGYo0).
+  The team walks through the choice between head-locked stereo and the
+  ambisonic channels. That is the same decision you make in the lab below.
+- [Behind the scenes: Pearl](https://www.youtube.com/watch?v=7fN0bZhks5Y).
+
+### Test material
+
+Less interesting to listen to, more useful for calibrating what you are
+listening for.
+
+- [Ambisonic audio test](https://www.youtube.com/watch?v=vUtEW6OTQLw). One
+  source, one rotation. Use it to confirm your playback chain works before you
+  check your own upload.
+- [Ambisonic audio test with 360 visualization](https://www.youtube.com/watch?v=yoVbl-QPe9Q).
+  Draws the field on screen while it plays.
+- [YouTube spatial audio test demo](https://www.youtube.com/watch?v=IURc99o8vQo).
+  Tones at twelve azimuth angles.
+- [Wizard Battle 360 audio test](https://www.vrtonung.de/en/portfolio/wizard-battle-360-sound-test-3d-videoaudio/).
+  A fully invented field in third-order ambisonics.
 
 {{< drill label="Lab: publish one minute of ambisonics" >}}
 Use a 360-degree video provided in class and material from your ambisonics
