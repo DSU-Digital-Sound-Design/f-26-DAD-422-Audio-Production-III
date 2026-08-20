@@ -33,7 +33,7 @@ device -> energy conversion -> resulting energy
 
 {{% note %}}
 ex: 
-guitar - vibrations -> amplified by wood -> converted into sound pressure waves that we percieve as sound
+guitar - vibrations -> amplified by wood -> converted into sound pressure waves that we perceive as sound
 
 
 What types of devices could be considered transducers?
@@ -56,7 +56,7 @@ What types of devices could be considered transducers?
 {{% note %}}
 Sound arrives at the ear in the form of periodic variations in atmospheric pressure called sound-pressure waves. This is the same atmospheric pressure that’s measured by the weather service; although, the changes in pressure heard by the ear are simply too small in magnitude and fluctuate too rapidly to be observed on a barometer.
 
-It is sort of like when a ballon is popped
+It is sort of like when a balloon is popped
 
 
 {{%/ note %}}

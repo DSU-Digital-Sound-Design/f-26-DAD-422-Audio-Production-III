@@ -211,7 +211,7 @@ margin = 0.2
 ### Definition
 
 * Root-Mean-Square (RMS) measures energy of oscillating signals
-* Takes absolute values into account positive and negative deflections
+* Squares the signal, so positive and negative deflections both count toward the average
 
 ### Purpose
 

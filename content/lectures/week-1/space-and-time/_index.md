@@ -14,10 +14,10 @@ margin = 0.2
 
 {{% note %}}
 
-- Spatial music is not just about pitch or rhythm; it's about how sound occupies space. 
-- Composers like Stockhausen used physical space and performer placement to shape music experiences.
-- The audience's experience can change based on their position within a performance space.
-- The transition from acoustic to electronic spatialization opened new creative avenues for composers.
+- The organizing idea: in spatial music, where a sound comes from is a compositional parameter, like pitch or rhythm.
+- Stockhausen and others composed with performer placement itself.
+- Where you sit changes the piece you hear; there is no single correct seat.
+- The acoustic-to-electronic shift matters because speakers can move sounds in ways performers can't.
 
 {{%/ note %}}
 
@@ -153,8 +153,8 @@ margin = 0.2
 
 - *Kontakte* places speakers in a square, making sound appear to move around the audience, exploring electronic spatialization.
 - *Deep Listening* was recorded in a large cistern, utilizing the space’s natural reverb, and blending it with the music.
-- The *Dream House* installation changes its sonic environment as the audience moves through it, offering a personalized auditory experience.
-- *Forty Part Motet* allows listeners to walk among speakers, each playing an individual vocal line, creating a unique spatial experience.
+- In *Dream House*, the standing waves mean every position in the room hears a different chord; moving your head recomposes the piece.
+- *Forty Part Motet* puts one voice per speaker; walking the circle is like walking through the inside of a choir.
 
 {{%/ note %}}
 
@@ -171,9 +171,9 @@ margin = 0.2
 
 {{% note %}}
 
-- *Dialtones: A Telesymphony* transformed mobile phones into a distributed speaker array, making the audience part of the performance.
-- OK GO’s *Needing/Getting* involved a car playing an instrument, where driving through it created spatial sounds.
-- Interactive apps, like in Dan Deacon’s concerts, sync sounds and lights among audience members for a collective experience.
-- These methods turn passive listeners into active participants, enhancing the spatial dimension of the performance.
+- *Dialtones* rang the audience's own phones in sequence: the crowd is the speaker array.
+- OK Go's *Needing/Getting* is the inverse: the performer moves (a car) through fixed sound sources.
+- Dan Deacon's concert app syncs phones in the crowd for sound and light.
+- Common thread: the audience stops being outside the sound field and becomes part of it.
 
 {{%/ note %}}

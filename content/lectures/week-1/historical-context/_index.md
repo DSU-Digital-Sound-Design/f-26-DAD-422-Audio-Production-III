@@ -12,7 +12,7 @@ margin = 0.2
 ## film
 
 {{% note %}}
-Understanding the historical context of film sound is crucial to appreciating how sound design has evolved over time. From the early days of silent films to the immersive soundscapes of modern cinema, the journey of film sound reflects the technological and creative advancements that have shaped the industry.
+The point of this history: every format we use this semester was once a gamble that a studio made on new hardware. Watching the channel count grow from mono to Atmos is also watching what filmmakers wanted audiences to feel.
 
 {{%/ note %}}
 
@@ -259,5 +259,5 @@ DVD-Video audio formats: https://en.wikipedia.org/wiki/DVD-Video ; Dolby Digital
 Activity: which film do you remember seeing or hearing about first?
 
 {{% note %}}
-Consider the advancements in audio technology and how they have influenced your viewing experience. Reflect on the first film you remember seeing or hearing about that utilized these technologies.
+Quick go-around; place each answer on the timeline we just built.
 {{%/ note %}}

@@ -13,7 +13,7 @@ margin = 0.2
 - Practical Applications: Designing Surround Sound Environments
 
 {{% note %}}
-- This course will build on fundamental principles to explore how sound is used in advanced audio systems. By starting with the basics, you'll gain the skills needed to design and analyze immersive soundscapes.
+- We start with the physics because everything later depends on it: binaural, ambisonics, and Atmos are all applied acoustics and psychoacoustics.
 {{%/ note %}}
 
 ---
@@ -79,8 +79,8 @@ See: https://exploresound.org/what-is-new/fields-of-acoustics
   - Music involves interaction among composer, performer, and listener.
 
 {{% note %}}
-- Understanding what constitutes sound, noise, and music is essential as we move into more complex audio environments where these elements intertwine.
-- In immersive audio formats, distinguishing between desired sounds (music) and unwanted sounds (noise) is crucial for creating clear, engaging soundscapes.
+- These three definitions are contextual, not absolute; the same signal can be any of them depending on intent and situation.
+- That distinction gets practical in immersive work, where deciding what counts as noise is a design decision.
 {{%/ note %}}
 
 ---
@@ -93,9 +93,8 @@ See: https://exploresound.org/what-is-new/fields-of-acoustics
 <iframe width="480" height="270" src="https://www.youtube.com/embed/_DLzEJjew0s" frameborder="0" allowfullscreen></iframe>
 
 {{% note %}}
-- In advanced audio design, especially with surround sound, managing noise is critical to ensuring a clean and immersive experience.
-- Technologies like Dolby Atmos are designed to minimize unwanted noise and enhance the clarity and placement of intentional sounds.
-- This example demonstrates how noise can be used creatively in certain musical contexts.
+- The definition is physical (non-periodic, flat spectrum), but the example flips the frame: noise as musical material.
+- Ask whether this stops being "noise" the moment it's intentional.
 {{%/ note %}}
 
 ---
@@ -107,8 +106,8 @@ See: https://exploresound.org/what-is-new/fields-of-acoustics
 - Interaction: Composer, performer, and listener shape the music experience.
 
 {{% note %}}
-- In immersive audio formats like Dolby Atmos, music is often treated as a dynamic, evolving soundscape rather than a static piece, enhancing the listener's engagement.
-- The temporal and spatial organization of music in surround sound systems adds a new dimension to how music is experienced, making the interaction between composer, performer, and listener even more critical.
+- The definition to hold onto: organized sound and silence, communicating intention, shaped between composer, performer, and listener.
+- Spatial formats add position to that organization; where a sound sits becomes part of the composition.
 {{%/ note %}}
 
 ---
@@ -126,8 +125,8 @@ See: https://exploresound.org/what-is-new/fields-of-acoustics
 - Offers flexibility in playback systems
 
 {{% note %}}
-- These technologies represent the cutting edge of immersive audio experiences.
-- We'll delve deeper into their workings and applications in later sessions.
+- Today is just names and a first listen; we'll spend most of the semester inside these two formats.
+- The core distinction to plant now: channels (ambisonics decodes to whatever speakers you have) versus objects (Atmos places sounds and the renderer figures out the speakers).
 {{%/ note %}}
 
 ---
@@ -137,8 +136,7 @@ See: https://exploresound.org/what-is-new/fields-of-acoustics
 - Now we'll listen to some 5.1 surround sound, Dolby Atmos, and Ambisonics demos.
 
 {{% note %}}
-- This example will give you a sense of how the concepts we're covering today are applied in real-world projects. 
-- Understanding the fundamentals will allow you to think critically about how to use sound to tell stories and create immersive experiences.
-- Pay attention to how different formats affect your perception of space and sound placement.
+- Listen for how each format changes your sense of space and placement, not just "more speakers."
+- Have students say where specific sounds appeared to be; disagreement between listeners is part of the lesson.
 {{%/ note %}}
 
