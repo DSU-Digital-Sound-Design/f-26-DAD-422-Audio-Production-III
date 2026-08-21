@@ -23,77 +23,34 @@ margin = 0.2
 
 ---
 
-## General Classification of Spatial Designs
+## Listening as a weapon: acoustic defense in WWI
 
-- Acoustic environments overview
-- Sound-space types
-- Categories of mobility
-- Impact on listener perception
+- Before radar, France and Britain located aircraft by ear.
+- The Baillaud paraboloid (1916) was a concave dish up to 3 meters across that focused the 80 to 130 Hz exhaust notes of aircraft engines onto a stethoscope-style receiver. Its inventor was an astronomer who assumed mirrors behave the same for sound as for light.
+- Soldiers trained at dedicated écoles d'écoute, schools of listening, near Paris in 1917 and 1918.
 
 {{% note %}}
 
-- Acoustic environments range from enclosed spaces like concert halls to open-air venues, each influencing sound differently.
-- Sound-space can be categorized into real, virtual, or mixed, depending on whether the sounds are acoustic, electronic, or both.
-- Mobility classifications include various combinations of static or mobile performers and audiences, affecting how performances are experienced.
-- These parameters, such as reverberation time in enclosed spaces, significantly shape how listeners perceive and engage with musical space.
+- The point for this course: spatial listening was engineered a century before Atmos, and the physics behind these devices is exactly what weeks 2 and 3 cover.
+- Ader's 1881 théâtrophone, the first stereo transmission, comes up in next week's intro-spatial-audio deck; this deck stays with listening as location-finding.
+- Source: Gascia Ouzounian, *Stereophonica* (MIT Press, 2020), ch. 3.
 
 {{%/ note %}}
 
 ---
 
-## Acoustic Environments
+## No best seat in the house: Henry Brant
 
-- Enclosed space examples
-- Open-air space challenges
-- Variable space dynamics
-- Private, virtual listening spaces
-
-{{% note %}}
-
-- Enclosed spaces, like traditional concert halls, provide controlled acoustics and are ideal for certain musical genres.
-- Open-air environments introduce challenges like variable acoustic backgrounds, impacting sound clarity and consistency.
-- Variable spaces involve performances where the spatial arrangement can change, offering unique auditory experiences.
-- Private, virtual spaces allow for personal listening, such as through headphones, creating intimate and immersive sound environments.
-
-{{%/ note %}}
-
----
-
-## Sound-Space Types
-
-- Real sound-space characteristics
-- Virtual sound-space elements
-- Mixed sound-space integration
-- Examples of sound-space usage
+- Brant's rule, published in 1954: spatial music must reject the single "optimum seat." Every seat hears a different piece, and the composer accepts the blend.
+- He separated ensembles in space to escape harmonic clutter. Distance let clashing timbres coexist, which is the cocktail-party effect used as an orchestration tool.
+- He refused loudspeakers, because their directivity does not radiate the way instruments do. Every playback system in this course is arguing with Brant.
 
 {{% note %}}
 
-- Real sound-spaces are characterized by acoustic sounds produced by live instruments and voices in a physical environment.
-- Virtual sound-spaces are created through electronic means, allowing for innovative soundscapes not limited by physical acoustics.
-- Mixed sound-spaces blend acoustic and electronic sounds, creating a layered auditory experience.
-- Examples include traditional orchestras for real sound-spaces, electronic music concerts for virtual, and multimedia performances for mixed sound-spaces.
+- The cocktail-party effect returns as psychoacoustics in week 3, so Brant gives it a face now.
+- Source: Ouzounian, *Stereophonica*, ch. 6, drawing on Brant's 1954 article in the American Composers' Alliance Bulletin.
 
 {{%/ note %}}
-
----
-
-## Categories of Mobility
-
-- Static performers, static audience
-- Mobile performers, static audience
-- Static performers, mobile audience
-- Mobile performers, mobile audience
-
-{{% note %}}
-
-- Static performers with a static audience is the most common setup, as seen in traditional concert settings.
-- Mobile performers with a static audience, such as in processional music, engage the audience with movement and spatial dynamics.
-- Static performers with a mobile audience allow listeners to experience the performance differently as they move through the space.
-- Both mobile performers and audiences create a dynamic, interactive performance environment, often seen in experimental or site-specific works.
-
-{{%/ note %}}
-
-
 
 ---
 

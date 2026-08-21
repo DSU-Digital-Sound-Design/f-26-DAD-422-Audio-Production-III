@@ -10,6 +10,7 @@ margin = 0.2
 {{% note %}}
 - Learn about the perception and cognition of spatial sound.
 - Focus on psychoacoustic phenomena relevant to audio systems design and implementation.
+- Primary source for the localization numbers in this deck: Wenzel, Begault, and Godfroy-Cooper, "Perception of Spatial Sound," ch. 1 of Roginska and Geluso, eds., *Immersive Sound* (Routledge, 2017).
 {{%/ note %}}
 
 ---
@@ -83,6 +84,7 @@ Try the [Interaural Time Differences](https://isle.hanover.edu/isle2/Ch11AudBrai
 {{% note %}}
 - ILD: The second method of spatial perception.
     - High frequencies blocked by the head, low frequencies pass through.
+- The head shadow is strongly frequency-dependent. At 90 degrees to the side, it measures about 10 dB at 3 kHz, 20 dB at 6 kHz, and 35 dB at 10 kHz, while below roughly 2 kHz the wavelengths bend around the head and the shadow largely disappears (Immersive Sound, ch. 1).
 - Pinna shape changes the sound spectrum at the eardrum based on the angle of incidence.
 - Rear sources have reduced high-frequency response due to the pinna’s shape.
 {{%/ note %}}
@@ -162,10 +164,10 @@ Check out in reaper to show the time and phase differences.
 
 {{% note %}}
 - Human pinnae vary widely in shape, much like fingerprints.
-Here’s a more detailed explanation of **HRTF (Head-Related Transfer Function)**:
 
 ### **HRTF (Head-Related Transfer Function)**:
-   - **Definition**: HRTF describes how sound is filtered and transformed by the unique shape of a listener's head, ears (pinnae), and even the torso before reaching the ear canal. It essentially captures how these body parts affect the sound waves based on their direction and location relative to the listener.
+   - **Definition**: HRTF describes how sound is filtered and transformed by the unique shape of a listener's head, ears (pinnae), and even the torso before reaching the ear canal. It captures how these body parts affect the sound waves based on their direction and location relative to the listener.
+   - **Elevation cue**: the pinna's filtering produces a spectral notch that slides from about 5 kHz for sounds straight ahead to about 10 kHz for sounds directly overhead. That moving notch is how one ear can hear height (Immersive Sound, ch. 1).
    
    - **Key Factors**:
      - **Head**: The size and shape of the head create **shadows** that block or reflect high-frequency sounds, which leads to **Interaural Level Differences (ILD)**.
@@ -188,7 +190,7 @@ Here’s a more detailed explanation of **HRTF (Head-Related Transfer Function)*
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4a/FreqHRTF.jpg)
 
 {{% note %}}
-The graph you've provided shows the **frequency response** of the **HRTF** (Head-Related Transfer Function) for the left and right ears (labeled as XR and XL) at a given **azimuth** and **elevation**. It provides insight into how sound is altered for each ear at different frequencies due to the unique physical shape of the listener's head, ears, and torso.
+This graph is the HRTF magnitude response for the two ears (labeled XR and XL) at one azimuth and elevation. It shows how the head, pinnae, and torso alter the sound differently for each ear across frequency.
 
 ### Key Points to Understand the Graph:
 

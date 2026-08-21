@@ -138,6 +138,9 @@ margin = 0.2
 
 ## Sound Intensity in a Free Field
 
+- The inverse-square law: double the distance and the level drops 6 dB.
+- Worked example: moving from 1 meter to 4 meters is two doublings, so the level drops 12 dB.
+
 ![](free-field.png)
 
 {{% note %}}
@@ -377,39 +380,39 @@ Perception and practice
 
 ### Introduction to Spatial Reproduction of Sound
 
-* Two aims: recreate real acoustic spaces or design imagined spaces
-* Three approaches: channel-based (stereo, 5.1), object-based (e.g., Atmos), scene-based (Ambisonics/HOA)
-* Two delivery modes: loudspeakers (room-interactive) and headphones/binaural (HRTF-based)
+* Two aims: recreate real acoustic spaces, or design imagined ones.
+* Three approaches: channel-based, as in stereo and ITU 5.1; object-based, as in Dolby Atmos; and scene-based, as in Ambisonics.
+* Two delivery modes: loudspeakers, which interact with the room, and headphones, which depend on HRTFs.
 
 {{% note %}}
 
 Overview
 
-* Recreate natural environments: capture or model real spaces (e.g., concert hall impulse responses, Decca Tree, or 5.1 per ITU-R BS.775). The goal is plausibility and fidelity to the original venue. ([ITU][1], [AES][2])
-* Create virtual environments: place and move sounds anywhere in 3D, independent of an original space (film, games, XR).
+* Recreating natural environments means capturing or modeling real spaces, for example with concert hall impulse responses, a Decca Tree, or a 5.1 layout per [ITU-R BS.775](https://www.itu.int/rec/R-REC-BS.775/en). The goal is fidelity to the original venue.
+* Creating virtual environments means placing and moving sounds anywhere in 3D, independent of any original space, as in film, games, and XR.
 
 Core paradigms
 
-* Channel-based: fixed speaker feeds; phantom imaging between loudspeakers. ITU-R BS.775 defines reference angles for 5.1 layouts used in production/playback. ([ITU][1], [AES][2])
-* Object-based: each element carries position metadata; a renderer adapts playback to any certified layout (e.g., Atmos). ([professional.dolby.com][3], [Audient][4])
-* Scene-based (Ambisonics/HOA): encode the sound field with spherical harmonics; decode to speakers or to binaural. ([Microsoft][5], [Wikipedia][6])
+* Channel-based audio delivers fixed speaker feeds, with phantom images between loudspeakers. ITU-R BS.775 defines the reference angles.
+* Object-based audio attaches position metadata to each element, and a renderer adapts playback to whatever layout is present. [Dolby Atmos](https://professional.dolby.com/product/dolby-atmos-content-creation/dolby-atmos-renderer/) is the main example.
+* Scene-based audio encodes the whole sound field in spherical harmonics and decodes it to speakers or to binaural. Ambisonics is our week 5 subject.
 
 Delivery and perception
 
-* Loudspeakers: listener hears direct sound plus room interactions; layout and room treatment shape localization, envelopment, and timbre. ITU reference layouts provide a consistent baseline. ([ITU][1])
-* Headphones/binaural: HRTFs and head-tracking maintain externalization and stable localization as the head moves. ([MathWorks][7], [MDPI][8])
+* Over loudspeakers, the listener hears direct sound plus the room, so layout and treatment shape localization, envelopment, and timbre.
+* Over headphones, HRTFs and head tracking maintain externalization and stable localization as the head moves.
 
-Evaluation criteria (use when comparing systems in class)
+Evaluation criteria for comparing systems in class
 
 * Localization accuracy and stability with listener movement
-* Externalization vs. “in-head” sensation
+* Externalization versus the in-head sensation
 * Envelopment and spatial resolution
-* Spectral fidelity (no excessive coloration)
+* Spectral fidelity without excessive coloration
 
 Teaching prompts
 
 * When would you choose object-based over channel-based for a touring show?
-* How does head-tracking improve externalization in VR compared to static binaural?
+* How does head tracking improve externalization in VR compared to static binaural?
 
 {{%/ note %}}
 
@@ -547,41 +550,13 @@ For more, visit: [History of Ambisonics](https://intothesoundfield.music.ox.ac.u
 
 ## The Home Cinema and ITU-Standard Surround Sound
 
-{{% note %}}
-
-- Surround sound systems are now standard for home cinemas.
-- Adding multiple channels allows for an immersive experience in everyday spaces.
-- ITU-standard surround sound offers high-quality spatial reproduction for both film and music.
-
-{{%/ note %}}
-
----
-
-## Applications of Spatial Audio
-
-![](applications.png)
+- ITU-R BS.775 defines the reference 5.1 layout: center at 0°, left and right at ±30°, and surrounds at 100° to 120°.
+- This is the same standard our room-calibration lab uses in week 7, so the numbers you learn here are the angles you will measure there.
 
 {{% note %}}
 
-- Applications for spatial audio include:
-  - Film and game sound.
-  - Music production and playback.
-  - Virtual reality and immersive environments.
-  - Teleconferencing and remote collaboration.
-- Spatial audio is used both for recreating real environments and creating entirely new virtual spaces.
+- Surround systems brought this reference layout into homes, and the standard exists so that a mix translates between rooms.
+- Source: ITU-R BS.775, which is also cited in the week-6 and week-7 materials.
 
 {{%/ note %}}
-
----
-
-- **Military Communication**: Enhances situational awareness in combat by spatializing voices, reducing cognitive overload.  
-  Example: [Spatial Audio in Tactical Communication](https://www.armadainternational.com/2023/10/the-voices-in-my-head-spatial-audio-a-game-changer-in-tactical-communication/)
-- **Teleconferencing**: Improves clarity and reduces fatigue in multi-participant remote meetings by spatializing voices.  
-  Example: [Spatial Audio in Remote Conferencing](https://hear360.io/news/enhance-remote-conferencing)
----
-
-- **Education**: Enhances learning experiences through spatial audio in immersive virtual environments.  
-  Example: [Spatial Audio for Education](https://ericasouthgateonline.wordpress.com/2021/04/22/spatial-audio-for-education/)
-- **Therapy and Stress Reduction**: Used to reduce stress and anxiety in clinical and non-clinical populations.  
-  Example: [Spatial Audio for Stress Reduction](https://journals.sagepub.com/doi/pdf/10.1177/2059204321993992)
 

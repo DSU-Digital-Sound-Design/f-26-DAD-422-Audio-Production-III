@@ -11,6 +11,11 @@ margin = 0.2
 
 Sources: [DP563 Dolby Pro Logic II](https://professional.dolby.com/siteassets/pdfs/dolby-pro-logic-ii-and-surround-encoder-dp563-quick-start-guide.pdf?utm_source=chatgpt.com) | [RECOMMENDATION ITU-R BS.775-1 ](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.775-1-199407-S%21%21PDF-E.pdf?utm_source=chatgpt.com) | [Dolby Digital 5.1](https://professional.dolby.com/tv/dolby-digital?utm_source=chatgpt.com)
 
+<!-- TODO (Tate): the Flick quote, the masking passage, and the Gladiator/Contact/Lifted/Kinsey/Strange Days analyses
+     appear to come from Mark Kerins, "Beyond Dolby (Stereo): Cinema in the Digital Sound Age" (Indiana UP, 2010).
+     If that's the source of these notes, credit it here on the title slide. -->
+
+
 {{% note %}}
 Matrix vs. discrete in one slide:
 
@@ -119,9 +124,9 @@ Maximus walks from a small enclosed space out into the arena
 {{% note %}}
 Details: The scene from the 2000 film "Gladiator" featuring Maximus, played by Russell Crowe, is described as follows:
 
-- The scene begins in a small enclosed space, the "waiting area" where Maximus is preparing for battle. Muffled sounds from outside can be heard in the background [INITIAL_QUERY].
-- As Maximus moves out into the arena, the camera follows him and the soundtrack begins to shift. The sounds of the arena, now without the "muffling" effect, are gradually introduced to the front center, then the entire front, and eventually the entire theater as the sounds of the original waiting area fade out in the rear channels [INITIAL_QUERY].
-- This sound design effectively conveys the overwhelming sensation of moving from a tiny underground tunnel to a gigantic stadium filled with cheering spectators. The use of all the main channels together precisely shapes the transition between these two spaces, enhancing the overall effect [INITIAL_QUERY].
+- The scene begins in a small enclosed space, the "waiting area" where Maximus is preparing for battle. Muffled sounds from outside can be heard in the background.
+- As Maximus moves out into the arena, the camera follows him and the soundtrack begins to shift. The sounds of the arena, now without the "muffling" effect, are gradually introduced to the front center, then the entire front, and eventually the entire theater as the sounds of the original waiting area fade out in the rear channels.
+- This sound design effectively conveys the overwhelming sensation of moving from a tiny underground tunnel to a gigantic stadium filled with cheering spectators. The use of all the main channels together precisely shapes the transition between these two spaces, enhancing the overall effect.
 {{%/ note %}}
 
 ---
@@ -133,10 +138,10 @@ Rewatch opening scene in 5.1
 {{% note %}}
 Details: The opening scene of the film is described as follows:
 
-- The film begins with a view of Earth, and the camera starts to move backward, tracking away from our planet through the outer reaches of the solar system and into deep space [INITIAL_QUERY].
-- As the camera pulls back, the soundtrack conveys the travel of Earth's radio and television signals into space. This is done by moving recognizable music and news clips from the back of the theater to the front [INITIAL_QUERY].
-- As the camera moves away from Earth, the sounds of history whiz by the audience. This creates an effect of traveling backward both spatially and temporally [INITIAL_QUERY].
-- A similar sound effect, that of moving back into history, could potentially be created in a monophonic or Dolby Stereo environment. However, it would not have the same psychological and narrative power as actually hearing history fly by [INITIAL_QUERY].
+- The film begins with a view of Earth, and the camera starts to move backward, tracking away from our planet through the outer reaches of the solar system and into deep space.
+- As the camera pulls back, the soundtrack conveys the travel of Earth's radio and television signals into space. This is done by moving recognizable music and news clips from the back of the theater to the front.
+- As the camera moves away from Earth, the sounds of history whiz by the audience. This creates an effect of traveling backward both spatially and temporally.
+- A similar sound effect, that of moving back into history, could potentially be created in a monophonic or Dolby Stereo environment. However, it would not have the same psychological and narrative power as actually hearing history fly by.
 {{%/ note %}}
 
 ---
@@ -158,10 +163,10 @@ Play on Apple TV
 {{% note %}}
 Details: The 2006 short film "Lifted" uses the multi-channel soundscape to indicate actions happening offscreen. Here's a summary of the film's sound design:
 
-- The film features an abductor-in-training who reacts to the offscreen sounds of an examiner making notes about his poor performance [INITIAL_QUERY].
-- Throughout the film, sound effects are carefully panned to suggest offscreen chaos and other diegetic sounds outside the frame, such as the trainee's whining during a shot of his teacher making notes [INITIAL_QUERY].
-- One of the film's funniest moments relies on a surround effect: the abductor-in-training finally succeeds in directing the human out of the bedroom window, only for a crash in the right surround channel to reveal that the body has hit a tree. This sound effect cues a cut to a wider shot revealing the body wedged in the tree's branches [INITIAL_QUERY].
-- In this and other situations, the film's sound designer, Gary Rydstrom, carefully places sounds around the theater to heighten the film's drama and/or comedy. However, since all these sound effects have clearly indicated sources within the diegesis (even if those sources are not onscreen at the moment), the sound design never becomes distracting or "too big" for the story [INITIAL_QUERY].
+- The film features an abductor-in-training who reacts to the offscreen sounds of an examiner making notes about his poor performance.
+- Throughout the film, sound effects are carefully panned to suggest offscreen chaos and other diegetic sounds outside the frame, such as the trainee's whining during a shot of his teacher making notes.
+- One of the film's funniest moments relies on a surround effect: the abductor-in-training finally succeeds in directing the human out of the bedroom window, only for a crash in the right surround channel to reveal that the body has hit a tree. This sound effect cues a cut to a wider shot revealing the body wedged in the tree's branches.
+- In this and other situations, the film's sound designer, Gary Rydstrom, carefully places sounds around the theater to heighten the film's drama and/or comedy. However, since all these sound effects have clearly indicated sources within the diegesis (even if those sources are not onscreen at the moment), the sound design never becomes distracting or "too big" for the story.
 {{%/ note %}}
 
 ---

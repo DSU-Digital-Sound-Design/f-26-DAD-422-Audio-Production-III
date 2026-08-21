@@ -2,48 +2,35 @@
 title: "Examples"
 ---
 
-[Source](https://www.wired.com/2012/06/dolby-atmos-brave/)
+Three films with documented, scene-specific Atmos accounts from the people who mixed them. Quotes are verbatim from the sources listed at the bottom.
 
-## Brave With Atmos
+## Brave (2012)
 
-While researching this story, I watched Brave twice – once in a regular theater and once at the AMC Van Ness, one of 14 theaters in the United States currently set up to run Atmos. With Atmos, Brave was a substantially better movie. The mix was a hybrid – about 75 percent was in Dolby 7.1, a mix helmed by Skywalker Sound's Gary Rydstrom, with about 25 percent subtly separated out into Atmos by Files.
+The first Atmos film. Geeta Dayal's Wired piece documents how Skywalker's Will Files built the object mix: about 75 percent stayed Gary Rydstrom's 7.1 mix, and 25 percent was separated into Atmos objects.
 
-The difference was palpable.
+Two decisions worth discussing, with the timestamps to cue:
 
-The dramatic tension in Brave between feisty female heroine Merida and her prim mother, Queen Elinor, felt more convincing. Elinor's transformation into a bear mid-movie was more sudden and horrifying. And Merida and Elinor's reconciliation by the end of the film came as less of a predictable happy ending; it felt more genuine and heartwarming.
+- While Merida and Queen Elinor are in conflict, their voices sit in objects on opposite sides of the screen. Files: "we separate them slightly so Mom comes from the speaker in the left side of the screen... putting some distance between them, physically and emotionally." At the reconciliation near 1:20, their voices rejoin in the same speaker. The close King and Queen, by contrast, always share a speaker.
+- In the dinner scene starting at 9:30, the mix goes under the table with the triplets, and Dad's voice moves to the ceiling. Files: "It helps tell the story of what it feels like to be these little boys under the table, and have this big, giant dad up above them, booming down." The bear transformation at 39:00 uses the same overhead trick for scale.
 
-When there was emotional distance between Merida and her mother, Files put their voices into objects, pointing the voices to separate speakers. Merida and her mother weren't just separated visually on-screen; they were separated sonically, too.
+Files's summary of the aesthetic: "What we want the audience to do is to not think about the sound."
 
-"In the system, we separate them slightly so Mom comes from the speaker in the left side of the screen," Files said. "Merida comes from the right side of the screen ... putting some distance between them, physically and emotionally."
+## Gravity (2013)
 
-Meanwhile, the Queen and her adoring, bumbling husband, King Fergus, were always in the same speaker, subtly underlining the closeness between them.
+The mix drops the anchored center-channel dialogue rule entirely. Voices orbit the room as objects, and when Stone's head turns, her voice pans with it. Contact sounds cut in and out with touch, because there is no air to carry them otherwise. Sound designer Glenn Freemantle on the format: "We took the film even further because we could."
 
-In a key scene in the movie, set at the dinner table in the castle, Elinor informs Merida that she has to get married. Merida is having none of it. Under the huge wooden table, three little triplets – who are mainly in the movie for comic relief – frantically munch dessert.
+Listen for whose point of view the panning follows during the opening accident.
 
-> Scene starting at 9:30
+## Mad Max: Fury Road (2015)
 
-"One of my favorite parts of the mix is when you go under the table in that scene – down under the table with the triplets, and they're eating cookies," Files said. "We took Dad's voice and put it on the ceiling.... It helps tell the story of what it feels like to be these little boys under the table, and have this big, giant dad up above them, booming down."
+Atmos mixer Matthew Iadarola describes the opening chase: "the sound starts in the back, goes overhead, and then lands in front of you on the screen," so that "you really have the sense you're moving forward with the people on the screen."
 
-When Queen Elinor morphs into a giant bear, Atmos made her seem more gigantic and terrifying. Files sent the bear's voice to an overhead speaker, so that the creature seemed to literally tower above the audience. Merida's voice, meanwhile, was pointed to a speaker far below the bear's voice, making her appear dramatically smaller.
+Listen for how often movement runs back to front, pulling you down the road, compared with side to side.
 
-> 39:00
+## Man of Steel (2013)
 
-Then, in the dramatic finale, when Merida and her mother reconcile, their voices are joined in the same speaker.
+The Jenkins and Montaño "cathedral" approach, which spatializes the score instead of the effects, is covered in the [Atmos Movies deck](/lectures/week-11/atmos-movies/).
 
-> 1:20
+---
 
-It was a bit of sonic sleight of hand, but it worked wonders to imbue Brave with unexpected emotional depth. Pixar's visual fireworks dominated the screen, but the sound had subtly become the star of the show.
-
-"What we want the audience to do is to not think about the sound," said Skywalker Sound's Files. "We want it to be subtle. That's when sound operates most effectively on the audience."
-
-> Also, various action scenes make heavy use of object based audio.
-
-## Thor Dark World
-
-Various action scenes.
-
-## Man of Steel
-
-Takes a less 3-D approach to atmos. See various action scenes with things moving around.
-
-## TV/Series - Game of Thrones/House of the dragon
+Sources: Geeta Dayal, ["3-D for Your Ears: Building Dolby's Atmos System for Brave"](https://www.wired.com/2012/06/dolby-atmos-brave/), Wired, June 28, 2012; Sound & Picture, ["Defying Gravity with Sound Designer Glenn Freemantle"](https://www.soundandpicture.com/2014/02/defying-gravity-with-sound-designer-glenn-freemantle/) (2014) and [Dolby Professional's Freemantle interview](https://professional.dolby.com/hear-from-the-creators/gravity-glenn-freemantle/); Sound & Vision, ["Mixing Mad Max in Dolby Atmos"](https://www.soundandvision.com/content/video-mixing-mad-max-dolby-atmos), with [Dolby's companion video](https://www.youtube.com/watch?v=27kp7mM97fs).
