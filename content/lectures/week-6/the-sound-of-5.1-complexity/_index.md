@@ -34,6 +34,8 @@ Key takeaway: 5.1’s perceived “improvement” is primarily about spatial pre
 
 ---
 
+{{< slide class="quote" >}}
+
 > If you get too many elements piled on top of one another, it becomes less dynamic. So sometimes I have a tendency to move stuff into the surrounds and have more all at once.
 >
 > Steve Flick, Sound Designer (Spider-Man, Starship Troopers, Leatherheads)
@@ -43,6 +45,8 @@ Digital sound, on the other hand, provided five separate channels across which s
 {{%/ note %}}
 
 ---
+
+{{< slide class="quote long" >}}
 
 ## Masking
 
@@ -56,6 +60,8 @@ Listening task (headphones and 5.1 room): demonstrate masking release by moving 
 
 
 ---
+
+{{< slide class="quote long" >}}
 
 ## Complexity
 

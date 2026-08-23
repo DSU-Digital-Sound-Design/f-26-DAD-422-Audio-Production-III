@@ -14,6 +14,8 @@ custom_css = "hugo.css"
 
 ---
 
+{{< slide class="quote long" >}}
+
 > It was at the 1987 October SMPTE meeting. People were saying, “How many channels should there be [in the digital sound standard for cinema]?” And people said two . . . people said four . . . one said eight. And I put my hand up and said, “five point one.” Everybody went, “What is he talking about?”
 >
 > -- <cite>Tomlinson Holman, audio engineer and inventor of THX</cite>

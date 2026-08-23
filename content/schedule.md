@@ -4,7 +4,7 @@ layout: schedule
 ---
 
 **Opportunities in Digital Sound Design at DSU** — [DSU Live](https://www.facebook.com/DSU.Live/)
-runs student concerts and a record label; the
+runs student concerts; the
 [Sound Design Discord](https://discord.gg/w85WUcpQ) is where projects and program
 news get shared; and [Student Research Initiatives](https://dsu.edu/research/forms.html)
 funds undergraduate work.

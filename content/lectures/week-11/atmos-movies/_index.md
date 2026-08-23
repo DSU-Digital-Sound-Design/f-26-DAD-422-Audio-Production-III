@@ -201,6 +201,8 @@ In summary, these two differing paradigms highlight the inherent tension between
 
 ---
 
+{{< slide class="quote" >}}
+
 > “Motion pictures are not reality. The best you can do is be sparing. If someone is walking down the street, I know I need traffic, but I don’t need a car effect for every one I see”
 >
 > -- Richard Portman
@@ -245,6 +247,8 @@ In summary, these two differing paradigms highlight the inherent tension between
 
 ---
 
+{{< slide class="quote long" >}}
+
 > The ability to precisely position sources anywhere in the surround zones also improves the audio/visual transition from screen to room. If a character on the screen looks inside the room toward a sound source, the mixer has the ability to precisely position the sound so that it matches the character’s line of sight, and the effect will be consistent throughout the audience.
 >
 > Whitepaper
@@ -269,6 +273,8 @@ Dolby Atmos carries the ethos of early sound practices into contemporary sound d
 {{%/ note %}}
 
 ---
+
+{{< slide class="quote long" >}}
 
 > Consider the example of being in a restaurant. In addition to ambient music apparently being played from all around, subtle but discrete sounds originate from specific points: a person chatting from one point, the clatter of a knife on a plate from another. Being able to place such sounds discretely around the auditorium can add a heightened sense of realism without being obvious.
 >
@@ -299,6 +305,8 @@ Dolby Atmos aims to revolutionize the auditory experience in cinema by striving 
 
 ---
 
+{{< slide class="quote long" >}}
+
 > My hope was that we could be subtle with it and not be like 3-D, even though we have the opportunity to do it. So what we ended up doing was taking music and using the whole room, so we have percussion and strings and brass up front. Long strings stay in the front, but short strings you can bring back to a quarter way back of the room. Choirs can play overhead. What you end up with is like a cathedral.
 >
 > Chris Jenkins (“The Sound of Man of Steel”)
@@ -310,7 +318,11 @@ Dolby Atmos aims to revolutionize the auditory experience in cinema by striving 
 
 ---
 
-> Sometimes we get lost in the novelty of what we bring to the table. I’m always conscious of the first-time viewer. Are we getting the story? Are we clearing dialogue? We don’t want anybody to lean over and say, “What did they say?” So I always try to err on clarity. If that means sacrificing whatever is at your fingertips, so be it. You have to be sensitive to all the disciplines of dialogue, music, and sound effects. (“The Sound of Man of Steel”)
+{{< slide class="quote long" >}}
+
+> Sometimes we get lost in the novelty of what we bring to the table. I’m always conscious of the first-time viewer. Are we getting the story? Are we clearing dialogue? We don’t want anybody to lean over and say, “What did they say?” So I always try to err on clarity. If that means sacrificing whatever is at your fingertips, so be it. You have to be sensitive to all the disciplines of dialogue, music, and sound effects.
+>
+> Chris Jenkins (“The Sound of Man of Steel”)
 
 {{% note %}}
 - The claim: Jenkins pushes score into the surrounds to free the screen channels for dialogue, which is intelligibility-led realism winning over Dolby's fidelity-led kind. The quote carries it: "I always try to err on clarity."
@@ -318,6 +330,8 @@ Dolby Atmos aims to revolutionize the auditory experience in cinema by striving 
 {{%/ note %}}
 
 ---
+
+{{< slide class="quote long" >}}
 
 > “Sound people tend to be pigeonholed as technicians, which is a tragedy, because we’re artists first and foremost. I honestly don’t think adding more channels to a movie theater are [sic] going to improve movies significantly—5.1, 11.1, or 101.1”
 >

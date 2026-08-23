@@ -13,6 +13,8 @@ margin = 0.2
 
 ---
 
+{{< slide class="quote long" >}}
+
 > The design, technical considerations, and specifications that went into the digital sound track are to provide a medium that theoretically has no limitation. The digital medium is not the restrictive part of the process anymore.
 > 
 > -- Robert Warren, Dolby engineer
