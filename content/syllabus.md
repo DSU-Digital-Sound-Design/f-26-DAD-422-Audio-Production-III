@@ -4,7 +4,7 @@ title: "Syllabus"
 
 Welcome to Audio Production III. Below is the course structure, key topics,
 resources, and expectations. The signed PDF version is
-[available for download](/syllabus.pdf).
+[available for download]({{< rel "syllabus.pdf" >}}).
 
 ## Course description
 
@@ -135,7 +135,7 @@ you, DAD 492 (Topics: AI and Music) spends a whole semester on it.
 
 ## University policies
 
-University policies (accessibility, academic integrity, freedom in learning, grade appeals, and student support) are in the [signed syllabus PDF](/syllabus.pdf).
+University policies (accessibility, academic integrity, freedom in learning, grade appeals, and student support) are in the [signed syllabus PDF]({{< rel "syllabus.pdf" >}}).
 
 ## Key resources
 
@@ -151,10 +151,10 @@ University policies (accessibility, academic integrity, freedom in learning, gra
 This page is the readable version. The signed PDF below is the official
 document and carries the university policies in full.
 
-<object data="/syllabus.pdf" type="application/pdf" width="100%" height="760"
+<object data="{{< rel "syllabus.pdf" >}}" type="application/pdf" width="100%" height="760"
         style="border:1px solid var(--line, #2a2f38); border-radius:6px; background:#fff">
   <p>Your browser will not display the PDF inline.
-  <a href="/syllabus.pdf">Download the syllabus (PDF)</a>.</p>
+  <a href="{{< rel "syllabus.pdf" >}}">Download the syllabus (PDF)</a>.</p>
 </object>
 
-<p><a href="/syllabus.pdf">Open the syllabus in a new tab</a></p>
+<p><a href="{{< rel "syllabus.pdf" >}}">Open the syllabus in a new tab</a></p>

@@ -1,0 +1,9 @@
+{{- /* Resolve a path against baseURL.
+
+  These sites are GitHub Pages *project* sites served from a subpath, so a
+  root-absolute link like /syllabus.pdf points at the org root and 404s.
+  relURL prefixes the subpath, and still works on localhost.
+
+  Usage:  [the syllabus]({{< rel "syllabus.pdf" >}})
+*/ -}}
+{{- .Get 0 | relURL -}}
