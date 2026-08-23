@@ -4,6 +4,10 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  # Hugo bakes the build date into the schedule's "current week" and the
+  # Today / Next due cards, so rebuild each morning to keep them honest.
+  schedule:
+    - cron: "0 11 * * *"
 
 permissions:
   contents: read
