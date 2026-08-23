@@ -16,11 +16,13 @@ funds undergraduate work.
 - Listen to surround in the immersive room
   - Atmos demos
   - Some 5.1 surround
+### homework
 - **Read:** [Physical attributes of acoustic waves, Part I](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1) — due Wednesday, see D2L for details
 
 ## 8/26
 - [due] **Read:** [Physical attributes of acoustic waves, Part I](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1) — we discuss it today
 - [slides] [Physical attributes of acoustic waves](/lectures/week-1/physical-attributes-1/)
+### homework
 - **Read:** [Physical attributes of acoustic waves, Part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a) — due Friday, details on D2L
 
 ## 8/28
@@ -30,6 +32,7 @@ funds undergraduate work.
 ## 8/31
 - [slides] [Historical context — audio](/lectures/week-1/historical-context/)
 - [project] Introduce [Project 1: Mono Sound Walk](/projects/mono/)
+### homework
 - **Project 1: Mono Sound Walk** — due Monday 9/14 by class
 
 ## 9/2
@@ -71,6 +74,7 @@ funds undergraduate work.
   - Try a few [SOFA convention files](https://www.sofaconventions.org/mediawiki/index.php/Files); add them to the package contents to get them to show up in the VST
 - Anaglyph projects, making of — [gallery](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 - [project] Introduce [Project 2: Binaural/Stereo](/projects/stereo/)
+### homework
 - **Project 2: Binaural/Stereo** — due Friday 10/9
 
 ## 9/23
@@ -96,6 +100,7 @@ funds undergraduate work.
 - [lab] Ambisonics music mix of a project from [The 'Mixing Secrets' Free Multitrack Download Library](https://cambridge-mt.com/ms/mtk/)
 - Any questions about setup of the ambisonic project
 - [project] Introduce [Project 3: Ambisonics](/projects/ambisonics/) — the H3-VR is available for checkout if you want ambisonic recordings in your project
+### homework
 - **Project 3: Ambisonics** — due Monday 10/19
 
 ## 10/2
@@ -159,6 +164,7 @@ funds undergraduate work.
 ## 10/30
 - [lab] Continue mixing the song in Atmos using Logic Pro
 - [project] Introduce [Project 4: Atmos Mix](/projects/atmos/)
+### homework
 - **Project 4: Atmos Mix** — due Monday 11/16
 
 ## 11/2
@@ -200,6 +206,7 @@ funds undergraduate work.
 - [due] **Project 4: Atmos Mix** — due today
 - Listen to your mixes
 - [project] Introduce the [Final Project](/projects/final/)
+### homework
 - **Final project proposal** — due Monday 11/23, submitted via D2L
 
 ## 11/18
