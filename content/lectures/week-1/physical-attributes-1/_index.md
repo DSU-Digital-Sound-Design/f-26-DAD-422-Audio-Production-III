@@ -7,242 +7,214 @@ margin = 0.2
 
 ## Oscillation and Vibration
 
-### Oscillation
-
+{{< slide-columns >}}
+{{< slide-column title="Oscillation" >}}
 * Repetitive back-and-forth motion around a reference point
-
-### Vibration
-
+{{< /slide-column >}}
+{{< slide-column title="Vibration" >}}
 * A specific physical form of oscillation
 * Typically involves a mass moving around its equilibrium
 * A fundamental source of sound when that equilibrium is disturbed
+{{< /slide-column >}}
+{{< /slide-columns >}}
 
 {{% note %}}
-
 * Oscillation is the broader concept; vibration is its physical and acoustic manifestation.
 * In musical contexts, systems (like strings or membranes) vibrate around stable equilibrium to sustain sound.
 * Without a restoring force or with friction, vibration ceases.
-  {{%/ note %}}
+{{% /note %}}
 
 ---
 
-**Simple Harmonic Motion (SHM)**
+## Simple Harmonic Motion (SHM)
 
-### Key Concepts
-
-* Motion characterized by a restoring force proportional to displacement (Hooke’s Law)
-* Described by a [sinusoidal function](https://en.wikipedia.org/wiki/Simple_harmonic_motion) (sine wave)
+{{< slide-split src="circular-to-sine.svg" alt="A point moving around a circle at constant speed, with its vertical height traced out to the right as a sine wave." image-side="left" compact="true" >}}
+* Restoring force proportional to displacement (Hooke's Law)
+* Described by a [sinusoidal function](https://en.wikipedia.org/wiki/Simple_harmonic_motion)
 * Defined by amplitude, frequency (or period), and phase
+* Sine waves are the purest form of sound, and build every complex one
 
-### Relevance
-
-* SHM serves as the theoretical backbone of acoustics
-* Sine waves are the purest form of sound and build more complex waves
+**Play with it:** [circular motion → SHM](https://physics.bu.edu/~duffy/HTML5/SHM_circular_motion.html) · [mass on a spring](https://www.physicsclassroom.com/Physics-Interactives/Waves-and-Sound/Mass-on-a-Spring/Mass-on-a-Spring-Interactive) · [SHM visualizer](https://ophysics.com/w0.html)
+{{< /slide-split >}}
 
 {{% note %}}
-
+* Walk the figure left to right: the point goes around the circle at a constant rate, and the wave on the right is nothing but its height plotted against time.
 * Enables mathematical modeling of real-world systems (like [mass-on-a-spring simulations](https://ophysics.com/w1.html) or [pendulums](https://phet.colorado.edu/en/simulation/pendulum-lab)).
 * Foundation for Fourier analysis and spectral decomposition.
 * Provides insight into resonance phenomena.
-  {{%/ note %}}
-
----
-
-### Additional Interactive Visuals
-
-* [Interactive Mass-Spring Simulation](https://www.physicsclassroom.com/Physics-Interactives/Waves-and-Sound/Mass-on-a-Spring/Mass-on-a-Spring-Interactive?utm_source=chatgpt.com)
-* [Circular Motion → SHM Demonstrator](https://physics.bu.edu/~duffy/HTML5/SHM_circular_motion.html)
-* [Web SHM Visualizer](https://ophysics.com/w0.html)
+{{% /note %}}
 
 ---
 
 ## Complex Vibrations
-
-### Real-World Complexity
 
 * Real acoustic signals are rarely pure sine waves
 * Comprised of multiple SHMs summed together
 * Complex waveforms define timbre and texture
 
 {{% note %}}
-
 * Any sound can be decomposed into sine components (Fourier series/transform).
 * This decomposition is essential for synthesis, analysis, and understanding timbre.
 * Instruments derive their characteristic tone from the harmonic content.
-  {{%/ note %}}
+{{% /note %}}
 
 ---
 
 ## Amplitude and the Signal Envelope
 
-### Amplitude
+{{< slide-split src="adsr-envelope.svg" alt="An ADSR envelope: amplitude rises to a peak during the attack, falls to a lower sustain level during the decay, holds flat through the sustain, and falls to silence during the release." image-side="right" >}}
+* **Amplitude**: height from equilibrium to peak; correlates with loudness
+* **Envelope**: the temporal outline of those amplitude changes
+* Stages: Attack → Decay → Sustain → Release
 
-* Height from equilibrium to peak; correlates with loudness
-
-### Signal Envelope
-
-* Temporal outline of amplitude changes
-* Identified stages: Attack → Decay → Sustain → Release (ADSR)
+More: [ADSR stages](https://en.wikipedia.org/wiki/Envelope_%28music%29), [fine structure](https://en.wikipedia.org/wiki/Temporal_envelope_and_fine_structure)
+{{< /slide-split >}}
 
 {{% note %}}
-
 * Envelopes shape the perceptual character of sounds (e.g., a piano vs. violin).
 * Differentiates between impulse versus continuous signals.
 * Crucial for sound synthesis, envelope generators, and expressive control.
-  {{%/ note %}}
-
-**Visual resource**: [Envelope in music – ADSR stages](https://en.wikipedia.org/wiki/Envelope_%28music%29) and their [fine structure](https://en.wikipedia.org/wiki/Temporal_envelope_and_fine_structure).
+{{% /note %}}
 
 ---
 
 ## Period and Frequency
 
-### Period
-
+{{< slide-columns >}}
+{{< slide-column title="Period" >}}
 * Time for one complete oscillation (T)
-
-### Frequency
-
+{{< /slide-column >}}
+{{< slide-column title="Frequency" >}}
 * Number of cycles per second (Hz); frequency = 1 / period
+{{< /slide-column >}}
+{{< /slide-columns >}}
 
 {{% note %}}
-
 * Frequency determines perceived pitch.
 * Important for tuning, acoustic analysis, and digital sampling systems.
 * Temporal and frequency domains are dual perspectives of sound.
-  {{%/ note %}}
+{{% /note %}}
 
 ---
 
-
-{{< slide class="stepped" >}}
-
 ## Frequency and Period Conversion
 
-### Frequency (f)
-
+{{< slide-columns >}}
+{{< slide-column title="Frequency (f)" >}}
 * Number of cycles per second, measured in hertz (Hz)
 * Formula: f = 1 / T
 * Try it: [SensorsONE frequency→period calculator](https://www.sensorsone.com/frequency-to-period-calculator/)
-### Period (T)
-
+{{< /slide-column >}}
+{{< slide-column title="Period (T)" >}}
 * Time for one complete cycle, measured in seconds
 * Formula: T = 1 / f
 * More examples: [Omni Calculator – Frequency](https://www.omnicalculator.com/physics/frequency)
+{{< /slide-column >}}
+{{< /slide-columns >}}
 
 {{% note %}}
-
 * Frequency and period are exact inverses: if one doubles, the other halves.
 * Worked examples:
   * If T = 0.01 s, then f = 1 / 0.01 = 100 Hz.
   * If f = 440 Hz (concert A), then T ≈ 1 / 440 ≈ 0.00227 s.
 * Teaching tip:
-  * Show a single-cycle waveform and label the horizontal span as T; then remind students that frequency is “how many of those spans fit into 1 second.”
+  * Show a single-cycle waveform and label the horizontal span as T; then remind students that frequency is "how many of those spans fit into 1 second."
 * Forward-looking connection:
   * This inverse relationship underlies sample-rate reasoning in DAWs and will resurface when we discuss aliasing, FFT window lengths, and time–frequency trade-offs later in the course.
-
-{{%/ note %}}
-
+{{% /note %}}
 
 ---
 
 ## Phase
 
-### Concept
-
+{{< slide-columns >}}
+{{< slide-column title="Concept" >}}
 * Describes the position within a cycle (degrees or radians)
 * Two waves with same frequency and amplitude but different phase can behave differently together
-
-### Impact
-
+{{< /slide-column >}}
+{{< slide-column title="Impact" >}}
 * Asynchronous phase shifts may be imperceptible
 * Simultaneous multi-source phase relationships affect loudness, timbre, and spatial cues
+{{< /slide-column >}}
+{{< /slide-columns >}}
 
 {{% note %}}
-
 * Phase is critical in audio mixing (phase alignment) and stereo imaging.
 * Misaligned phases can cause destructive interference or comb filtering.
 * Phase differences contribute to perceptual features like localization.
-  {{%/ note %}}
+{{% /note %}}
 
 ---
 
 ## Logarithmic Scales in Acoustics
 
-### Why Logarithmic?
-
-* Human perception of stimulus is proportional to logarithm of intensity (Fechner’s Law)
+{{< slide-columns >}}
+{{< slide-column title="Why Logarithmic?" >}}
+* Human perception of stimulus is proportional to logarithm of intensity (Fechner's Law)
 * Compresses wide dynamic ranges into manageable scales
-
-### Applications
-
+{{< /slide-column >}}
+{{< slide-column title="Applications" >}}
 * Express acoustic quantities (power, intensity, pressure) in decibels (dB)
 * Aligns measurement scale with human hearing sensitivity
+{{< /slide-column >}}
+{{< /slide-columns >}}
 
 {{% note %}}
-
 * Decibel scale enables intuitive understanding of large acoustic ranges.
 * Helps connect physical measurement with perceptual loudness.
 * Foundational to metering, audio level calibration, and SPL measurement.
-  {{%/ note %}}
+{{% /note %}}
 
 ---
 
 ## Common Sound Levels
 
-### Examples
-
+{{< slide-split src="decibel-scale.svg" alt="A decibel scale from 0 to 180 dB, marking the threshold of hearing, normal conversation, a live rock band at the pain threshold, and a rocket launch." image-side="left" >}}
 * \~180 dB – Rocket launch (irreversible hearing loss)
 * \~120 dB – Live rock band (pain threshold)
 * \~60 dB – Normal conversation
 * \~0 dB – Threshold of hearing
+{{< /slide-split >}}
 
 {{% note %}}
-
 * Human hearing spans \~0–120 dB over perceived loudness.
 * Sustained levels above \~85 dB risk hearing damage—key for safety in sound professions.
 * Real-world examples help contextualize abstract numbers.
-  {{%/ note %}}
+{{% /note %}}
 
 ---
 
 ## RMS Amplitude
 
-### Definition
-
-* Root-Mean-Square (RMS) measures energy of oscillating signals
-* Squares the signal, so positive and negative deflections both count toward the average
-
-### Purpose
-
-* More accurately correlates with perceived loudness than peak levels for sinusoidal and complex signals
+{{< slide-split src="peak-vs-rms.svg" alt="A sine wave with its peak amplitude, its RMS amplitude at 0.707 of the peak, and its peak-to-peak amplitude marked." image-side="left" >}}
+* **RMS** measures the energy of an oscillating signal
+* Squaring the signal makes positive and negative deflections both count toward the average
+* Tracks perceived loudness far better than peak level does
+{{< /slide-split >}}
 
 {{% note %}}
-
 * RMS = sqrt(mean(square(signal))).
 * For pure sine waves: RMS ≈ 0.707 × peak.
 * Crucial for accurate loudness estimation in signal processing and metering.
-  {{%/ note %}}
+{{% /note %}}
 
 ---
 
 ## Superposition and Interference
 
-### Superposition
-
+{{< slide-columns >}}
+{{< slide-column title="Superposition" >}}
 * Multiple waves add algebraically to produce a complex resultant
-
-### Interference
-
+{{< /slide-column >}}
+{{< slide-column title="Interference" >}}
 * Constructive: waves amplify each other
 * Destructive: waves cancel out
 * Beats arise from near-frequency waves (fluctuating amplitude)
+{{< /slide-column >}}
+{{< /slide-columns >}}
 
 {{% note %}}
-
 * Fundamental to understanding room acoustics, comb filtering, and waveform texture.
 * Beats are used intuitively in tuning and signal sensing.
 * Destructive interference is core to noise cancellation technologies.
-  {{%/ note %}}
-
-
+{{% /note %}}
