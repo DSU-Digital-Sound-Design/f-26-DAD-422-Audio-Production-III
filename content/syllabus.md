@@ -87,7 +87,7 @@ Projects 50% · Attendance and participation 30% · Final project 20%.
 | D | 60–69% |
 | F | 59% or below |
 
-**Final exam:** Monday, December 14, 3:30–5:30 PM. The final exam period is the
+**Final exam:** Friday, December 11, 1:00–3:00 PM. The final exam period is the
 final project presentation.
 
 All projects are played out loud in class. Be ready to share what you have made.

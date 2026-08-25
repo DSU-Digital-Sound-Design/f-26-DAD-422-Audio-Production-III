@@ -4,7 +4,7 @@ number: "05"
 weight: 5
 week: 13
 assigned: "2026-11-16"
-due: "2026-12-14"
+due: "2026-12-11"
 summary: "A self-directed immersive piece in ambisonics or Atmos, with a written proposal, process documentation, and a presentation at the final exam."
 tools: ["Your choice"]
 # the brief in the body already spells out deliverables and grading

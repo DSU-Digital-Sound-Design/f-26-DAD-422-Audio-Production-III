@@ -28,7 +28,7 @@ theme = ["t-console-theme", "reveal-hugo"]
     term = "Fall 2026"
     meeting = "MWF 3:00–3:50"
     instructor = "Tate Carson"
-    final = "Monday, December 14 · 3:30–5:30 PM"
+    final = "Friday, December 11 · 1:00–3:00 PM"
 
   [params.schedule]
     # Monday of week 1. DSU Fall 2026 classes begin Aug 24.

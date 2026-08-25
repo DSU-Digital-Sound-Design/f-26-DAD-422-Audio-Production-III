@@ -251,6 +251,6 @@ funds undergraduate work.
 ## 12/9
 - [off] **Reading / study day — no class**
 
-## 12/14
+## 12/11
 - [due] **Final project** — due today, submitted via D2L
-- Final project presentations — **3:30–5:30 PM**, our scheduled final exam slot
+- Final project presentations — **1:00–3:00 PM**, our scheduled final exam slot
