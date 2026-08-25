@@ -52,28 +52,36 @@ margin = 0.2
 * Comprised of multiple SHMs summed together
 * Complex waveforms define timbre and texture
 
+{{< audio-demo type="harmonics" compact="true" >}}
+
 {{% note %}}
 * Any sound can be decomposed into sine components (Fourier series/transform).
 * This decomposition is essential for synthesis, analysis, and understanding timbre.
 * Instruments derive their characteristic tone from the harmonic content.
+* Demo audio plays in the window you click — run it from the stage window. Start on the sine preset, then push harmonics in one at a time; end with the saw/square presets.
 {{% /note %}}
 
 ---
 
 ## Amplitude and the Signal Envelope
 
-{{< slide-split src="adsr-envelope.svg" alt="An ADSR envelope: amplitude rises to a peak during the attack, falls to a lower sustain level during the decay, holds flat through the sustain, and falls to silence during the release." image-side="right" >}}
-* **Amplitude**: height from equilibrium to peak; correlates with loudness
-* **Envelope**: the temporal outline of those amplitude changes
-* Stages: Attack → Decay → Sustain → Release
-
-More: [ADSR stages](https://en.wikipedia.org/wiki/Envelope_%28music%29), [fine structure](https://en.wikipedia.org/wiki/Temporal_envelope_and_fine_structure)
-{{< /slide-split >}}
+{{< slide-columns >}}
+{{< slide-column title="Concepts" >}}
+* **Amplitude**: peak height; correlates with loudness
+* **Envelope**: the outline of amplitude over time
+* Attack → Decay → Sustain → Release
+{{< /slide-column >}}
+{{< slide-column title="Design an envelope" >}}
+{{< audio-demo type="adsr" compact="true" >}}
+{{< /slide-column >}}
+{{< /slide-columns >}}
 
 {{% note %}}
 * Envelopes shape the perceptual character of sounds (e.g., a piano vs. violin).
 * Differentiates between impulse versus continuous signals.
 * Crucial for sound synthesis, envelope generators, and expressive control.
+* Reading: [ADSR stages](https://en.wikipedia.org/wiki/Envelope_%28music%29), [temporal envelope and fine structure](https://en.wikipedia.org/wiki/Temporal_envelope_and_fine_structure).
+* Demo audio plays in the window you click — run it from the stage window. Try attack at minimum (pluck) vs. attack near 1 s (pad) on the same pitch.
 {{% /note %}}
 
 ---
@@ -89,10 +97,13 @@ More: [ADSR stages](https://en.wikipedia.org/wiki/Envelope_%28music%29), [fine s
 {{< /slide-column >}}
 {{< /slide-columns >}}
 
+{{< audio-demo type="sine" compact="true" >}}
+
 {{% note %}}
 * Frequency determines perceived pitch.
 * Important for tuning, acoustic analysis, and digital sampling systems.
 * Temporal and frequency domains are dual perspectives of sound.
+* Demo audio plays in the window you click — run it from the stage window. Sweep the frequency slider and read f and T = 1/f changing together.
 {{% /note %}}
 
 ---
@@ -200,21 +211,19 @@ More: [ADSR stages](https://en.wikipedia.org/wiki/Envelope_%28music%29), [fine s
 
 ---
 
+{{< slide class="compact" >}}
+
 ## Superposition and Interference
 
-{{< slide-columns >}}
-{{< slide-column title="Superposition" >}}
-* Multiple waves add algebraically to produce a complex resultant
-{{< /slide-column >}}
-{{< slide-column title="Interference" >}}
-* Constructive: waves amplify each other
-* Destructive: waves cancel out
-* Beats arise from near-frequency waves (fluctuating amplitude)
-{{< /slide-column >}}
-{{< /slide-columns >}}
+* **Superposition**: multiple waves add algebraically to produce a complex resultant
+* **Interference**: constructive amplifies, destructive cancels
+* **Beats** arise from near-frequency waves (fluctuating amplitude)
+
+{{< audio-demo type="phase" compact="true" >}}
 
 {{% note %}}
 * Fundamental to understanding room acoustics, comb filtering, and waveform texture.
 * Beats are used intuitively in tuning and signal sensing.
 * Destructive interference is core to noise cancellation technologies.
+* Demo audio plays in the window you click — run it from the stage window. Play both, slow the detune toward 0 (beats slow down), then check invert at 0.0 Hz for total silence.
 {{% /note %}}
