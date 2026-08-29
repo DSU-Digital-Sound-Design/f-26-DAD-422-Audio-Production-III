@@ -36,6 +36,70 @@ deliver the six-channel format and route the stereo signal to channels 5 and
 6. If you deliver four channels, every sound in the mix rotates with the
 scene.
 
+## Design and preview the full scene in Reaper
+
+A normal video preview only shows the direction the viewer currently faces.
+The rest of the scene still needs sound. Treat the 360-degree video as one
+sound world with a shared front, back, left, right, top, and bottom.
+
+### Look around the video
+
+Add Reaper's `Video Processor` to the video track and choose the preset
+`Panoramic: Equirectangular/spherical 360 panner`. Its `yaw`, `pitch`, `roll`,
+and `fov` controls change the direction shown in the Video window.
+
+Use `yaw` to check the four main directions:
+
+| Yaw | View |
+| ---: | --- |
+| 0 degrees | Front |
+| 90 degrees | One side |
+| 180 degrees | Back |
+| -90 degrees | Other side |
+
+You can also bypass the spherical panner and work from the full
+equirectangular image. In this flattened view, the center is usually the front,
+the left and right edges meet behind the viewer, and the top and bottom show
+the vertical extremes. Confirm the orientation of the clip before placing
+sounds. Some cameras put the seam or default front in a different location.
+
+### Monitor the listener's turn with ATK
+
+The Video Processor changes the picture, but it does not send its viewing angle
+to ATK. Match the movement manually while you work. On a four-channel
+Ambisonics monitoring bus, use this chain:
+
+```text
+ATK-encoded sound tracks
+-> ATK FOA Transform RotateTiltTumble
+-> ATK FOA Decode Binaural
+-> headphones
+```
+
+`RotateTiltTumble` represents the listener turning inside the sound field. Turn
+the sound field in the direction opposite the video view. For example, when
+the video looks 90 degrees to the right, rotate the sound field 90 degrees to
+the left. ATK defines positive azimuth counterclockwise, so check a known sound
+at the front before relying on the signs.
+
+Place each source in world coordinates with an ATK encoder such as `Planewave`.
+Do not rewrite its position for every possible view. A bird placed behind the
+starting view remains there. The monitor rotation only lets you turn toward it
+and hear the result from another direction.
+
+A useful check takes less than a minute:
+
+1. Play the section facing front at 0 degrees.
+2. Check both side views at 90 and -90 degrees.
+3. Check the rear view at 180 degrees.
+4. Look up and down when the scene contains elevated sources.
+5. Return the video view and `RotateTiltTumble` to 0 degrees.
+
+The binaural decoder and this temporary listener rotation are for headphone
+monitoring. Do not bake them into the four-channel delivery. Before rendering,
+reset or bypass `RotateTiltTumble`, bypass the binaural decoder, and use
+`BtoAmbiX` as described below.
+
 ## Convert ATK output to AmbiX
 
 ATK processes first-order Ambisonics in FuMa B-format, while YouTube expects

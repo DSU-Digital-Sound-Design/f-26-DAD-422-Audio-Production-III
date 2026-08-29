@@ -57,6 +57,10 @@ Use the Ambisonic Toolkit plugins to mix the project and document how each tool 
 
 For both projects, encode all non‑ambisonic sources to first‑order ambisonics (FOA) B‑format. Then apply ambisonic transforms/panners for spatialization. Finally, decode to your listening environment (binaural, stereo UHJ, or 7.1) on a bus or the master.
 
+The [360 video lesson](/lectures/week-5/youtube-360/) shows how to place these
+sounds against a picture, turn around the scene while monitoring in Reaper, and
+publish a head-tracked AmbiX mix.
+
 FOA format consistency:
 
 - Zoom H3‑VR typically exports AmbiX (ACN/SN3D). ATK tools operate in FuMa (WXYZ) convention.
@@ -72,7 +76,7 @@ Reaper routing reminder:
 
 ## Rendering
 
-Render one binaural (for grading) and one 7.1 version of your mix (for us to listen to in class). 
+Render one binaural (for grading) and one 7.1 version of your mix (for us to listen to in class).
 
 ## Submission Requirements
 
