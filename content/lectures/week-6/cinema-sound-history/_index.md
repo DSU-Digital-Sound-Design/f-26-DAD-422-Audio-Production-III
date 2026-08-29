@@ -6,6 +6,34 @@ margin = 0.2
 custom_css = "hugo.css"
 +++
 
+<!-- ============================================================
+TODO before teaching this (week 6, 10/5): make this deck distinct
+from week 1's "Historical Context of Film Sound"
+(content/lectures/week-1/historical-context/_index.md).
+
+The two decks currently double up on:
+  - Fantasound / Fantasia (1940)
+  - Dolby Stereo, Lisztomania (1975) and A Star Is Born (1976)
+  - Star Wars (1977) and Close Encounters (1977)
+  - the October 1987 SMPTE meeting and Holman proposing 5.1
+  - Dolby Digital / DTS / SDDS arriving 1992-93
+
+Only this deck has: the Theatrophone (1881), Bell Labs and Blumlein,
+Cinerama, CinemaScope, Todd-AO, Sensurround, the 70 mm "baby boom",
+how matrixing actually works, Kubrick on "better good mono than bad
+stereo", and the argument that 5.1 was a compromise that won.
+
+Suggested split: let week 1 keep the straight chronology and stop at
+mono, since it runs the same day the mono sound walk is assigned.
+Let this deck lead with its argument and the dead ends, and treat the
+shared milestones as a fast recap rather than teaching them fresh.
+
+Facts here were reconciled against week 1 on 2026-08-29 using the
+"Immersive Audio" NotebookLM notebook (Beck, Kerins, Holman,
+Ouzounian, Living Stereo). If you change a shared fact in one deck,
+change it in the other.
+============================================================ -->
+
 {{< slide background-image="AMC_2-56a900d15f9b58b7d0f73269-1421493058.jpg" background-opacity="0.35" >}}
 
 ## Cinema's Hidden Multi-Channel History
@@ -72,7 +100,7 @@ The decision was a compromise: good enough, backward compatible, cost-manageable
 - 1881: Clément Ader’s Théâtrophone – 2-channel opera relays in Paris.
 - 1931–35: Bell Labs (Harvey Fletcher/Stokowski) + Blumlein stereo experiments.
 - 1937: Universal’s *One Hundred Men and a Girl* recorded multi-channel (released mono).
-- 1940: *Fantasia* – Fantasound (3 screen + surround, ~64 speakers).
+- 1940: *Fantasia* – Fantasound (3 screen channels + control track; 96 surround speakers at the LA premiere).
 - 1952: Cinerama – 7 channels (5 screen, 2 surround).
 - 1953: CinemaScope – 4-track mag (L, C, R, surround).
 
@@ -103,8 +131,8 @@ This expanded timeline fills the missing bridge from Fantasound to Dolby Stereo:
 {{% note %}}
 **Fantasia (1940):**
 
-- **Channels**: 3 screen (L, C, R) + surround + control track.  
-- **Speakers**: ~64 in some venues.  
+- **Channels**: 3 discrete optical screen channels (L, C, R) + a control track that automated panning to the surround array.  
+- **Speakers**: 96 smaller speakers around and behind the audience at the Los Angeles premiere. (The "~64 speakers" figure previously here is not supported by Beck, Ouzounian or *Living Stereo* in the Immersive Audio notebook; checked 2026-08-29.)  
 - **“Correct” aesthetic**: realistic orchestral placement.  
 - **“Spectacular” aesthetic**: moving and swirling sounds for effect.  
 
@@ -185,8 +213,9 @@ Here's a diagram of how the process works. The four original channels (L, C, R, 
 
 ![Dolby Stereo Logo](DOLBYD_1-3084939011.gif)
 
-* Four channels (L, C, R, mono surround) matrix-encoded into 2 optical tracks.
-* Debut: *Lisztomania* (1975).
+* Matrix-encoded into 2 optical tracks (Lt/Rt).
+* Debut: *Lisztomania* (1975) — three channels, L, C, R.
+* Fourth channel (mono surround) arrives with *A Star Is Born* (1976).
 * Widely popularized by *Star Wars* (1977), *Close Encounters* (1977).
 * Surround limited to 100 Hz–7 kHz.
 
