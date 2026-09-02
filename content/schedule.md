@@ -30,19 +30,16 @@ funds undergraduate work.
 - [slides] [Space and time in music and sound art](/lectures/week-1/space-and-time/)
 
 ## 8/31
-- [slides] [Historical context — audio](/lectures/week-1/historical-context/)
+- [slides] [Introduction to spatial audio](/lectures/week-2/intro-spatial-audio/)
 - [project] Introduce [Project 1: Mono Sound Walk](/projects/mono/)
 ### homework
 - **Project 1: Mono Sound Walk** — due Monday 9/14 by class
 
 ## 9/2
-- [slides] [Introduction to spatial audio](/lectures/week-2/intro-spatial-audio/)
+- [slides] [Historical context — audio](/lectures/week-1/historical-context/)
 
 ## 9/4
-- [lab] Work session on the mono sound walk
-  - Source and audition field recordings
-  - Build the walk in Reaper — reverb, delay, filtering, and level for distance
-- Listening in the immersive room — how do these techniques read over speakers?
+- [lab] [Start the Mono Sound Walk](/lectures/week-2/mono-sound-walk-start/) — concept, sound map, session setup, and a short proof of concept
 
 ## 9/7
 - [off] **No class — Labor Day**
