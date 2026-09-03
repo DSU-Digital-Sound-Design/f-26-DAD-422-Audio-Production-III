@@ -62,9 +62,11 @@ funds undergraduate work.
 - [lab] Experiment with different stereo micing techniques in the studio
 
 ## 9/18
-- [slides] [Binaural audio and recording](/lectures/week-4/binaural-recording/)
+- [off] **No class**
+- Before Monday, review [Binaural audio and recording](/lectures/week-4/binaural-recording/) and bring headphones
 
 ## 9/21
+- Start with a short binaural-audio recap and questions
 - [lab] Binaural recording with the Zoom H3-VR and the Sound Professionals earbud mics
   - Combine binaural recordings with mono and stereo recordings rendered through Anaglyph
   - Test out [Anaglyph](http://anaglyph.dalembert.upmc.fr/) in class — add sound effects or dialogue and experiment with automation
