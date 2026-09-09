@@ -2,431 +2,466 @@
 title = "Spatial audio psychoacoustics"
 outputs = ["Reveal"]
 [reveal_hugo]
-margin = 0.2
+margin = 0.08
+width = 1280
+height = 720
+custom_css = "css/spatial-psychoacoustics.css"
 +++
 
 # Spatial audio psychoacoustics
 
+Direction, listening, and spatial impression
+
 {{% note %}}
-- Learn about the perception and cognition of spatial sound.
-- Focus on psychoacoustic phenomena relevant to audio systems design and implementation.
-- Primary source for the localization numbers in this deck: Wenzel, Begault, and Godfroy-Cooper, "Perception of Spatial Sound," ch. 1 of Roginska and Geluso, eds., *Immersive Sound* (Routledge, 2017).
+Friday, September 11. Wednesday's distance-perception lesson addressed level, brightness, and direct-to-reverberant balance in mono. Today adds direction, individual listening differences, and vocabulary for evaluating a spatial image.
+
+50-minute plan: goals and setup, 4 minutes; ITD and ILD with listening, 12; front/back ambiguity, HRTF comparison, and head movement, 14; precedence and selective attention, 8; spatial attributes and design task, 9; exit check, 3. Optional reference slides follow the exit check.
+
+Course reference: Wenzel, Begault, and Godfroy-Cooper, “Perception of Spatial Sound,” in Roginska and Geluso, eds., Immersive Sound, chapter 1, 2017. Use the figures as illustrations; listener anatomy and stimuli affect numerical values.
 {{%/ note %}}
 
 ---
 
-## Sound source localization
+## From distance to direction
 
-![](Big-Ears-3387165105.jpg)
+- Wednesday: make a mono source approach and recede
+- Today: explain left/right and front/back impressions
+- Next: use those observations in stereo and binaural work
 
 {{% note %}}
-- How do we perceive the direction of a sound?
-- Main cues:
-    - ITD (Interaural Time Differences): Phase/timing differences between the ears.
-    - IAD (Interaural Amplitude Differences): Amplitude or spectral differences between the ears.
-- Spatial perception relies on two ears discerning differences in signals.
+Retrieve one distance cue and its limitation. Then ask whether lowering a mono fader alone tells us which side a sound comes from. Expected answer: it changes level, not a left/right difference.
+
+Keep the Mono Sound Walk mono for Monday, September 14. Today's headphone experiments prepare for later stereo reproduction and the Binaural / Stereo project; they do not change Project 1 requirements.
 {{%/ note %}}
 
 ---
 
-## Interaural Time Differences (ITD)
+## Listening setup
 
-<img src="ITD.png" width=75%>
+- Wear headphones with left and right correctly placed
+- Use a comfortable level and pause between examples
+- Turn off added spatial processing for cue-isolation demos
+
+Report what you hear, including uncertainty.
 
 {{% note %}}
-- ITD: Time difference between ears for non-central sound sources.
-    - Related to the angle of sound incidence.
-- **Binaural delay**: Max delay between ears is 650 μs (0.65 ms).
-- Humans can resolve direction with ITD down to a few degrees.
-    - ITD is ineffective for front/rear distinction or elevation.
+Turn off optional OS headphone spatialization or head tracking for these prerecorded cue-isolation comparisons. Do not disable hearing accommodations. Avoid playing multiple audio widgets at once.
 
-This diagram illustrates the concept of **Interaural Time Difference (ITD)**, which helps explain how humans localize sound based on the time delay between sound arriving at each ear.
-
-### Key Points for Notes:
-
-- **Interaural Time Difference (ITD)**: 
-  - ITD occurs because sound waves from a source arrive at each ear at slightly different times, depending on the direction the sound is coming from.
-  - The farther ear will experience a delay as the sound has to travel a longer distance.
-
-- **Distance and Angle**:
-  - The figure shows that the sound source is positioned at an angle, indicated by the angle \( \theta \) (theta), relative to the front-center of the listener.
-  - As the sound source moves from directly in front of the listener, the difference in path length between the two ears increases.
-
-- **ITD Formula**:
-  - The formula for ITD in this model is:
-    \[
-    ITD = \frac{r(\theta + \sin\theta)}{c}
-    \]
-    - \( r \) is the radius of the head (distance between the ears).
-    - \( \theta \) is the angle of incidence of the sound wave (in radians).
-    - \( c \) is the speed of sound in air (approximately 340 m/s).
-  - This formula calculates the additional time delay for sound to reach the far ear (left ear in the diagram).
-
-- **Explanation of Path**:
-  - The two lines represent the paths of the sound waves traveling to the listener's ears. The path to the left ear is longer than the path to the right ear because of the angle \( \theta \).
-
-- **Physical Explanation**:
-  - Sound from the source must travel around the head, leading to the time delay calculated using the head's geometry.
-  - As \( \theta \) increases (i.e., the sound source is farther from the front), the ITD increases, enhancing our ability to detect sound direction.
-
+Binaural recordings are intended to deliver separate signals to the ears. Loudspeaker crosstalk changes this condition. Students who cannot use headphones can predict changes and discuss peer observations. Differences in reports are useful evidence, not a hearing test.
 {{%/ note %}}
 
 ---
 
-Try the [Interaural Time Differences](https://isle.hanover.edu/isle2/Ch11AudBrainLoc/Ch11InterTime.html) example
+## Two differences between the ears
 
----
+- **ITD:** interaural time difference
+- **ILD:** interaural level difference
 
-### ILD - Amplitude and spectral cues
-
-![](cone.jpg)
+For a source on your right, which ear usually receives it first?
 
 {{% note %}}
-- ILD: The second method of spatial perception.
-    - High frequencies blocked by the head, low frequencies pass through.
-- The head shadow is strongly frequency-dependent. At 90 degrees to the side, it measures about 10 dB at 3 kHz, 20 dB at 6 kHz, and 35 dB at 10 kHz, while below roughly 2 kHz the wavelengths bend around the head and the shadow largely disappears (Immersive Sound, ch. 1).
-- Pinna shape changes the sound spectrum at the eardrum based on the angle of incidence.
-- Rear sources have reduced high-frequency response due to the pinna’s shape.
+Expected prediction: right ear first; it often also receives a higher level, especially at high frequencies. Keep timing and level separate. Use ILD consistently rather than switching to IAD.
+
+These cues support horizontal localization, but neither uniquely identifies all directions. Spectral cues and movement follow later.
+
+Reference: https://www.ncbi.nlm.nih.gov/books/NBK207834/
 {{%/ note %}}
 
 ---
 
-## Listening Experiment
+## Interaural time difference
 
-[Interaural Level Differences](https://isle.hanover.edu/Ch11AudBrainLoc/Ch11InterLoud.html)
-
----
-
-## Animals with no pinna? Dolphins! 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LWb2zAQxMEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
----
-
-## Experiment 2 
-
-> Find a sound with steady high frequencies (motor, fan, etc.). Move your head and note how high frequencies change.
-
-<audio src="HighHum.wav" controls>
+<img class="psycho-figure" src="ITD.png" alt="Top view of a head: an off-center source has a longer path to the far ear; r marks the head radius.">
 
 {{% note %}}
+Ask students to identify the near ear and trace the extra path to the far ear. The important idea is arrival-time difference, not memorizing the geometry.
 
-### 1. **Interaural Level Differences (ILD)**
-   - **Explanation**: ILD refers to the difference in sound intensity between the two ears. The head blocks or attenuates high-frequency sounds, making them quieter in the ear farther from the sound source.
-   - **Effect when turning head**:
-     - As you turn your head toward the fan, the sound becomes louder in the ear closest to the fan.
-     - When you turn your head away, the fan sound is quieter in the farther ear due to the **head-shadow effect**, helping you localize the fan.
+For an adult head, the largest natural ITD is roughly 0.6–0.7 ms, depending on anatomy and model. The diagram's r is head radius, not ear-to-ear distance. The formula is retained in the optional reference section with its assumptions.
 
-### 2. **Interaural Time Differences (ITD)**
-   - **Explanation**: ITD is the difference in the time it takes for sound to reach each ear, depending on the direction of the sound relative to the head.
-   - **Effect when turning head**:
-     - Facing the fan directly results in nearly simultaneous arrival of sound at both ears.
-     - Turning your head introduces a time delay, where the sound reaches the ear closer to the fan slightly earlier than the farther ear, helping your brain localize the sound source.
-
-### 3. **Pinna Filtering and Spectral Cues**
-   - **Explanation**: The shape of the pinna (outer ear) alters incoming sound waves, especially higher frequencies, depending on the sound's direction.
-   - **Effect when turning head**:
-     - As you turn your head, the pinnae modify the sound, especially at high frequencies, giving subtle cues about the sound’s direction and angle.
-     - You may notice slight changes in the timbre or brightness of the fan sound due to the pinna filtering high-frequency content differently based on your head’s orientation.
-
-### 4. **Head-Related Transfer Function (HRTF)**
-   - **Explanation**: HRTF combines ILD, ITD, and pinna filtering to help your brain process the 3D location of sounds.
-   - **Effect when turning head**:
-     - As you move your head, your personal HRTF dynamically adjusts, allowing your brain to continuously update its perception of the fan’s location in three-dimensional space.
-     - This helps you accurately identify the direction and position of the fan in the auditory environment.
+Reference: https://www.ncbi.nlm.nih.gov/books/NBK10820/
 {{%/ note %}}
 
 ---
 
-- Low frequencies: localized by ITD (Interaural Time Differences).
-- High frequencies: localized by IAD (Interaural Amplitude Differences).
+## Listen: timing alone
 
----
+Predict the direction, then describe the shift.
 
-- ITD-only localization (audio): 
-  - <audio src="IPO73-BinauralArrivalTime.wav" controls>
-- Smaller steps with percussive sounds:
-  - <audio src="Binaural_demo.wav" controls>
-- Interaural phase differences for 500 Hz and 2 kHz tones:
-  - <audio src="IPO72-BInauralPhase.wav" controls>
+<div class="psycho-audio"><span>Timing example, 20 seconds</span><audio controls preload="metadata" src="IPO73-BinauralArrivalTime.wav" aria-label="Timing example, 20 seconds"><a href="IPO73-BinauralArrivalTime.wav">Open audio</a></audio></div>
+
+Does the sound sit inside your head or outside it?
 
 {{% note %}}
-- Lower frequencies: Phase differences are time differences.
-- For 500 Hz, phase switches create a spatial shift.
-- For 2 kHz, phase shifts are too small and ambiguous to discern spatially.
+Play once, collect reports, and replay if helpful. The supplied clip is labeled as an arrival-time demonstration. Do not assign angles to its positions without stimulus documentation.
 
-Check out in reaper to show the time and phase differences.
+Distinguish lateralization, a left/right image often inside the head on headphones, from an external source located in the surrounding world. A time difference alone need not produce externalization.
+
+Optional controlled alternative: https://isle.hanover.edu/isle2/Ch11AudBrainLoc/Ch11InterTime.html . The illustration offers delay, frequency, and duration controls. Change delay while holding the other settings fixed.
 {{%/ note %}}
 
 ---
 
-![](man-listening-with-big-ears-picture-id487047931-767487051.jpg)
+## Interaural level difference
+
+- The head creates a frequency-dependent acoustic shadow
+- The far ear usually receives less high-frequency energy
+- Longer wavelengths diffract around the head more readily
+
+ILD compares levels at the two ears.
 
 {{% note %}}
-- Human pinnae vary widely in shape, much like fingerprints.
+Avoid saying high frequencies are completely blocked or low frequencies pass unchanged. ILD is frequency-dependent and also depends on source geometry. Pinna filtering is a separate spectral-cue topic, not a synonym for ILD.
 
-### **HRTF (Head-Related Transfer Function)**:
-   - **Definition**: HRTF describes how sound is filtered and transformed by the unique shape of a listener's head, ears (pinnae), and even the torso before reaching the ear canal. It captures how these body parts affect the sound waves based on their direction and location relative to the listener.
-   - **Elevation cue**: the pinna's filtering produces a spectral notch that slides from about 5 kHz for sounds straight ahead to about 10 kHz for sounds directly overhead. That moving notch is how one ear can hear height (Immersive Sound, ch. 1).
-   
-   - **Key Factors**:
-     - **Head**: The size and shape of the head create **shadows** that block or reflect high-frequency sounds, which leads to **Interaural Level Differences (ILD)**.
-     - **Ears (Pinnae)**: The shape of the outer ear modifies incoming sound waves, especially high frequencies, depending on their direction, contributing to the unique **spectral cues** for localization.
-     - **Torso and Shoulders**: These parts of the body also contribute to sound diffraction and filtering, especially for lower frequencies, adding further depth to sound localization.
-   
-   - **Simulating Spatial Cues**:
-     - HRTFs are used in virtual audio systems (like binaural audio or 3D sound) to simulate realistic spatial cues. By applying an HRTF to audio, the system can mimic how sounds would be perceived from different directions and distances.
-   
-   - **Individual Variability**:
-     - Since everyone has a unique head shape, ear structure, and torso size, HRTFs vary from person to person. This means that the same HRTF may not work perfectly for everyone.
-     - **Custom HRTFs** are sometimes created for individuals to ensure accurate spatial sound reproduction, particularly in high-end audio systems or virtual reality.
-
-### Key Point:
-- **HRTF** encapsulates how physical characteristics (head, ears, torso) transform sound, helping the brain perceive direction, distance, and elevation.
+Reference: https://www.ncbi.nlm.nih.gov/books/NBK207834/
 {{%/ note %}}
 
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/4/4a/FreqHRTF.jpg)
+## Listen: level difference
+
+[Open the ISLE level-difference experiment](https://isle.hanover.edu/Ch11AudBrainLoc/Ch11InterLoud.html)
+
+- Select the level-difference cue
+- Compare a centered image with unequal ear levels
+- Keep frequency and timing fixed
 
 {{% note %}}
-This graph is the HRTF magnitude response for the two ears (labeled XR and XL) at one azimuth and elevation. It shows how the head, pinnae, and torso alter the sound differently for each ear across frequency.
+Ask students to predict the perceived side before changing levels. Return to equal levels between comparisons. Collect “left,” “center,” “right,” or “unclear,” then ask whether the image feels external.
 
-### Key Points to Understand the Graph:
+The ISLE page lists Level Difference and Time Difference cue selection. Use its Illustration tab. If the legacy interaction does not run, demonstrate an ordinary mono track's level pan through headphones at a comfortable level. This is a controlled channel-level comparison, not a complete HRTF simulation.
 
-1. **Frequency Response**:
-   - The **x-axis** represents the **frequency** in Hertz (Hz), while the **y-axis** represents the **magnitude response** in decibels (dB).
-   - The frequency range in the plot goes from approximately 200 Hz to 20,000 Hz (2 × 10^4 Hz), which covers the human hearing range.
-
-2. **Asymmetry Between Ears**:
-   - **XR (right ear)** and **XL (left ear)** show distinct frequency response curves.
-   - This asymmetry is common because of the head’s effect on sound, particularly the **head-shadow effect**, which causes sound to be attenuated differently for each ear depending on the direction of the sound source.
-   - Differences in magnitude between the ears, especially in high-frequency regions, are critical for **Interaural Level Differences (ILD)**, which help localize sounds horizontally.
-
-3. **Peaks and Dips in the Response**:
-   - The peaks in the frequency response represent **resonances**, where certain frequencies are amplified due to the shape of the pinna and ear canal.
-   - Dips, or **nulls**, correspond to frequencies that are attenuated due to destructive interference from sound reflections off the head, shoulders, or other body parts.
-   - These peaks and dips provide **spectral cues** that your brain uses to determine the **elevation** and **azimuth** (direction) of the sound.
-
-4. **HRTF Variability**:
-   - The difference between the left and right ear responses illustrates how HRTFs vary depending on the **listener’s head orientation** relative to the sound source. 
-   - Factors such as head size, ear shape, and the direction of the sound all cause these variations.
-
-### How HRTFs Vary:
-- **Head Size and Shape**: Larger heads create more significant ILD at higher frequencies due to increased sound shadowing.
-- **Pinna Shape**: The shape and size of the pinna cause different reflections and resonances, altering the frequency response.
-- **Ear Canal Length**: Variations in the length of the ear canal affect the resonances, especially in higher frequencies.
-- **Torso and Shoulders**: Sounds reflected off the torso and shoulders contribute to changes in sound wave interaction at lower frequencies, especially for vertical localization.
-  
-### Interpreting the Graph:
-- **Low Frequencies (below ~1 kHz)**: The response between the left and right ears is fairly similar, indicating that **ITD (Interaural Time Differences)** dominate in this range for localization.
-- **High Frequencies (above ~1 kHz)**: Noticeable differences in magnitude between the two ears, reflecting the role of **ILD (Interaural Level Differences)**. This is especially pronounced in the range from 3 kHz to 8 kHz, where the pinnae and head-shadowing effects are strongest.
-
+Source: https://isle.hanover.edu/Ch11AudBrainLoc/Ch11InterLoud.html
 {{%/ note %}}
 
 ---
 
-#### Listening Experiment - Different HRTFs
+## Frequency changes cue usefulness
 
-- <audio src="HRTF/IRC_1002_P345.wav" controls>
-- <audio src="HRTF/IRC_1003_P345.wav" controls>
-- <audio src="HRTF/IRC_1004_P345.wav" controls>
-- <audio src="HRTF/IRC_1006_P345.wav" controls>
-- <audio src="HRTF/IRC_1008_P345.wav" controls>
-- <audio src="HRTF/IRC_1012_P345.wav" controls>
+- Low-frequency timing is useful for left/right judgments
+- High-frequency level differences often contribute strongly
+- Onsets and envelopes can also carry timing information
 
-source: http://recherche.ircam.fr/equipes/salles/listen/sounds.html
+These are tendencies, not an absolute frequency split.
 
 {{% note %}}
-### Purpose of the Demo:
-- The demo allows listeners to experience how different **HRTFs** (Head-Related Transfer Functions) affect spatial sound perception. 
-- Since HRTFs vary based on a listener's anatomy (head, ear shape, etc.), users can try different audio files to find the one that best matches their own **physiological and auditory characteristics**.
+The duplex account is a useful starting point. Fine-structure ITD sensitivity becomes limited at higher frequencies, but high-frequency sounds can carry envelope and onset timing cues. Do not teach “all low frequencies use only ITD, all high frequencies use only ILD.”
 
-### Sound Movement:
-- As you listen through headphones, the sound should appear to move around your head, simulating spatial cues provided by the HRTF.
-- Each sound file corresponds to a different HRTF, offering a unique experience of how sound is perceived when it moves in a horizontal plane around the listener.
+Reference: Wenzel et al., Immersive Sound, chapter 1. Related research: https://pmc.ncbi.nlm.nih.gov/articles/PMC3937989/
 {{%/ note %}}
 
 ---
 
-[PHRTF - Dolby Professional](https://professional.dolby.com/phrtf)
+## A timing ambiguity
+
+A source in front and a source behind can produce similar ITD and ILD.
+
+What additional information could distinguish them?
 
 {{% note %}}
-**PHRTF** stands for **Personalized Head-Related Transfer Function**. It refers to an HRTF that is tailored specifically to an individual listener, rather than using a generic or standardized HRTF. The goal of PHRTF is to improve the accuracy of spatial audio perception by accounting for the unique physical characteristics of each person's head, ears, and torso.
-
-### Key Points about PHRTF:
-
-1. **Individual Customization**:
-   - PHRTF is generated using measurements of a listener’s specific anatomy, such as the shape and size of their head, ears (pinnae), and even shoulders or torso. This customization allows for more precise simulation of how sound waves are altered before reaching the listener's ear canals.
-
-2. **Improved Spatial Perception**:
-   - Using a generic HRTF can work for many listeners but may not provide an optimal experience for everyone, as individual differences in anatomy can result in less accurate spatial cues. A **PHRTF** offers improved spatial localization and externalization (perceiving sounds outside the head) by more accurately representing the listener’s unique hearing profile.
-
-3. **Applications**:
-   - **Virtual Reality (VR) and Augmented Reality (AR)**: PHRTFs are used in immersive audio systems where precise spatialization is critical for a more realistic and engaging experience.
-   - **Gaming**: Personalized HRTFs can make audio environments more immersive and help players localize sounds more accurately (e.g., footsteps, distant noises).
-   - **Hearing Aids and Assistive Devices**: Personalized audio filtering can be used to enhance the user's ability to localize sound sources in real-world environments.
-   
-4. **How PHRTFs Are Generated**:
-   - **Measurement Techniques**: PHRTFs are often measured in a specialized sound environment, where microphones are placed in the ear canal, and sound is played from various angles to capture how the sound is modified by the listener’s body.
-   - **Photo-Based or Scanning Methods**: Some technologies generate PHRTFs by taking 3D scans or photos of a person’s ears and head, using algorithms to simulate how sounds would be altered.
-
-5. **Challenges**:
-   - Creating a **PHRTF** can be time-consuming or require specialized equipment, making it less accessible for everyday users.
-   - However, with advancements in technology, there are ongoing efforts to make PHRTF more widely available through faster, more affordable methods.
-
+Take predictions: outer-ear spectral filtering and changes during head movement are good answers. Explain that ITD/ILD alone leave front/back and elevation ambiguities. Introduce the cone of confusion verbally without using the former Coneheads poster as a scientific diagram.
 {{%/ note %}}
 
 ---
 
-![](precedence.png)
+## Pinnae and spectral cues
+
+The outer ear filters sound differently for different directions.
+
+Patterns of peaks and notches help distinguish elevation and front from back.
 
 {{% note %}}
+A listener learns direction-dependent spectral patterns. Avoid a universal rule that rear sounds are simply duller or that one fixed notch frequency determines height for everyone. The source spectrum and listener anatomy matter.
 
-#### **(a) Binaural Delay**:
-- A **single sound source** emits sound that reaches the ears at slightly different times.
-- **Binaural delay** (denoted as δt) occurs due to the extra distance sound travels to reach the farther ear.
-- The brain uses this **time difference** to localize sound direction.
-- Relevant for **headphone listening** and **natural environments** where the sound source is continuous and singular.
+The head and torso also affect the signal at the ears. These direction-dependent responses are described by HRTFs on the next slide.
 
-#### **(b) Precedence Effect**:
-- Involves **two sound sources** emitting the same signal but with a slight delay.
-- The brain prioritizes the **first-arriving sound** (from the earlier source).
-- Creates a **phantom image** perceived towards the earlier sound source.
-- Important for **loudspeaker setups**, where sound localization depends on both timing and amplitude cues.
-  
-#### **Key Concepts**:
-- **Binaural delay** is most effective for localization in natural settings.
-- The **precedence effect** helps the brain focus on the most important sound in complex environments, such as multiple speakers.
-
+Reference: Wenzel et al., Immersive Sound, chapter 1.
 {{%/ note %}}
 
 ---
 
-### Cocktail party effect
+## Head-related transfer functions
 
-- Same voice with mixed texts (mono vs. stereo):
-  - <audio src="Cocktail_Party_Effect.wav" controls>
-- Two texts, one at a time, then mixed:
-  - <audio src="Duda13-CocktailPartyEffect.wav" controls>
+An HRTF describes the acoustic filtering from a source to one ear.
+
+A left/right pair captures timing, level, and spectral differences for a source position.
 
 {{% note %}}
-- Cocktail party effect: Ability to focus on a specific source amid noise.
-- Primary cue: Location and direction of sound sources.
-- Sounds from the same direction are assumed to come from the same source.
+HRTF stands for head-related transfer function. It describes an acoustic response, not a brain mechanism. The corresponding impulse response is an HRIR; binaural renderers can filter audio with a left/right pair.
+
+Responses depend on the listener's anatomy and source position. Direction is central, and near-field distance can also matter. Reverb and the room are additional influences rather than automatically part of a free-field HRTF.
+
+Reference: https://www.ncbi.nlm.nih.gov/books/NBK207834/
 {{%/ note %}}
 
 ---
 
-![](th-1700196290.jpg)
+## Compare three HRTFs
+
+<div class="psycho-audio"><span>A: IRC 1002</span><audio controls preload="metadata" src="HRTF/IRC_1002_P345.wav" aria-label="A: IRC 1002"><a href="HRTF/IRC_1002_P345.wav">Open audio</a></audio></div>
+<div class="psycho-audio"><span>B: IRC 1003</span><audio controls preload="metadata" src="HRTF/IRC_1003_P345.wav" aria-label="B: IRC 1003"><a href="HRTF/IRC_1003_P345.wav">Open audio</a></audio></div>
+<div class="psycho-audio"><span>C: IRC 1004</span><audio controls preload="metadata" src="HRTF/IRC_1004_P345.wav" aria-label="C: IRC 1004"><a href="HRTF/IRC_1004_P345.wav">Open audio</a></audio></div>
+
+Which gives the clearest position or strongest outside-the-head impression?
 
 {{% note %}}
-- Spatial cues may be influenced by other senses, especially vision.
-- Learned experiences influence spatial expectations.
-- Example: Planes are expected to fly overhead; playing recordings may cause confusion if heard below.
+Each supplied file is 12 seconds, stereo. Play one at a time at a fixed playback setting. Record perceived direction or movement, externalization, and any timbral change. Do not promise a particular trajectory or a correct front/back answer from the filenames.
+
+Have partners compare reports before discussing individual differences. A short preference comparison is not a validated personal HRTF fitting procedure. The other three files are in the optional section.
+
+Original collection: IRCAM LISTEN, http://recherche.ircam.fr/equipes/salles/listen/sounds.html . These course copies play locally; the archival page may be unavailable.
 {{%/ note %}}
 
 ---
 
+## What the comparison tells us
 
-### Apparent source width
-
-![](ASW.png)
+- A shared render can produce different impressions
+- Clear direction and externalization are separate judgments
+- A preferred sample is a starting point for further testing
 
 {{% note %}}
-- **Apparent Source Width (ASW)**: Describes how large a sound source appears from a sonic perspective.
-- Related to **spaciousness**: Sense of the space a sound source occupies.
-- Larger ASW is preferred in concert halls, but the optimum width remains unclear.
-- May relate to "image blur."
+Ask for one disagreement between listeners and one observation they agreed on. Separate changes in timbre from changes in location. Do not diagnose a listener or promise that a personalized HRTF always eliminates localization errors.
+
+Connect this to testing future binaural mixes with more than one listener and documenting the playback setup.
 {{%/ note %}}
 
 ---
 
-- **Spaciousness**:
-  - Refers to the **perceived size** or openness of an acoustic space.
-  - Creates the sensation of sound filling a large environment.
-  - Important for a sense of **naturalness** and **externalization** of sound.
-- **Envelopment**:
-  - Describes the extent to which the listener feels **surrounded by sound**.
-  - Key to creating **immersive** and **reverberant soundfields**.
-  - High envelopment occurs when sound reaches the listener from multiple directions.
+## Head movement adds evidence
 
-{{% note %}} 
-- **Spaciousness**: Describes the perceived size of the acoustic space.
-- **Envelopment**: The degree to which the listener feels surrounded by sound.
-    - Both are key to immersion in reverberant soundfields (e.g., concert halls).
+With a real, stationary sound source, turn your head gently.
+
+How do direction and timbre change?
+
+A fixed headphone file usually moves with your head.
+
+<div class="psycho-audio"><span>Optional loudspeaker source</span><audio controls preload="metadata" src="HighHum.wav" aria-label="Stationary loudspeaker sound, 21 seconds"><a href="HighHum.wav">Open audio</a></audio></div>
+
+{{% note %}}
+Use a real fan or another stationary sound in the room. Alternatively play HighHum.wav from one stationary loudspeaker after students remove headphones. Let a few students turn their heads gently while keeping their position fixed.
+
+Do not run this as a headphone head-turn test. A fixed binaural recording does not update its ear signals in response to motion. A head-tracked renderer can update the source-to-head direction to maintain a world-fixed virtual source.
+
+Optional sound source: [HighHum.wav](HighHum.wav). Moving the head changes the relative source direction; the HRTF is not an anatomical filter that spontaneously changes shape.
 {{%/ note %}}
 
 ---
 
-# Naturalness
+## First arrivals and reflections
+
+A direct sound may be followed by similar reflected sound.
+
+We often hear one event located toward the first arrival.
+
+This is the precedence effect.
 
 {{% note %}}
-- One of the goals of spatial sound reproduction.
-- No precise definition.
+Distinguish fusion, hearing one event, from localization dominance, locating toward the lead. At larger delays the lag may be heard separately. The outcome depends on signal, delay, level, and context; there is no universal echo threshold.
 
-- **Definition**: 
-  - Refers to how **realistic** and **believable** the spatial audio sounds.
-  - The listener perceives sound as coming from natural sources in a lifelike space.
+ITD concerns the difference between ears. Precedence concerns the perceptual treatment of leading and lagging sound events. It occurs in natural rooms and can be studied with speakers or headphones.
 
-- **Key Factors for Achieving Naturalness**:
-  - **Accurate spatial cues**: Correct positioning, distance, and movement of sounds in 3D space.
-  - **HRTF (Head-Related Transfer Function)**: Customized or well-matched HRTFs enhance realism.
-  - **Timbral consistency**: The tone and quality of sound must remain authentic as the source moves.
-  - **Proper reverberation**: Reflects the size and characteristics of the acoustic environment.
-
-- **Challenges**:
-  - Personal differences in how listeners perceive spatial sound due to varying anatomy (e.g., head shape, ear structure).
-  - **Virtual environments** may struggle to perfectly simulate all nuances of natural listening.
-
-
+Research: https://pmc.ncbi.nlm.nih.gov/articles/PMC4310855/ . The comparison diagram is in the optional section.
 {{%/ note %}}
 
 ---
 
-### Subjective attributes of spatial impression
+## Following one voice
 
-![](spatial-impression.png)
+Choose a voice to follow. What helps you keep track of it?
+
+<div class="psycho-audio"><span>Speech comparison, 16 seconds</span><audio controls preload="metadata" src="Cocktail_Party_Effect.wav" aria-label="Speech comparison, 16 seconds"><a href="Cocktail_Party_Effect.wav">Open audio</a></audio></div>
 
 {{% note %}}
+Ask students to report whether spatial separation helps and what else they use: voice quality, pitch, rhythm, language, and attention. Location is one cue, not the sole basis of the cocktail-party effect. Two voices at one location need not be grouped as one source.
 
-### **Spatial Impression**
-- This is the overall perception of space and sound, influenced by two main factors: **Source** and **Environment**.
+The supplied clip is labeled as a mono/stereo comparison. Describe the audible change rather than assigning undocumented processing parameters. The second speech file is optional reference material.
 
+Reference: Wenzel et al., Immersive Sound, chapter 1.
+{{%/ note %}}
 
-### **Source**:
-- Refers to the sound origin and how it contributes to the spatial impression.
-  
-  1. **Position**:
-     - **Azimuth**: The horizontal angle of the sound source (left-right).
-     - **Distance**: How far the sound source is from the listener.
-     - **Elevation**: The vertical angle of the sound source (up-down).
+---
 
-  2. **Dimensions**:
-     - **Width**: The perceived width of the sound source.
-     - **Depth**: The perceived depth of the sound source, creating a sense of distance.
-     - **Height**: The vertical size or height of the sound.
+## Seeing can influence hearing
 
-  3. **Focus/Diffuseness**:
-     - How clear or diffuse the sound source appears, which impacts the perception of spatial clarity and spread.
-     - **Width, Depth, Height**: The perceived clarity or diffusion of the sound in these dimensions.
+A visible speaker can pull the apparent location of a voice.
 
+Listen once without the picture, then compare with it.
 
-### **Environment**:
-- Refers to the acoustic space or environment in which the sound occurs.
+What changed in your judgment?
 
-  1. **Envelopment**:
-     - The extent to which the listener feels surrounded by sound, contributing to immersion.
+{{% note %}}
+Use an available talking-head video with audio from a clearly separated loudspeaker, if the room supports it. Treat this as a discussion otherwise. Do not claim a guaranteed effect for every listener or layout.
 
-  2. **Dimensions**:
-     - **Width**: The perceived spatial width of the environment.
-     - **Depth**: The perceived depth of the environment.
-     - **Height**: The perceived height of the environment.
+Distinguish sensory evidence from expectations. Vision, familiarity, and attention can influence localization. A plane is often expected overhead, but this does not establish that every plane recording will be heard overhead.
 
-### **Perceived Dimensions**:
-- The combination of source and environmental factors results in the listener’s **perception** of the following dimensions:
-  - **Width**: The perceived spread of sound horizontally.
-  - **Depth**: The perceived distance and depth of the sound.
-  - **Height**: The vertical extent of the sound.
+Reference: Wenzel et al., Immersive Sound, chapter 1.
+{{%/ note %}}
 
+---
+
+## Apparent source width
+
+<img class="psycho-figure" src="ASW.png" alt="Two listening diagrams compare a narrow apparent source with a wider apparent source.">
+
+{{% note %}}
+ASW describes how broad the source appears to the listener. Ask students which drawing represents the wider apparent source. It is a perceived property, not necessarily the physical size of the instrument or the width of the room.
+
+A precise point and a broad source can each be appropriate. Avoid teaching wider as universally better. The figure is retained from the original course materials.
+{{%/ note %}}
+
+---
+
+## Source and space
+
+- **Source width:** how broad the source seems
+- **Envelopment:** how surrounded by sound you feel
+- **Externalization:** whether sound seems outside your head
+
+One can change without the others.
+
+{{% note %}}
+Have students describe a narrow voice surrounded by reverberation. It can remain narrow while the listener feels enveloped. A wide headphone image can still seem inside the head.
+
+Spaciousness is a broader spatial impression. Do not reduce it to a single room-size measurement. Early and late lateral energy can contribute differently to source width and envelopment, but detailed room metrics belong to later lessons.
+
+Reference: Wenzel et al., Immersive Sound, chapter 1.
+{{%/ note %}}
+
+---
+
+## Believable spatial sound
+
+- Position and movement support the scene
+- Timbre stays plausible as the source moves
+- The source and room seem to belong together
+
+Describe the evidence behind “natural.”
+
+{{% note %}}
+Naturalness is a listener judgment relative to a context, not a universal score or a requirement that every artistic work mimic real life. Ask for specific evidence: an image jumps, a voice becomes unexpectedly hollow, or room balance contradicts distance.
+
+Recall Wednesday's coherent distance cues briefly. Today's addition is agreement among direction, externalization, source width, and the intended environment.
+{{%/ note %}}
+
+---
+
+## Design a spatial scene
+
+A close voice, a moving object, and a surrounding environment.
+
+Choose which should be precise, broad, or enveloping.
+
+What listening test would check your choice?
+
+{{% note %}}
+Pairs have about 3 minutes to propose a scene and one test. For example, keep speech focused while ambience provides envelopment; listen without the picture to judge the moving object's path. Ask how two listeners might disagree.
+
+This is planning for later binaural work, not a new submission or a change to the Mono Sound Walk. Students will later apply recording and rendering tools; today's task is to name the intended perceptual result.
+
+Project context: [Binaural / Stereo]({{< rel "projects/stereo/" >}}).
+{{%/ note %}}
+
+---
+
+## Exit check
+
+- What differs between ITD and ILD?
+- Why can an HRTF work differently for two listeners?
+- Can a wide sound still feel inside your head?
+
+{{% note %}}
+Collect brief responses. Expected: time versus level across the ears; anatomical and learned perceptual differences; yes, width and externalization are distinct.
+
+End the core lesson here. Use the following examples and diagrams as optional reference or replace a core comparison with one of them.
+{{%/ note %}}
+
+---
+
+## Optional timing comparisons
+
+<div class="psycho-audio"><span>Percussive timing example, 8 seconds</span><audio controls preload="metadata" src="Binaural_demo.wav" aria-label="Percussive timing example, 8 seconds"><a href="Binaural_demo.wav">Open audio</a></audio></div>
+<div class="psycho-audio"><span>500 Hz and 2 kHz phase comparison, 13 seconds</span><audio controls preload="metadata" src="IPO72-BInauralPhase.wav" aria-label="500 Hz and 2 kHz phase comparison, 13 seconds"><a href="IPO72-BInauralPhase.wav">Open audio</a></audio></div>
+
+Does changing the stimulus change the spatial impression?
+
+{{% note %}}
+The original course labels identify the phase example as comparing 500 Hz and 2 kHz tones. Ask what students hear without promising the same response for everyone.
+
+For a pure tone, phase and delay are related modulo a cycle: phase = 2πfΔt. Higher-frequency fine-structure timing can become ambiguous across repeated cycles and is less useful perceptually. Do not say a 2 kHz phase shift is simply “too small.” Transient onsets and envelopes can still provide timing information.
+
+Optional: inspect channel waveforms in REAPER. Keep this separate from stereo loudspeaker precedence.
+{{%/ note %}}
+
+---
+
+## Three more HRTFs
+
+<div class="psycho-audio"><span>D: IRC 1006</span><audio controls preload="metadata" src="HRTF/IRC_1006_P345.wav" aria-label="D: IRC 1006"><a href="HRTF/IRC_1006_P345.wav">Open audio</a></audio></div>
+<div class="psycho-audio"><span>E: IRC 1008</span><audio controls preload="metadata" src="HRTF/IRC_1008_P345.wav" aria-label="E: IRC 1008"><a href="HRTF/IRC_1008_P345.wav">Open audio</a></audio></div>
+<div class="psycho-audio"><span>F: IRC 1012</span><audio controls preload="metadata" src="HRTF/IRC_1012_P345.wav" aria-label="F: IRC 1012"><a href="HRTF/IRC_1012_P345.wav">Open audio</a></audio></div>
+
+Compare with your preferred sample from A–C.
+
+{{% note %}}
+Each local file is 12 seconds. Use the same observations: perceived direction, externalization, and timbre. Keep playback gain fixed, stop each example before the next, and allow “unclear.”
+
+Collection: IRCAM LISTEN, http://recherche.ircam.fr/equipes/salles/listen/sounds.html . Personalization may use measurement or estimation; preference among these samples does not establish a measured personal HRTF.
+{{%/ note %}}
+
+---
+
+## Timing model: optional detail
+
+ITD ≈ r(θ + sin θ) / c
+
+- r is head radius, not ear-to-ear distance
+- θ is azimuth in radians, from front toward the side
+- c is the speed of sound
+
+This is a simplified spherical-head model.
+
+{{% note %}}
+For the illustrated front-to-side range, 0 ≤ θ ≤ π/2, and a distant source, the Woodworth approximation models an extra path to the far ear. It is not a full description of a real head or a formula to extend indiscriminately around 360 degrees.
+
+Using r = 0.0875 m and c = 343 m/s gives about 0.656 ms at θ = π/2. Head radius is half the sphere's diameter. Frequency, anatomy, and model assumptions affect real ITDs.
+
+Related research: https://pmc.ncbi.nlm.nih.gov/articles/PMC3937989/
+{{%/ note %}}
+
+---
+
+## Two different timing relationships
+
+<img class="psycho-figure" src="precedence.png" alt="Upper diagram: arrival-time difference between ears. Lower diagram: earlier and later loudspeaker signals heard by both ears.">
+
+{{% note %}}
+Use the upper panel for ITD and lower panel for precedence. In the lower panel, both speakers reach both ears. The illustration's arrow toward the earlier speaker is conditional on delay, level, and stimulus.
+
+Do not frame ITD as only natural listening and precedence as only loudspeaker listening. The mechanisms describe different relationships and can both contribute in the same environment.
+
+Research: https://pmc.ncbi.nlm.nih.gov/articles/PMC4310855/
+{{%/ note %}}
+
+---
+
+## Another speech comparison
+
+<div class="psycho-audio"><span>Separate and combined speech, 23 seconds</span><audio controls preload="metadata" src="Duda13-CocktailPartyEffect.wav" aria-label="Separate and combined speech, 23 seconds"><a href="Duda13-CocktailPartyEffect.wav">Open audio</a></audio></div>
+
+Which voice can you follow, and which cue helps?
+
+{{% note %}}
+Listen to the supplied sequence of separate and combined speech. Compare difficulty and strategies. Separate effects of spatial separation from other differences in voice and content. Do not grade the number of words understood.
+{{%/ note %}}
+
+---
+
+## Spatial impression: reference map
+
+<img class="psycho-figure" src="spatial-impression.png" alt="Spatial impression branches into source position, size, and focus, and environmental envelopment and dimensions.">
+
+{{% note %}}
+This is a reference taxonomy, not a list to memorize. Students should already know its main distinctions from the core slides. Trace one route only, such as source dimensions to width, then contrast with environmental envelopment.
+
+The figure is retained from the original course materials. Use it after the concepts so the density does not obscure their meaning.
 {{%/ note %}}

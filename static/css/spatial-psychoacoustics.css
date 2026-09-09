@@ -1,0 +1,14 @@
+/* Loaded only by the spatial psychoacoustics lecture. Dimensions use the
+   Reveal canvas so figures scale with slides rather than viewport height. */
+.reveal .slides section { box-sizing: border-box; }
+.reveal .slides section .psycho-figure {
+  width: auto; max-width: 100%; height: auto; max-height: 460px;
+  object-fit: contain; margin: 0.35em auto 0; background: #fff;
+}
+.reveal .psycho-audio {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1em; margin: 0.55em 0; font-size: 0.85em;
+}
+.reveal .psycho-audio span { flex: 1; min-width: 0; }
+.reveal .psycho-audio audio { width: 360px; max-width: 48%; flex-shrink: 0; }
+.reveal .slides section h1 { font-size: 1.65em; }
