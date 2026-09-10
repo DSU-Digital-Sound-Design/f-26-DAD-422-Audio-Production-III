@@ -1,0 +1,20 @@
+/* Loaded only by the stereo reproduction lecture. The shared theme sizes
+   figures with max-height: 60vh, which is measured against the browser
+   window rather than the scaled Reveal canvas, so the proportion of the
+   frame a figure occupies drifts with window aspect ratio. Pinning the
+   heights in canvas pixels keeps every slide inside the 700px frame. */
+.reveal .slides section { box-sizing: border-box; }
+
+.reveal .slides section .stereo-figure {
+  width: auto; max-width: 100%; height: auto; max-height: 350px;
+  object-fit: contain; margin: 0.3em auto 0;
+}
+
+/* Slides carrying a figure and little else can afford a larger image. */
+.reveal .slides section .stereo-figure--tall { max-height: 450px; }
+
+/* The crosstalk diagram is drawn on transparency to sit on the slide ground,
+   so it takes no panel border and needs no white plate behind it. */
+.reveal .slides section .stereo-figure--diagram {
+  max-height: 330px; border: none; margin-top: 0.45em;
+}
