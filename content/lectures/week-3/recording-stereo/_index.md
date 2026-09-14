@@ -3,46 +3,58 @@ title = "Stereo microphone techniques"
 outputs = ["Reveal"]
 [reveal_hugo]
 margin = 0.2
+custom_css = "css/recording-stereo.css"
 +++
 
 {{< slide background-image="Decca-tree-Hero_1024x1024@2x-3032459495.jpg" background-opacity="0.4" >}}
 
 # Stereo microphone techniques
 
----
-
-## Microphone arrays
-
-- minimalist - same number of mics as loudspeaker channels
-- use matched microphones
-- use a ruler and protractor for optimum results
-
----
-
-## Review
-
-![](ears.png)
-
----
-
-# Coincident Techniques
 
 {{% note %}}
-In coincident arrangements, the microphone capsules are usually aligned on top of each other along a vertical axis, while including a certain ‘opening angle’ in the horizontal axis. The signal differences between the two channels of the stereo signal are caused by the volume differences that occur due to the directional characteristics of the capsules. The usual patterns are subcardioid, cardioid, hyper-cardioid, and figure-of-eight.
-
+50-minute plan: goals and recall, 5 minutes; XY and Blumlein, 10; near-coincident and AB, 12; M/S, 10; Decca Tree, 3; pair task and exit check, 10. Use short excerpts. If time is tight, assign the additional listening as follow-up.
 {{%/ note %}}
 
 ---
 
-See [Visualization of all stereo microphone systems with two microphones](http://www.sengpielaudio.com/HejiaE.htm)
+## Today’s goals
+
+- Predict how angle and spacing affect the stereo image.
+- Choose an array for a source and room, and explain the tradeoff.
+- Decode M/S and check a stereo recording in mono.
 
 ---
 
-## XY Coincident Pair Techniques
+## Microphone arrays
 
-![](xy.png)
+- Two microphones can capture a stereo scene.
+- Matched pairs help XY, Blumlein, ORTF and AB stay balanced.
+- Measure capsule spacing and the angle between microphones.
+- M/S uses complementary patterns. Decca Tree uses three mics.
+
+---
+
+## Recall: stereo cues
+
+What changes between channels when we separate the capsules?
+
+<img class="recording-figure" src="ears.png" alt="Review table of directional hearing cues">
+
+---
+
+## XY coincident pair
+
+<div class="xy-explanation">
+<img class="recording-figure" src="xy.png" alt="XY microphone array and reproduced stereo image">
+<ul>
+<li>Capsules sit nearly together, minimizing arrival-time differences.</li>
+<li>Angled directional patterns create level differences between channels.</li>
+</ul>
+</div>
 
 {{% note %}}
+Distinguish interchannel differences at the microphones from differences between a listener's ears. Ask students to predict the mono result from the capsule placement.
+
 - XY Coincident Pair Techniques involve the use of two cardioid or hyper-cardioid microphones.
 - The microphones are positioned closely together, with their capsules as close as possible.
 - They are angled between 90° to 130° apart, with their pick-up patterns crossing in front of the sound source.
@@ -56,38 +68,48 @@ See [Visualization of all stereo microphone systems with two microphones](http:/
 
 ---
 
-## XY Characteristics
+## XY: width and mono
 
-Q: Why does the diagram show that the reproduced image is slightly narrower than the original sound source?
+- Capsule angle and polar pattern shape the image width.
+- XY often gives a compact image and reliable mono playback.
+- Off-axis tone depends on the microphones and source position.
+
+What would you change if the image were too narrow?
+
 
 {{% note %}}
+A wider included angle can spread the image for a fixed source layout. XY is not inherently muddy, and absence of spacing is not the sole determinant of width. Coincidence minimizes spacing-related comb filtering in mono, but microphone mismatch, reflections and imperfect placement still matter. Check the actual recording.
 
-> A: This is because XY techniques capture and present directional information only as amplitude differences between the two mics and loudspeakers. Time arrival differences are powerful directionality indicators, but this technique doesn’t capture any, because the microphone capsules are as close together as possible.
-
-- General characteristics of xy:
-  - Narrow, compact images due to the lack of time arrival cues, and a lot of overlap of each mic’s pick-up.
-  - Potential for muddy sound due to the significant amount of each mic’s off-axis pick-up – no mic is actually pointed towards the center of the sound source. Cheaper directional mics, with their inferior off-axis colorations exaggerate this problem. The increased price of better directional mics is justified by their improved off-axis frequency response in this context.
-  - **Good mono compatibility!** With no time arrival differences between the capsules there is no phase cancellation or comb fltering when they are summed together for mono playback.
-  - **The perceived stereo image can be widened** by increasing the angle of incidence between the mics – however, this puts each mic further off-axis from the center of the sound source. This makes the center of the image muddier – particularly if the mics have poor off-axis response.
-  - Using hyper-cardioid mics instead of cardioid mics decreases the overlap of the pick-up patterns and unclutters the center of the image, making it wider. However, sounds coming from the center of the source are now effectively more off-axis to each hyper-cardioid mic’s more directional pick-up – so they are picked up with greater off-axis coloration and slightly less amplitude.
-
-To summarize: use this if mono compatibility is of concern or if you don't need a very wide image.
-
+Reference: https://www.dpamicrophones.com/mic-university/audio-production/stereo-recording-techniques-and-setups/
 {{%/ note %}}
 
 ---
 
-![](mic-array-xy-listening.png)
+## Listen: XY
+
+Where do the drums sit? Which image is wider?
+
+<img class="recording-figure" src="mic-array-xy-listening.png" alt="Descriptions of examples 7.1 and 7.2">
+
+<div class="recording-audio">
+<div><span id="example-7-1">Example 7.1</span><audio controls preload="none" aria-labelledby="example-7-1" src="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.1.mp3"><a href="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.1.mp3">Play example 7.1</a></audio></div>
+<div><span id="example-7-2">Example 7.2</span><audio controls preload="none" aria-labelledby="example-7-2" src="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.2.mp3"><a href="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.2.mp3">Play example 7.2</a></audio></div>
+</div>
+
+[*Mic It!* companion audio, Chapter 7](https://routledgetextbooks.com/textbooks/9780367470364/audio_files.php)
+
 
 {{% note %}}
-Where do you hear each part of the set in both recordings?
+Play examples 7.1 and 7.2. Keep playback level comparable and use the same listening position. Ask for an observation before asking for a preference. The examples may differ in placement or source, so avoid attributing every difference to the array alone. For a mono check, sum L and R and compare tone and source balance as well as width.
 {{%/ note %}}
 
 ---
 
-## Blumlein Pair Technique
+## Blumlein pair
 
-![](blumlein-pair.png)
+Two figure-eight mics, coincident and crossed at 90°.
+
+<img class="recording-figure" src="blumlein-pair.png" alt="Crossed figure-eight microphone array">
 
 {{% note %}}
 A Blumlein pair is a coincident array of bidirectional microphones crossed at 90°. Each mic is displaced 45° from the center of the sound source,
@@ -101,47 +123,47 @@ The sound picked up from behind the microphone can also add naturalness because 
 
 ---
 
-## Blumlein Listening
+## Listen: Blumlein
 
-![](blumlein-listening.png)
+How does the room sound compare with XY?
 
----
+<img class="recording-figure" src="blumlein-listening.png" alt="Descriptions of examples 7.3">
 
-## Near-Coincident Pair Techniques
+<div class="recording-audio">
+<div><span id="example-7-3">Example 7.3</span><audio controls preload="none" aria-labelledby="example-7-3" src="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.3.mp3"><a href="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.3.mp3">Play example 7.3</a></audio></div>
+</div>
 
-![](near-coincident.png)
+[*Mic It!* companion audio, Chapter 7](https://routledgetextbooks.com/textbooks/9780367470364/audio_files.php)
+
 
 {{% note %}}
-A near-coincident array uses two directional microphones with the capsules positioned a small distance apart. The mics face away from each other, resulting in slightly less overlap of their pick-up patterns than an XY coincident array. The angle of incidence between the mics is usually between 90° to 110°
-
-Types of near-coincident pairs include the famous ORTF, NOS, and DIN
-
-Q: How does this configuration create a stereo image?
-
-- General characteristics
-  - A wider, clearer stereo image than XY coincident techniques – often more closely matching the original sound source.
-  - A less muddy and confused sound.
-  - Sources in the center of the image might still be slightly muddy due to their off-axis
-    position – no mic is pointed directly at the center of the sound source.
-  - A slight decrease in mono compatibility because of the small time arrival differences
-    between each capsule.
-  - The perceived image can be made wider or narrower by increasing or decreasing the
-    angle of incidence between the mics. But as with an XY coincident array, increasing this angle puts each mic further off-axis with the center of the source, further muddying the center image sound, particularly if the mics have poor off-axis response.
-  - The perceived image width can be increased by increasing the distance between the mic capsules (to a point), or decreased by moving them closer together. Mono compat- ibility decreases dramatically as the distance between the two capsules increases.
-  - Using hyper-cardioid mics instead of cardioid mics will widen the image, however any sound coming from the center of the source will be more off-axis to each mic and consequently picked up with increased off-axis coloration and slightly less amplitude.
-  - It may be possible to decrease the angle of incidence when using hyper-cardioid mics and maintain a similar image width to using cardioid mics – with the advantage of the hyper-cardioid mics being less off-axis to the center of the sound source.
-
-Drawbacks: worse mono compatibility; try to listen in mono before recording to hear how much sound disappears.
-
+Play examples 7.3. Keep playback level comparable and use the same listening position. Ask for an observation before asking for a preference. The examples may differ in placement or source, so avoid attributing every difference to the array alone. For a mono check, sum L and R and compare tone and source balance as well as width.
 {{%/ note %}}
 
 ---
 
-![](ortf-nos-din.png)
+## Near-coincident pairs
+
+Spacing adds arrival-time differences to level differences.
+
+<img class="recording-figure" src="near-coincident.png" alt="Near-coincident microphone array and stereo image">
+
+
+{{% note %}}
+ORTF, NOS and DIN use angled cardioid microphones with separated capsules. The combination of spacing, angle, source distance and source width determines the reproduced image. They often offer more spaciousness than XY, with a greater chance of tonal changes in a mono sum. Avoid treating any technique as automatically clearer or better. Listen in mono before committing to placement.
+{{%/ note %}}
+
+---
+
+## ORTF, NOS and DIN
+
+ORTF: 17 cm / 110° · NOS: 30 cm / 90° · DIN: 20 cm / 90°
+
+<img class="recording-figure" src="ortf-nos-din.png" alt="Capsule spacing and angles for ORTF, NOS and DIN">
 
 {{% note %}}
 **ORTF Technique:**
-- Developed by the Offce de Radiodiffusion-Télévision Français (ORTF).
+- Developed by the Office de Radiodiffusion-Télévision Français (ORTF).
 - Utilizes two cardioid microphones.
 - Microphones are set at an angle of 110°.
 - Capsules are spaced 17 cm (6.7 in) apart, which is similar to the spacing of human ears.
@@ -169,43 +191,67 @@ Drawbacks: worse mono compatibility; try to listen in mono before recording to h
 
 ---
 
-![](ortf-nos-din-listening.png)
+## Listen: ORTF, NOS and DIN
 
----
+Which has the clearest center? What changes in width?
 
-## Spaced Pair (AB) Techniques
+<img class="recording-figure" src="ortf-nos-din-listening.png" alt="Descriptions of examples 7.4–7.6">
 
-![](spaced-pair.png)
+<div class="recording-audio">
+<div><span id="example-7-4">Example 7.4</span><audio controls preload="none" aria-labelledby="example-7-4" src="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.4.mp3"><a href="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.4.mp3">Play example 7.4</a></audio></div>
+<div><span id="example-7-5">Example 7.5</span><audio controls preload="none" aria-labelledby="example-7-5" src="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.5.mp3"><a href="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.5.mp3">Play example 7.5</a></audio></div>
+<div><span id="example-7-6">Example 7.6</span><audio controls preload="none" aria-labelledby="example-7-6" src="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.6.mp3"><a href="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.6.mp3">Play example 7.6</a></audio></div>
+</div>
+
+[*Mic It!* companion audio, Chapter 7](https://routledgetextbooks.com/textbooks/9780367470364/audio_files.php)
+
 
 {{% note %}}
-- In spaced pair or AB techniques, two microphones face directly forwards.
-- The capsules of these microphones are typically spaced 40 to 60 cm apart (15 to 24 in).
-- Omnidirectional microphones are commonly used for spaced pair techniques, but directional microphones can also be used in specific applications, like drum overheads.
-- Directionality in spaced mic techniques is primarily determined by time arrival information.
-- A mic spacing of 50 cm (20 in) results in a maximum time arrival difference of approximately 1.5 ms between the microphones.
-- This time arrival difference contributes to a natural listening experience for a listener positioned in the sweet spot of a stereo pair of loudspeakers.
-
-General Characteristics:
-
-- wide, expansive stereo image created predominantly by time arrival information. The image is not necessarily the most focused or precise, but it is the most enveloping.
-- If the mic spacing is too wide, sources in the center can lack definition and focus.
-- As the spacing between the mics is widened, longer than natural time arrival differences are generated – the image becomes weaker, made up of “ghostly” separated left/ right components with a “hole” in the center where nothing can really be localized.
-- The relatively large time arrival differences between the mics make this **the least mono compatible stereo technique.** It is vitally important to check for phasing and comb filtering before recording, and to adjust the array spacing to minimize any problems – although it will probably be impossible to remove all mono compatibility issues.
-- The perceived image width can be increased or narrowed by increasing or decreasing the spacing between the mics – but don’t go too wide on a close sound source (the image will have a hole in the middle), or too narrow when the mics are further away (the image will become too mono).
-- Using directional mics instead of omnidirectional mics decreases common overlap, widening the stereo image – but it also positions centrally located sound sources more off-axis to each mic, subjecting them to off-axis coloration. Directional mics will, however, minimize the pick-up of undesirable room sound and sources of spill to the rear of the mic array.
-
+Play examples 7.4–7.6. Keep playback level comparable and use the same listening position. Ask for an observation before asking for a preference. The examples may differ in placement or source, so avoid attributing every difference to the array alone. For a mono check, sum L and R and compare tone and source balance as well as width.
 {{%/ note %}}
 
 ---
 
-![](spaced-pair-listening.png)
+## Spaced pair, AB
+
+Usually two omnis. Spacing creates arrival-time differences.
+
+<img class="recording-figure" src="spaced-pair.png" alt="Spaced microphone array and reproduced stereo image">
+
+
+{{% note %}}
+Spacing is a choice, not a fixed recipe. Start with the source width, distance and room, then listen. At 50 cm spacing, the maximum path delay is about 0.50 / 343 = 1.46 ms. A centered source can still reach both mics simultaneously. Larger spacing can produce a spacious image or weaken the center. Sum to mono and listen for comb filtering and changes in source balance. Directional spaced pairs also introduce pattern-dependent level differences. More width is not necessarily a better image.
+
+Reference: https://www.dpamicrophones.com/mic-university/audio-production/stereo-recording-techniques-and-setups/
+{{%/ note %}}
 
 ---
 
-- MS (Middle-Side) Techniques
-- Setting it up in Reaper: [M/S Mastery](https://www.soundonsound.com/techniques/ms-mastery) or JS: Mid/Side decoder 
+## Listen: Spaced pair
 
-![](m-s.png)
+Does the center stay focused as the image widens?
+
+<img class="recording-figure" src="spaced-pair-listening.png" alt="Descriptions of examples 7.7 and 7.8">
+
+<div class="recording-audio">
+<div><span id="example-7-7">Example 7.7</span><audio controls preload="none" aria-labelledby="example-7-7" src="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.7.mp3"><a href="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.7.mp3">Play example 7.7</a></audio></div>
+<div><span id="example-7-8">Example 7.8</span><audio controls preload="none" aria-labelledby="example-7-8" src="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.8.mp3"><a href="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.8.mp3">Play example 7.8</a></audio></div>
+</div>
+
+[*Mic It!* companion audio, Chapter 7](https://routledgetextbooks.com/textbooks/9780367470364/audio_files.php)
+
+
+{{% note %}}
+Play examples 7.7 and 7.8. Keep playback level comparable and use the same listening position. Ask for an observation before asking for a preference. The examples may differ in placement or source, so avoid attributing every difference to the array alone. For a mono check, sum L and R and compare tone and source balance as well as width.
+{{%/ note %}}
+
+---
+
+## Mid-side, M/S
+
+Mid faces forward. A figure-eight Side mic faces sideways.
+
+<img class="recording-figure" src="m-s.png" alt="Forward Mid and sideways Side microphone patterns">
 
 
 {{% note %}}
@@ -219,24 +265,105 @@ General Characteristics:
 
 ---
 
-![](blog_mid_side_mic_recording_feat1.jpg)
+## M/S capsule placement
+
+<img class="recording-figure" src="blog_mid_side_mic_recording_feat1.jpg" alt="Microphone array placement photograph">
 
 ---
 
-![](m-s-listening.png)
+## M/S decoding
+
+Left = Mid + Side<br>
+Right = Mid − Side
+
+- Send Mid equally to left and right.
+- Add Side on the left and polarity-inverted Side on the right.
+- Raise both Side feeds equally to increase width.
+
+[REAPER routing reference: M/S Mastery](https://www.soundonsound.com/techniques/ms-mastery)
+
+
+{{% note %}}
+These equations omit an optional common normalization gain. Leave headroom. Use one decoder only. For manual routing, send a mono Mid track equally to L/R, duplicate the mono Side signal, pan the copies hard L/R, invert polarity on the right copy, and link their gains. Confirm that a source on the left plays on the left. On summing, L + R = 2M, so Side cancels. The mono result retains Mid, not all the spatial information. Demonstrate by varying Side level, then switching to mono.
+{{%/ note %}}
+
+---
+
+## Listen: M/S
+
+How do source width and room sound differ?
+
+<img class="recording-figure" src="m-s-listening.png" alt="Descriptions of examples 7.9 and 7.10">
+
+<div class="recording-audio">
+<div><span id="example-7-9">Example 7.9</span><audio controls preload="none" aria-labelledby="example-7-9" src="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.9.mp3"><a href="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.9.mp3">Play example 7.9</a></audio></div>
+<div><span id="example-7-10">Example 7.10</span><audio controls preload="none" aria-labelledby="example-7-10" src="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.10.mp3"><a href="https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780367470364/mp3/7.10.mp3">Play example 7.10</a></audio></div>
+</div>
+
+[*Mic It!* companion audio, Chapter 7](https://routledgetextbooks.com/textbooks/9780367470364/audio_files.php)
+
+
+{{% note %}}
+Play examples 7.9 and 7.10. Keep playback level comparable and use the same listening position. Ask for an observation before asking for a preference. The examples may differ in placement or source, so avoid attributing every difference to the array alone. For a mono check, sum L and R and compare tone and source balance as well as width.
+{{%/ note %}}
 
 ---
 
 ## Decca Tree
 
-![](decca-tree.png)
+Three spaced omnis feed left, center and right positions.
+
+<img class="recording-figure" src="decca-tree.png" alt="Three-microphone Decca Tree geometry">
 
 {{% note %}}
 
-The Decca Tree was originally developed by the Decca record label for orchestral recording, and can be heard on countless records and flm soundtracks. It consists of three omni directional microphones, traditionally large diaphragm condensers, which are set up in a triangle as shown in Figure 7.7. The L mic is panned left, the R mic panned right, and the C mic panned to the center. The gains of the three mics should be set equally, although adjusting the C mic up or down can narrow or widen the perceived image.
+The Decca Tree was originally developed by the Decca record label for orchestral recording, and can be heard on countless records and film soundtracks. It consists of three omni directional microphones, traditionally large diaphragm condensers, which are set up in a triangle as shown in Figure 7.7. The L mic is panned left, the R mic panned right, and the C mic panned to the center. The gains of the three mics should be set equally, although adjusting the C mic up or down can narrow or widen the perceived image.
 
 {{%/ note %}}
 
 ---
 
-![](Decca-tree-Hero_1024x1024@2x-3032459495.jpg)
+## Decca Tree in practice
+
+<img class="recording-figure" src="Decca-tree-Hero_1024x1024@2x-3032459495.jpg" alt="Microphone array placement photograph">
+
+---
+
+## Angle, spacing and image width
+
+Compare the arrays. How do angle and spacing change the stereo image?
+
+[Interactive stereo-array visualization](http://www.sengpielaudio.com/HejiaE.htm)
+
+
+{{% note %}}
+Use this as a comparison after the technique examples. Begin with XY, then compare a near-coincident pair and a spaced pair. Ask students to predict the result before changing one variable at a time. The physical angle between microphones differs from the recording angle, the source sector mapped between the loudspeakers. The linked tool covers two-microphone systems, so use the preceding diagram to discuss Decca Tree separately. If the page is unavailable, revisit the array diagrams in this deck. Connect each observation to a placement choice for the pair task.
+{{%/ note %}}
+
+---
+
+## Pair task: choose an array
+
+Record an acoustic duo in a small, reflective room. The mix also needs to work in mono.
+
+1. Choose an array and sketch its placement.
+2. Explain one advantage and one risk.
+3. Name what you would listen for in a test take.
+
+
+{{% note %}}
+Allow 2 minutes in pairs, then 3 minutes to compare answers. XY or M/S can be defensible starting choices when mono matters. ORTF can also be defended with a successful mono test. Ask how placement controls room pickup. Assess the reasoning and test plan, rather than requiring one correct array.
+{{%/ note %}}
+
+---
+
+## Exit check
+
+- Why can capsule spacing change the tone of a mono sum?
+- What remains when correctly decoded M/S is summed to mono?
+- Your recording has a weak center. What would you try first?
+
+
+{{% note %}}
+Expected answers: different arrival times cause frequency-dependent reinforcement and cancellation; Mid remains, with level depending on normalization; reduce excessive spacing or reconsider array distance/angle, then compare the result. Accept a testable adjustment supported by the student’s sketch. Use responses to decide whether the next session needs a brief mono-sum demonstration.
+{{%/ note %}}
