@@ -67,10 +67,11 @@ funds undergraduate work.
 
 ## 9/21
 - Start with a short binaural-audio recap and questions
+- [slides] [Anaglyph: binaural spatialization](/lectures/week-4/anaglyph/) — install it before class; the page documents every control and how to automate a fly-by
 - [lab] Binaural recording with the Zoom H3-VR and the Sound Professionals earbud mics
   - Combine binaural recordings with mono and stereo recordings rendered through Anaglyph
-  - Test out [Anaglyph](http://anaglyph.dalembert.upmc.fr/) in class — add sound effects or dialogue and experiment with automation
-  - Try a few [SOFA convention files](https://www.sofaconventions.org/mediawiki/index.php/Files); add them to the package contents to get them to show up in the VST
+  - Test out Anaglyph in class — add sound effects or dialogue and experiment with automation
+  - Start by comparing the bundled HRIR sets. Optional: try other [SOFA files](https://www.sofaconventions.org/mediawiki/index.php/Files) after preprocessing them with the tool linked in the [Anaglyph lesson](/lectures/week-4/anaglyph/#optional-loading-other-hrtfs).
 - Anaglyph projects, making of — [gallery](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 - [project] Introduce [Project 2: Binaural/Stereo](/projects/stereo/)
 ### homework
