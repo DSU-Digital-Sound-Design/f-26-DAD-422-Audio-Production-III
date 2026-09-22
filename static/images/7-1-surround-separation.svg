@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 650" role="img" aria-labelledby="title desc">
+<title id="title">7.1 speaker targets and surround separation</title>
+<desc id="desc">Top view with the listener at the center, facing the center speaker at zero degrees. Front left and right are at 30 degrees, side speakers at 90 degrees, and rear speakers at 135 degrees on each side. Two shaded wedges highlight the 45 degree angle at the listener between each side and rear speaker. Each gap must be between 30 and 60 degrees.</desc>
+<rect width="760" height="650" rx="12" fill="#101510"/>
+<g font-family="system-ui, sans-serif" text-anchor="middle">
+<text x="380" y="35" fill="#eef3eb" font-size="22" font-weight="650">Check the gap on each side</text>
+<text x="380" y="63" fill="#abb9aa" font-size="16">Top view · chosen setup targets · subwoofer omitted</text>
+<circle cx="380" cy="330" r="210" fill="none" stroke="#394439" stroke-dasharray="5 7"/>
+<path d="M380 330 L170 330 A210 210 0 0 0 231.51 478.49 Z M380 330 L528.49 478.49 A210 210 0 0 0 590 330 Z" fill="#6ec1ff" fill-opacity=".12"/>
+<g stroke="#596858" stroke-width="2">
+<path d="M380 330 L275 148.13 M380 330 L485 148.13"/>
+<path d="M380 330 V120" stroke-dasharray="5 5"/>
+</g>
+<g stroke="#6ec1ff" stroke-width="2.5" fill="none">
+<path d="M170 330 H590 M231.51 478.49 L380 330 L528.49 478.49"/>
+<path d="M290 330 A90 90 0 0 0 316.36 393.64 M443.64 393.64 A90 90 0 0 0 470 330" stroke-width="3"/>
+</g>
+<g fill="#eef3eb" stroke="#101510" stroke-width="3">
+<rect x="369" y="109" width="22" height="22" rx="4"/>
+<rect x="264" y="137.13" width="22" height="22" rx="4"/>
+<rect x="474" y="137.13" width="22" height="22" rx="4"/>
+</g>
+<g fill="#6ec1ff" stroke="#101510" stroke-width="3">
+<rect x="159" y="319" width="22" height="22" rx="4"/>
+<rect x="579" y="319" width="22" height="22" rx="4"/>
+<rect x="220.51" y="467.49" width="22" height="22" rx="4"/>
+<rect x="517.49" y="467.49" width="22" height="22" rx="4"/>
+</g>
+<g fill="#eef3eb" font-size="18">
+<text x="380" y="98">Center · 0°</text>
+<text x="244" y="118">Front left · 30°</text>
+<text x="516" y="118">Front right · 30°</text>
+<text x="103" y="299">Side left</text><text x="103" y="324">90°</text>
+<text x="657" y="299">Side right</text><text x="657" y="324">90°</text>
+<text x="216" y="514">Rear left · 135°</text>
+<text x="544" y="514">Rear right · 135°</text>
+</g>
+<g fill="#6ec1ff" font-size="25" font-weight="700">
+<text x="251" y="388">45°</text><text x="509" y="388">45°</text>
+</g>
+<circle cx="380" cy="330" r="14" fill="#eef3eb" stroke="#101510" stroke-width="3"/>
+<path d="M380 293 L374 305 H386 Z" fill="#eef3eb"/>
+<text x="380" y="367" fill="#eef3eb" font-size="16">Listener</text>
+<rect x="100" y="552" width="560" height="76" rx="8" fill="#1c281f"/>
+<text x="380" y="583" fill="#eef3eb" font-size="23" font-weight="650">135° rear − 90° side = 45° gap</text>
+<text x="380" y="611" fill="#abb9aa" font-size="18">Check each gap is 30°–60° · ITU-R BS.2051-3, Table 11</text>
+</g>
+</svg>
