@@ -1,0 +1,27 @@
+desc:DAD 422 FuMa to AmbiX (ACN SN3D)
+tags:ambisonic utility
+
+// First-order FuMa WXYZ -> AmbiX ACN/SN3D WYZX.
+// The coefficients match ATK's FOA/decoders/hoa1/acn-sn3d matrix.
+// This effect has no external matrix-file dependency.
+
+in_pin:FuMa W
+in_pin:FuMa X
+in_pin:FuMa Y
+in_pin:FuMa Z
+
+out_pin:AmbiX W
+out_pin:AmbiX Y
+out_pin:AmbiX Z
+out_pin:AmbiX X
+
+@sample
+w = spl0;
+x = spl1;
+y = spl2;
+z = spl3;
+
+spl0 = 1.4142135623730951 * w;
+spl1 = y;
+spl2 = z;
+spl3 = x;

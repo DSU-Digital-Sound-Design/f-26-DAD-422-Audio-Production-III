@@ -97,8 +97,8 @@ A useful check takes less than a minute:
 
 The binaural decoder and this temporary listener rotation are for headphone
 monitoring. Do not bake them into the four-channel delivery. Before rendering,
-reset or bypass `RotateTiltTumble`, bypass the binaural decoder, and use
-`BtoAmbiX` as described below.
+reset or bypass `RotateTiltTumble`, bypass the binaural decoder, and use the
+FuMa-to-AmbiX converter described below.
 
 ## Convert ATK output to AmbiX
 
@@ -107,17 +107,21 @@ AmbiX. The formats use different channel orders and normalization. Uploading
 FuMa without conversion will distort the level and direction of the sound
 field.
 
-Place ATK's `BtoAmbiX` plug-in last in the four-channel Ambisonics path. Choose
-the S3DN option for YouTube's SN3D normalization. For a four-channel delivery,
-render channels 1 through 4 as W, Y, Z, X. For a six-channel delivery, route
-the head-locked stereo mix to channels 5 and 6 before rendering W, Y, Z, X, L,
-R.
+Use the [course FuMa-to-AmbiX JSFX]({{< rel "downloads/DAD422-FuMa-to-AmbiX.zip" >}})
+after the ATK processors on the four-channel Ambisonics path. The
+[ATK setup lesson]({{< rel "lectures/week-5/atk-setup/" >}}#render-binaural-and-surround-wavs)
+shows how to install it. The converter changes FuMa W, X, Y, Z to AmbiX W, Y,
+Z, X with SN3D normalization; it has no format setting to select. For a
+four-channel delivery, render those four outputs. For a six-channel delivery,
+add the head-locked stereo mix to channels 5 and 6 **after** the converter,
+then render W, Y, Z, X, L, R.
 
 ## Prepare and upload the video
 
 1. Finish the ATK mix while monitoring through the room decoder or a binaural
    decoder.
-2. Add `BtoAmbiX` as the final process in the Ambisonics path and select S3DN.
+2. Add the course FuMa-to-AmbiX converter after the ATK processors on the
+   four-channel Ambisonics path.
 3. Render one 48 kHz multichannel WAV. Use four channels for AmbiX alone or
    six channels when the project includes head-locked stereo.
 4. Replace the video's temporary audio with the multichannel file. For this
@@ -184,7 +188,7 @@ project.
 
 1. Place at least three sources against the picture. Include one stationary
    source, one moving source, and an ambience bed.
-2. Add `BtoAmbiX`, select S3DN, and render a four-channel 48 kHz WAV. If the
+2. Add the course FuMa-to-AmbiX converter and render a four-channel 48 kHz WAV. If the
    project uses head-locked narration or music, render six channels instead.
 3. Mux the audio with the video, inject the required metadata, and upload the
    result as unlisted.

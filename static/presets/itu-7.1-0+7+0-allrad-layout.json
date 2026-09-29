@@ -1,0 +1,19 @@
+{
+  "Name": "DAD 422 ITU 7.1 target layout for IEM AllRADecoder",
+  "Description": "Seven ear-level mains at the targets in the Week 7 room-calibration lesson. Channel 4 is reserved for LFE and is not decoded. Import this layout into AllRADecoder and calculate a first-order decoder. Verify physical routing with the plugin's Noise buttons before monitoring.",
+  "LoudspeakerLayout": {
+    "Name": "ITU 0+7+0 target angles; 7.1 channel slots",
+    "Description": "Azimuth is positive left. Channels: 1 FL, 2 FR, 3 C, 4 LFE (unused), 5 SL, 6 SR, 7 RL, 8 RR. Zenith and nadir are imaginary triangulation points, not outputs.",
+    "Loudspeakers": [
+      { "Azimuth": 30.0, "Elevation": 0.0, "Radius": 1.0, "IsImaginary": false, "Channel": 1, "Gain": 1.0 },
+      { "Azimuth": -30.0, "Elevation": 0.0, "Radius": 1.0, "IsImaginary": false, "Channel": 2, "Gain": 1.0 },
+      { "Azimuth": 0.0, "Elevation": 0.0, "Radius": 1.0, "IsImaginary": false, "Channel": 3, "Gain": 1.0 },
+      { "Azimuth": 90.0, "Elevation": 0.0, "Radius": 1.0, "IsImaginary": false, "Channel": 5, "Gain": 1.0 },
+      { "Azimuth": -90.0, "Elevation": 0.0, "Radius": 1.0, "IsImaginary": false, "Channel": 6, "Gain": 1.0 },
+      { "Azimuth": 135.0, "Elevation": 0.0, "Radius": 1.0, "IsImaginary": false, "Channel": 7, "Gain": 1.0 },
+      { "Azimuth": -135.0, "Elevation": 0.0, "Radius": 1.0, "IsImaginary": false, "Channel": 8, "Gain": 1.0 },
+      { "Azimuth": 0.0, "Elevation": 90.0, "Radius": 1.0, "IsImaginary": true, "Channel": 9, "Gain": 1.0 },
+      { "Azimuth": 0.0, "Elevation": -90.0, "Radius": 1.0, "IsImaginary": true, "Channel": 10, "Gain": 1.0 }
+    ]
+  }
+}

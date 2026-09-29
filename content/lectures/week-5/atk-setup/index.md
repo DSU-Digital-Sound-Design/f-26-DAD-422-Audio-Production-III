@@ -64,15 +64,56 @@ ATK also provides tools for multichannel situations (planewave transcoders for 5
 
 ## Step 2: Transform the Soundfield
 
-Place transformers on the B‑format bus to manipulate the entire soundfield coherently:
+ATK transformers take four-channel FuMa B-format in and return four-channel
+FuMa B-format. Put one after an encoder on an individual source to move that
+source. Put it on the B-format bus to change the whole scene. In either case,
+keep the transformer before the binaural or speaker decoder.
 
-* Rotate/Tilt/Tumble for multi‑axis rotations (camera‑like moves).
-* Focus/Press/Push/Zoom to emphasize or collapse energy toward a direction of interest.
-* Dominance to weight the scene toward or away from a target region.
-* Mirror/MirrorO for symmetry‑based morphs.
-* Proximity/Nearfield to add or remove near‑field effects musically.
+* **RotateTiltTumble** rotates the field around three axes. `Rotate` moves
+  directions around the listener; `Tilt` and `Tumble` turn the field through
+  vertical planes. The code leaves W unchanged and rotates X, Y, and Z.
+  Automate `Rotate` for a source circling the listener, or put the plug-in on
+  the bus when the entire scene should turn.
+* **FocusPressPushZoom** aims a change at an `Azimuth` and `Elevation`. Set
+  `Degree of transformation` to 0° for no change; at 90° all four modes pull
+  the field to the chosen direction. What differs is how they get there:
+  * **Focus** favors sounds already near that direction by reducing the
+    opposite side. It keeps the sound directly at the target at roughly its
+    original level.
+  * **Zoom** also favors the target, but raises its level while keeping sounds
+    at right angles closer to their original level. Check the meter when
+    switching from Focus to Zoom.
+  * **Press** shifts sounds from across the field toward the target without
+    strongly favoring the level of sounds that started there. At partial
+    settings it retains more of the side and vertical directional components.
+  * **Push** gathers the field toward the same target more strongly at partial
+    settings. In the code, Press scales the side and vertical components by
+    the cosine of the angle; Push scales them by its square, so those
+    components shrink faster as you raise the control.
 
-Many transformers include GUIs that visualize what you’re doing, which makes automation intuitive. ([Ambisonic Toolkit][4])
+  Use Focus or Zoom to draw attention to a region; use Press or Push when you
+  want the whole field to converge toward it. Compare all four at the same
+  angle through a decoder. ([ATK's explanation of these transforms](https://www.ambisonictoolkit.net/assets/files/2014-ICMC-ATK-Reaper.pdf))
+* **Dominate** emphasizes a chosen azimuth and elevation. Its `Gain increase`
+  control runs from 0 to 24 dB. At 0 dB the transform is unchanged; higher
+  values can raise peaks, so watch the output meter. Use it to draw attention
+  to a region of an already mixed field.
+* **Mirror** reflects the field across a plane you set with azimuth and
+  elevation. **MirrorO** has no controls: it keeps W and flips the signs of X,
+  Y, and Z, sending each direction to the opposite side of the listener.
+  These are distinct from rotation because they reverse the field's geometry.
+* **NearfieldProximity** has two modes and a `Distance` control from 0.1 to
+  5 meters. `Near Field Compensation` reduces proximity coloration;
+  `Introduce Proximity Effect` adds it. The code filters X, Y, and Z while W
+  passes unchanged. This changes low-frequency and phase cues, not the
+  source's level or reverberation, so listen through the decoder rather than
+  treating the distance value as a literal source position.
+
+For a quick check, encode one mono sound to FuMa, put `RotateTiltTumble` after
+the encoder, and automate `Rotate` over a short phrase. Listen on headphones
+through the binaural decoder. Then move the same transformer to the B-format
+bus: every encoded sound should now turn together. ATK's graphics show the
+transform, but the decoded sound is the final check. ([Ambisonic Toolkit][4])
 
 ---
 
@@ -88,9 +129,108 @@ Because decoding is separate from authoring and imaging, you can keep multiple d
 
 ---
 
-## Exporting Without Painting Yourself Into a Corner
+## Render binaural and surround WAVs
 
-When it’s time to deliver, render stems from your decoder tracks (stereo/UHJ/binaural/5.0, etc.) while also keeping a clean B‑format master for future re‑decoding. Reaper’s stem‑rendering workflow and track‑based decoders make this straightforward—even at higher channel counts—without re‑wiring the session. ([DXARTS][5])
+Keep the four-channel FuMa B-format bus undecoded. Make separate tracks for the
+headphone and speaker outputs. The [room calibration lesson]({{< rel "lectures/week-7/room-calibration/" >}})
+explains the seven speaker positions and the difference between LFE and bass
+management.
+
+### Binaural output
+
+Send channels 1–4 of the B-format bus to a four-channel decoder track. Put an
+ATK FOA binaural decoder on that track; it turns the four-channel input into a
+stereo output on channels 1–2. For a headphone copy, select only this track and
+render a stereo WAV at 48 kHz / 24-bit with **Channels** set to **2**.
+
+### Seven main speakers
+
+1. Download the [course FuMa-to-AmbiX converter]({{< rel "downloads/DAD422-FuMa-to-AmbiX.zip" >}}).
+   Unzip it. In REAPER, choose **Options → Show REAPER resource path in
+   explorer/finder**, place `DAD422-FuMa-to-AmbiX.jsfx` in the `Effects` folder,
+   and restart REAPER. The course converter has no external matrix file to go
+   missing. Install the [IEM Plug-in Suite](https://plugins.iem.at/) too.
+2. Make an eight-channel decoder track. Send channels 1–4 of the undecoded
+   FuMa bus to its channels 1–4. Insert **DAD 422 FuMa to AmbiX (ACN SN3D)**,
+   followed by **IEM AllRADecoder**. Keep the converter's four inputs and four
+   outputs on channels 1–4 in the FX pin connectors.
+3. In AllRAD, select **SN3D** input and first-order decoding. [Import the
+   classroom 7.1 layout]({{< rel "presets/itu-7.1-0+7+0-allrad-layout.json" >}})
+   and click **Calculate Decoder**. Its two imaginary speakers help the decoder
+   calculate the layout; they do not feed output channels.
+
+AllRAD sends audio to the seven main-speaker slots. Our eight-channel WAV uses
+this order:
+
+| WAV channel | Speaker |
+| ---: | --- |
+| 1 | Front left |
+| 2 | Front right |
+| 3 | Center |
+| 4 | LFE |
+| 5 | Side left |
+| 6 | Side right |
+| 7 | Rear left |
+| 8 | Rear right |
+
+### The LFE channel
+
+Channel 4 is a real, separate LFE channel. AllRAD does not create it from the
+ambisonic field. The monitoring system may also send bass from the seven main
+channels to the subwoofer through bass management. That playback routing does
+not put audio into channel 4 of your WAV. A silent LFE channel is possible in
+general, but Project 03 asks you to put a deliberate effect there.
+
+Build the 7.1 render path in REAPER this way:
+
+1. Create a track named `7.1 PRINT` and set its **track channels** to **8**.
+   Leave its FX chain empty. This is the track you will render.
+2. Open the AllRAD decoder track's routing window. Add a send to `7.1 PRINT`
+   with **Audio 1–8 → 1–8**. Turn off **Master/parent send** on the decoder
+   track so it reaches the print bus only once.
+3. Create a separate track named `LFE EFFECT`, outside the B-format folder.
+   Choose one or two sounds that need extra impact. If the source is a mono
+   recording, copy its item to `LFE EFFECT`, or make a **Pre-FX** send from its
+   source track before the ATK encoder. If the source is already encoded to
+   four-channel FuMa, set a send's **Audio** routing to **mono source channel 1
+   (W) → mono destination channel 1** on `LFE EFFECT`. W is the
+   omnidirectional component. Do not sum W, X, Y, and Z into mono or use the
+   whole B-format bus as an automatic LFE feed. Low-pass `LFE EFFECT` at or
+   below 120 Hz.
+   Keep the original source in the main mix so the LFE augments rather than
+   replaces its bass.
+4. Open `LFE EFFECT`'s routing window and add a send to `7.1 PRINT`. Change
+   the send's **Audio** routing from its default stereo pair to **mono source
+   channel 1 → mono destination channel 4**. A mono item may appear on both
+   channels 1 and 2 of a REAPER track; selecting source channel 1 avoids
+   sending two copies. Turn off **Master/parent send** on `LFE EFFECT`.
+5. Keep `LFE EFFECT` out of the FuMa bus and the AllRAD input. A send into the
+   decoder track before AllRAD may be replaced when the plug-in writes its
+   speaker feeds. A direct hardware output to the subwoofer lets you monitor
+   it, but does not put that signal into the rendered WAV. The send to channel
+   4 of `7.1 PRINT` does.
+
+To listen, keep both the AllRAD decoder track and `LFE EFFECT` **unmuted**.
+Turning off **Master/parent send** prevents them from reaching the master
+directly; it does not silence their sends to `7.1 PRINT`. Monitor through
+`7.1 PRINT`, routed to the room's calibrated eight-channel output path. Use
+only one monitoring path so you do not hear a second copy through the stereo
+master. That hardware routing lets you listen; the WAV still comes from
+rendering `7.1 PRINT`.
+
+Keep essential bass in the main-speaker mix. The room's LFE calibration handles
+the playback level; do not add a 10 dB boost to the LFE track to imitate it.
+
+### Export and check
+
+Select only `7.1 PRINT` and choose **Stems (selected tracks)** in REAPER's
+Render window. Enable **Multichannel tracks to multichannel files**, set
+**Channels** to **8**, and
+choose WAV at 48 kHz / 24-bit. This creates one eight-channel interleaved file.
+Reimport a short test render and inspect all eight waveforms. Check that the
+seven main channels carry audio, channel 4 contains only your intended LFE
+effect, and the file has eight channels. Listen to the binaural render on
+headphones. Audition the 7.1 file on the calibrated classroom system.
 
 ---
 
