@@ -104,25 +104,32 @@ funds undergraduate work.
 - **Project 3: Ambisonics** — due Monday 10/19
 
 ## 10/2
-- [slides] [Publishing ambisonics: 360 video for YouTube](/lectures/week-5/youtube-360/)
-- [lab] Publish one minute of ambisonics: spatialize against a 360 clip, convert to ambiX, inject metadata, and upload unlisted
-- Or continue with the ambisonic mix from last class — the upload lab can also happen alongside Project 3 work
+- [lab] Continue Wednesday's ambisonics mix with guided setup and practice
+  - Check the four-channel B-format bus and separate binaural and 7.1 decoder tracks
+  - Set up the course FuMa-to-AmbiX converter and IEM AllRADecoder using the [ATK setup guide](/lectures/week-5/atk-setup/#seven-main-speakers)
+  - Make short binaural and 7.1 test renders; reimport the 7.1 file to check its channel order and LFE channel
 
 ## 10/5
-- Move to **5.1 mixing** and some history of cinema sound
-- [slides] [Cinema's hidden multi-channel history and the origins of digital surround](/lectures/week-6/cinema-sound-history/)
+- [lab] Project checkpoint before the break in class meetings
+  - Start with questions and final troubleshooting for [Project 2: Binaural/Stereo](/projects/stereo/), due Friday through D2L
+  - Check each student's [Project 3: Ambisonics](/projects/ambisonics/) routing and short binaural and 7.1 renders; identify what still needs work before the 10/16 check-in
+- Brief introduction to the roles of the 5.1 channels before the independent review
 
 ## 10/7
-- [slides] [The sound of 5.1: aural aesthetics — dynamic range](/lectures/week-6/the-sound-of-5.1/)
+- [off] **No class meeting — instructor away**
+- Independently review [Cinema's hidden multi-channel history and the origins of digital surround](/lectures/week-6/cinema-sound-history/) and [The sound of 5.1: aural aesthetics — dynamic range](/lectures/week-6/the-sound-of-5.1/)
+- Continue work on Project 3 using the renders checked on Monday
 
 ## 10/9
-- [slides] [The sound of 5.1: aural aesthetics — discrete channels and complexity](/lectures/week-6/the-sound-of-5.1-complexity/)
-- [due] **Project 2: Binaural/Stereo** — due today
+- [off] **No class meeting — instructor away**
+- Independently review [The sound of 5.1: aural aesthetics — discrete channels and complexity](/lectures/week-6/the-sound-of-5.1-complexity/)
+- [due] **Project 2: Binaural/Stereo** — due today through D2L
 
 ## 10/12
 - [off] **No class — Native American Day**
 
 ## 10/14
+- Brief recap of the independent 5.1 review and questions
 - Two videos on Reaper and surround:
   - [An introduction to spatial audio with Matt Glenn (part 1)](https://www.youtube.com/watch?v=KBLvTttsTaw)
   - [How to use ReaSurroundPan for spatial audio in REAPER (part 2)](https://www.youtube.com/watch?v=vg28Dok2vqQ)
