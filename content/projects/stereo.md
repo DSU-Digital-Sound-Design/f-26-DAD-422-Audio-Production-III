@@ -4,7 +4,7 @@ number: "02"
 weight: 2
 week: 5
 assigned: "2026-09-21"
-due: "2026-10-09"
+due: "2026-10-14"
 summary: "One minute of binaural work combining a stereo mic technique, a Zoom H3-VR binaural recording, and mono sources spatialised in Anaglyph."
 tools: ["REAPER", "Zoom H3-VR", "Anaglyph"]
 # the brief in the body already spells out deliverables and grading

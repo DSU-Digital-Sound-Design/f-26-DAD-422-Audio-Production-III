@@ -75,7 +75,7 @@ funds undergraduate work.
 - Anaglyph projects, making of — [gallery](http://anaglyph.dalembert.upmc.fr/page-gallery.html)
 - [project] Introduce [Project 2: Binaural/Stereo](/projects/stereo/)
 ### homework
-- **Project 2: Binaural/Stereo** — due Friday 10/9
+- **Project 2: Binaural/Stereo** — due Wednesday 10/14 by the start of class
 
 ## 9/23
 - Meet in the immersive room
@@ -111,7 +111,7 @@ funds undergraduate work.
 
 ## 10/5
 - [lab] Project checkpoint before the break in class meetings
-  - Start with questions and final troubleshooting for [Project 2: Binaural/Stereo](/projects/stereo/), due Friday through D2L
+  - Start with questions and troubleshooting for [Project 2: Binaural/Stereo](/projects/stereo/), due Wednesday 10/14
   - Check each student's [Project 3: Ambisonics](/projects/ambisonics/) routing and short binaural and 7.1 renders; identify what still needs work before the 10/16 check-in
 - Brief introduction to the roles of the 5.1 channels before the independent review
 
@@ -123,21 +123,16 @@ funds undergraduate work.
 ## 10/9
 - [off] **No class meeting — instructor away**
 - Independently review [The sound of 5.1: aural aesthetics — discrete channels and complexity](/lectures/week-6/the-sound-of-5.1-complexity/)
-- [due] **Project 2: Binaural/Stereo** — due today through D2L
 
 ## 10/12
 - [off] **No class — Native American Day**
 
 ## 10/14
-- Brief recap of the independent 5.1 review and questions
-- Two videos on Reaper and surround:
-  - [An introduction to spatial audio with Matt Glenn (part 1)](https://www.youtube.com/watch?v=KBLvTttsTaw)
-  - [How to use ReaSurroundPan for spatial audio in REAPER (part 2)](https://www.youtube.com/watch?v=vg28Dok2vqQ)
-- Show [ReaSurroundPan](https://dlz.reaper.fm/userguide/ReaperUserGuide723d.pdf#page=186.08)
-- [slides] [ReaSurroundPan](/lectures/week-7/reasurround-new/)
+- [due] **Project 2: Binaural/Stereo** — due by the start of class through D2L
+- Listen to and discuss the binaural projects together in class
+- Play the 5.1 demos and go through [Friday's discrete channels and complexity slides](/lectures/week-6/the-sound-of-5.1-complexity/) to play the examples
 
 ## 10/16
-- Listen to binaural projects
 - [lab] Ambisonics check-in day
   - Each student presents their project and discusses their process for about 5 minutes
   - Students then give feedback and constructive comments for about 2 minutes
@@ -150,8 +145,14 @@ funds undergraduate work.
 ## 10/19
 - [due] **Project 3: Ambisonics** — due today
 - Listen to ambisonics mixes in class and talk about your process
+### homework
+- Before Wednesday, watch two videos on Reaper and surround:
+  - [An introduction to spatial audio with Matt Glenn (part 1)](https://www.youtube.com/watch?v=KBLvTttsTaw)
+  - [How to use ReaSurroundPan for spatial audio in REAPER (part 2)](https://www.youtube.com/watch?v=vg28Dok2vqQ)
 
 ## 10/21
+- Show [ReaSurroundPan](https://dlz.reaper.fm/userguide/ReaperUserGuide723d.pdf#page=186.08)
+- [slides] [ReaSurroundPan](/lectures/week-7/reasurround-new/)
 - [lab] Group mix in 7.1 using ReaSurroundPan to learn how it works — in the room we calibrated on 9/23
   - This is an option: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
   - Or we can pick a different song
