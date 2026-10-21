@@ -1,170 +1,249 @@
 +++
-title = "What is Dolby Atmos?"
+title = "Dolby Atmos"
 outputs = ["Reveal"]
 [reveal_hugo]
 margin = 0.2
 +++
 
-# Why Atmos?
+# Dolby Atmos
+
+Audio, position metadata, and a renderer
 
 {{% note %}}
-Atmos separates the mix from a fixed playback layout. Beds carry
-channel-based audio, objects carry audio with position metadata, and a
-renderer combines them for the available speakers or headphones.
+Atmos separates object audio and spatial intent from a fixed playback layout.
+Beds carry channel-based audio; objects carry audio and separate position
+metadata. The renderer combines them for a monitoring or playback system.
 
-This solves a practical problem. A 7.1 mix describes what each of eight
-channels should play. An Atmos master describes the sound scene and gives the
-renderer information it can adapt to different systems.
-
-By the end of class, students should be able to explain beds and objects,
-compare the two panners in Logic, describe the renderer's job, and identify an
-appropriate master format for a delivery.
+Connect this lesson to the 7.1 REAPER mix before introducing new software.
+Students should be able to trace both signal paths, justify a bed/object choice,
+and distinguish an ADM master from a rendered listening file.
 {{%/ note %}}
 
 ---
 
-## From mono to immersive
+## Our REAPER mix was channel-based
 
-* Mono: one channel
-* Stereo: an image between two speakers
-* Surround: speakers around the listener
-* Immersive: surround with height
+* ReaSurroundPan distributed audio among eight channels
+* Automation changed that distribution over time
+* The exported 7.1 WAV stored those channel signals
+* An Atmos object keeps audio and position metadata separate
 
 {{% note %}}
-These categories describe different ways of representing and reproducing
-space. They are not a quality ranking. A strong stereo mix can be more
-effective than a weak immersive mix.
+Recall one movement from Wednesday's mix. REAPER stored the panner automation
+in the session, but the 7.1 render contained the resulting eight audio channels.
+An Atmos master can retain object audio and its pan metadata for later rendering.
+ReaSurroundPan alone does not create an Atmos master.
 
-Atmos is one immersive-audio system. Other approaches include Ambisonics,
-Auro-3D, MPEG-H Audio, IAMF, and Apple's newer ASAF and APAC workflow.
+Both workflows can move sounds. The difference is what the master preserves,
+not whether a source moves.
 {{%/ note %}}
 
 ---
 
-## Terms that get confused
+## Bed format and speaker layout
 
-* A channel is a signal; a speaker is a transducer
-* Several speakers can reproduce the same mono channel
-* Surround describes a playback layout
-* Ambisonics represents a sound scene
-* Atmos combines channel beds, objects, metadata, and rendering
+| Format | Channels | Role in this course |
+| --- | --- | --- |
+| 7.1 | 8 | Our REAPER mix and room playback |
+| 7.1.2 | 10 | Our Logic Atmos bed |
+| 7.1.4 | 12 | A monitoring layout with four height channels |
+
+The bed format and monitoring format are separate choices.
 
 {{% note %}}
-A bed is a channel-based submix routed to a fixed layout, commonly 7.1.2.
-An object is a mono or stereo signal whose position and movement are stored as
-metadata. The renderer decides how to reproduce that position on the playback
-system.
+The first number counts main ear-level channels, .1 is LFE, and the last
+number counts height channels. LFE is a signal channel, not a count of physical
+subwoofers. A channel is a signal; a speaker is a transducer.
+
+Logic offers one shared bed, selectable as 5.1, 7.1, or 7.1.2. We will use 7.1.2.
+Its top-middle pair cannot carry separate front-height and rear-height signals.
+The renderer maps the bed and objects to the chosen monitoring layout.
+A 7.1.4 monitoring setting does not turn the bed into a 7.1.4 bed or create
+physical height speakers in our 7.1 room.
 {{%/ note %}}
 
 ---
 
-## What Atmos contains
+## Beds and objects
 
-* One or more channel-based beds
-* Mono or stereo objects with position metadata
-* Up to 128 input channels at 48 kHz
-* Up to 118 object inputs
-* A renderer for the target playback layout
-
-<img src="https://blog.soundparticles.com/hs-fs/hubfs/channel-object-audio.png?width=1875&name=channel-object-audio.png" alt="Channel and object audio" style="display:block;margin:1.5rem auto 0;max-width:70%;height:auto;">
+* **Bed:** tracks combine into a channel-based submix
+* **Object:** audio stays separate, with position and size metadata
+* Either can contain stationary or moving sounds
+* A stereo object track uses two object inputs
 
 {{% note %}}
-A standard 7.1.2 bed uses ten channels: seven ear-level channels, LFE, and a
-pair of top-middle channels. The remaining renderer inputs can carry objects.
-The exact number available depends on the bed configuration, but an Atmos
-master cannot exceed 128 PCM channels or 118 objects.
+In Logic at 48 kHz, the usual budget is a ten-channel 7.1.2 bed plus up to
+118 mono object inputs, 128 input channels in total. Do not confuse this with
+the number of playback speakers. A stereo object track consumes two inputs.
 
-Beds and objects serve different purposes. Beds are useful for material that
-should remain distributed across a channel layout. Objects are useful when a
-sound needs precise location, movement, size, or separate metadata.
+A bed is useful for material that should share a channel-based bus. Objects
+are useful for independent placement, size, or binaural metadata, including
+stationary sources. A bed track's panner can also be automated.
+
+Ambisonics, used in Project 3, encodes a sound field for decoding. Atmos uses
+bed audio, object audio, and metadata. Both can adapt to a playback layout,
+but they preserve spatial information differently.
 {{%/ note %}}
 
 ---
 
-<img src="object-tracks-and-bed-tracks-routing.png" alt="Object tracks and bed tracks routing" style="display:block;margin:1rem auto 0;max-width:80%;height:auto;">
+## Two paths into the renderer
+
+<img src="atmos-routing-simple.svg" alt="Object audio and separate position metadata feed a renderer; bed tracks combine into a multichannel bed before rendering to speakers or headphones." style="display:block;width:100%;max-width:100%;height:auto;margin:0.5rem auto;">
+
+<p style="font-size:0.58em;">Simplified course diagram. <a href="https://www.eventideaudio.com/blog/atmos-demystified/">Eventide routing reference</a> · <a href="https://support.apple.com/en-au/guide/logicpro/lgcp73f9b9ac/mac">Logic signal paths</a></p>
 
 {{% note %}}
-This Apple diagram shows the two signal paths in Logic.
+Trace the object path at bottom left: the audio reaches the renderer without being
+mixed into the bed, while location, size, and movement travel as metadata.
+Trace the bed path at top left: its panner distributes audio into the
+shared 7.1.2 bed. The renderer receives both paths and creates the outputs.
 
-Bed tracks route to one shared surround bed. Logic can configure that bed as
-5.1, 7.1, or 7.1.2. A 7.1.2 bed contains L, R, C, LFE, Ls, Rs, Lrs, Rrs,
-Ltm, and Rtm. Because it has only one overhead pair, it cannot distinguish
-front-height from rear-height positions.
+The output represents either a speaker render or a binaural headphone render,
+not a required speaker count.
+In Logic, the renderer is the Dolby Atmos plug-in. Object tracks bypass the bed
+bus, so processing placed on that bus before the renderer does not automatically
+process objects. Logic allows mono or stereo object tracks, not surround objects;
+the object panner has no direct LFE send.
+{{%/ note %}}
 
-Object tracks bypass the surround bed and connect to object inputs on the
-Dolby Atmos plug-in. The 3D Object Panner sends the audio and its position
-metadata to the corresponding input. Logic allows mono and stereo object
-tracks, but not surround object tracks. A stereo object uses two object
-inputs, and object tracks do not have an LFE send.
+---
 
-Logic exports the bed audio, object audio, automation, and supporting metadata
-in an ADM BWF master.
+## Rendering for the playback system
+
+* Bed channel signals and object metadata enter the renderer
+* The renderer creates outputs for the selected layout
+* Headphones require binaural rendering
+* Different playback systems still need listening checks
+
+{{% note %}}
+A fixed downmix matrix works from channel signals. Atmos rendering also uses
+object position, size, and movement. Spatial information may be encoded and
+packaged differently for consumer distribution; an ADM master is not the same
+file as a streaming encode.
+
+Rendering cannot guarantee identical sound on every device. Placement, room
+acoustics, virtualization, and the renderer affect the result. A speaker render
+with no height outputs can include sounds positioned overhead, but it cannot
+reproduce discrete overhead speakers that are not present.
+{{%/ note %}}
+
+---
+
+## Ambisonics and Atmos
+
+| | Ambisonics | Atmos |
+| --- | --- | --- |
+| Stores | Encoded sound-field components | Bed audio, object audio, metadata |
+| Positions | Encoded into component signals | Object positions stored separately |
+| Playback | Decode for speakers or headphones | Render for speakers or headphones |
+
+Both can preserve height and adapt to different playback layouts.
+
+{{% note %}}
+Recall Project 3: source > ATK encoder > B-format mix > decoder > outputs.
+The four channels of full-sphere first-order B-format are sound-field components,
+not four speaker feeds. Higher orders use more components for greater spatial
+detail. Channel order and normalization must match the decoder; our ATK workflow
+uses FuMa conventions, while AmbiX uses a different ordering and normalization.
+
+For Atmos: bed audio plus separate object audio and position metadata > renderer
+> outputs. An object channel is also not a speaker feed. Neither format requires
+one fixed playback speaker count, and both can produce binaural headphone audio.
+Playback flexibility does not guarantee equal localization on every system.
+
+Ambisonics is not just a microphone technique: you can encode and automate
+individual sources, as in Project 3. Atmos is not just a larger surround layout.
+The distinction here is how the spatial scene is represented and retained.
+{{%/ note %}}
+
+---
+
+## One bird, one background
+
+* **Ambisonics:** encode the bird and traffic into a shared field
+* **Atmos:** keep the bird as an object; place the traffic in the bed
+* Rotate an Ambisonic mix and the whole field turns
+* Move the Atmos bird object and its background can stay put
+
+What would you need to move only the bird in a finished Ambisonic mix?
+
+{{% note %}}
+Use the bird and traffic example from the Ambisonics introduction. In the
+Ambisonic session, the bird can move independently at its encoder before it
+joins the shared field. But a single mixed B-format master no longer retains
+that bird as a separately addressable source. Return to the source session or
+keep separate Ambisonic stems to revise it independently; rotating the finished
+field rotates the traffic too. Directional processing of a field is possible,
+but it is not the same as retrieving an isolated bird track.
+
+In the Atmos master, an object retains separate audio and metadata, so a
+compatible authoring tool can revise its placement independently of the bed.
+Sounds already combined in the bed are not separately recoverable either.
+A source's independent editability depends on what you preserve in the master
+or stems, not whether it was originally recorded with a particular microphone.
+
+This is a workflow comparison, not a ranking. Ambisonics suits captured or
+constructed sound fields and field transformations; Atmos suits bed/object
+authoring and its delivery ecosystem. Both can mix recorded ambience with
+separately recorded sounds and both can animate spatial placement.
+{{%/ note %}}
+
+---
+
+## Listen to one placement change
+
+1. Hear a short excerpt with one object held in place
+2. Hear it again with one deliberate movement
+3. Compare a 7.1 speaker render with a binaural preview
+4. Describe what stayed clear and what changed
+
+{{% note %}}
+Use a prepared Logic Atmos session and the same short excerpt at similar
+listening loudness. Keep every other mix choice unchanged. Monitor through
+the actual verified room layout, then use headphones for the binaural preview.
+Do not play a binaural signal through the room and label it a discrete surround
+comparison. If headphones are unavailable, make the speaker comparison and
+reserve the binaural check for the next listening lesson.
+
+Ask whether the movement helps musical phrasing or draws unwanted attention.
+An object does not have to move to justify its use.
 {{%/ note %}}
 
 ---
 
 ## Two panners in Logic
 
-<img src="bed-vs-object-logic.png" alt="Bed and object panners in Logic Pro" style="display:block;margin:1rem auto 0;max-width:80%;height:auto;">
+<img src="bed-vs-object-logic.png" alt="Logic Surround Panner feeding the bed beside the 3D Object Panner sending object position metadata." style="display:block;margin:0.5rem auto;max-width:100%;height:auto;">
 
 {{% note %}}
-The Surround Panner on the left routes a bed track among channels in the
-selected surround format. Its controls refer to the speaker layout.
-
-The 3D Object Panner on the right stores a speaker-independent position. It
-controls left and right position, front and back position, elevation, and
-object size. Stereo objects also have a Spread control. These parameters can
-be automated.
-
-Ask students which sounds need object behavior. Movement and precise
-localization are good reasons. A stable ambience or reverb return may be
-easier to manage in the bed.
+The Surround Panner routes a bed track among the selected bed channels. Its
+controls refer to that channel layout. The 3D Object Panner describes position
+and size independently of a particular speaker layout. Stereo objects add Spread.
+Both can be automated. Point to the controls for one stationary placement and
+one movement; save the full session-setup procedure for the Logic workshop.
 {{%/ note %}}
 
 ---
 
-## Master files and playback encodes
+## Choose a path and explain why
 
-| Stage | Common format | Purpose |
-| --- | --- | --- |
-| Music master | ADM BWF | Delivery to a label, distributor, or music service |
-| Renderer master | DAMF, ADM BWF, or IMF IAB | Post-production, interchange, QC, and encoding |
-| Consumer encode | Dolby Digital Plus with Atmos, TrueHD with Atmos, or AC-4 | Streaming, disc, broadcast, or device playback |
-| Cinema package | IAB in a DCP | Theatrical playback |
+* A lead vocal that stays in front
+* A sound effect that moves overhead
+* A diffuse ambience or reverb return
 
-{{% note %}}
-Do not treat one file type as the answer for every Atmos delivery. The client
-or platform specification decides what to submit.
-
-For Atmos music, an ADM BWF is widely accepted as the source master. It stores
-PCM audio for the beds and objects along with position, binaural, and
-downmix-related metadata. Music delivery usually also includes a synchronized
-stereo master.
-
-DAMF is the Dolby Atmos Renderer's editable master fileset. IMF IAB packages
-immersive audio in MXF for larger post-production and distribution workflows.
-Compressed formats such as Dolby Digital Plus with Atmos and AC-4 are playback
-encodes. Do not submit one in place of a master unless the delivery
-specification requests it.
-{{%/ note %}}
-
----
-
-## Rendering is layout-aware
-
-* Objects retain position metadata until playback
-* Beds retain their channel assignments
-* The renderer uses the available speaker layout
-* Headphone playback uses a binaural renderer
+Which would you put in the bed or an object? What control do you need?
 
 {{% note %}}
-A static downmix applies a fixed channel matrix. An Atmos renderer also reads
-object position, movement, and size before distributing the audio to the
-available outputs.
+Accept more than one defensible answer. The stationary vocal can be an object
+for independent positioning and binaural settings, or a bed track when its
+channel-based routing serves the mix. An overhead movement benefits from an
+object's height positioning. An ambience might share the bed or use objects
+for a particular spatial design.
 
-Rendering cannot guarantee identical sound on every device. Speaker placement,
-room acoustics, virtualization, and the renderer itself still matter. The mix
-must be checked in the formats the audience is likely to use.
+Counterexample: automate a bed track from left to right. It moves, but remains
+a bed track. Check that students can explain the routing rather than sorting
+sounds solely into static and moving categories.
 {{%/ note %}}
 
 ---
@@ -172,41 +251,61 @@ must be checked in the formats the audience is likely to use.
 ## Binaural monitoring
 
 * Dolby Renderer modes: Off, Near, Mid, Far
-* Apple Renderer: Music and Movie monitoring modes
-* Optional head tracking and personalized profiles on supported Apple devices
+* Off includes the sound without distance modeling
+* LFE is fixed to Off in Logic
+* Apple Renderer has Music and Movie previews
 
 {{% note %}}
-In Logic, the Dolby Renderer lets you assign Off, Near, Mid, or Far to each bed
-channel and object. These settings change the distance model in Dolby's
-binaural render. Off still includes the signal but removes distance modeling.
-
-The Apple Renderer uses Apple's headphone virtualization for Apple Music and
-Apple TV previews. Dolby's binaural render modes do not affect the Apple
-Renderer. Check both instead of assuming that one headphone preview represents
-every service.
+Dolby's binaural settings apply to bed channels and objects in the Dolby
+headphone renderer; the LFE setting cannot be changed. They do not affect
+Logic's Apple Renderer. Apple Music and Apple TV headphone previews use Apple's
+virtualization. Supported devices can add head tracking and personalization.
+These are monitoring choices, not additional bed channels. Compare previews
+rather than assuming one headphone render represents every service.
 {{%/ note %}}
 
 ---
 
-## Where Atmos is used
+## A master and a listening file
 
-* Theatrical cinema and home video
-* Film and television streaming
-* Music streaming
-* Games and interactive media
-* Live broadcasts and sports
-* Automotive playback systems
+* **ADM BWF:** bed audio, object audio, and metadata
+* **Rendered WAV:** a particular channel layout or binaural preview
+* **Playback encode:** a service or device delivery format
+* Project 4 requires the Logic project and ADM BWF
 
 {{% note %}}
-Atmos spans several industries, but each uses its own production and delivery
-workflow. A music ADM submission, a streaming-series package, and a cinema DCP
-are not interchangeable. Start every delivery by reading the recipient's
-current specification.
+An ADM BWF is a multichannel WAV container, but its channels hold bed and object
+audio, not simply a finished 7.1.4 speaker render. The metadata is essential.
+Changing the filename of a surround WAV does not make it an Atmos master.
+
+In Logic use File > Export > Project as Spatial Audio and choose Dolby Atmos
+ADM BWF. The monitoring format does not change that master export. Check it
+by opening it in a new project. Delivery requirements vary by recipient; the
+later delivery lesson covers levels, format checks, and headphone QC.
 {{%/ note %}}
 
 ---
 
-## DAW support
+## References: routing and monitoring
+
+* [Apple: bed tracks and object tracks](https://support.apple.com/en-au/guide/logicpro/lgcp73f9b9ac/mac)
+* [Apple: 3D Object Panner parameters](https://support.apple.com/en-au/guide/logicpro/lgcpa01bed87/mac)
+* [Apple: monitoring formats](https://support.apple.com/en-au/guide/logicpro/lgcp179f27c1/mac)
+* [Apple: binaural render modes](https://support.apple.com/en-au/guide/logicpro/lgcp789f000d/mac)
+* [ATK: encoders, transforms, and decoders](https://www.ambisonictoolkit.net/documentation/reaper/)
+* [Eventide: Atmos diagram and overview](https://www.eventideaudio.com/blog/atmos-demystified/)
+
+---
+
+## References: masters and delivery
+
+* [Apple: export an Atmos ADM BWF](https://support.apple.com/en-au/guide/logicpro/lgcp258ed132/mac)
+* [Apple Music: delivering Dolby Atmos audio](https://itunespartner.apple.com/music/support/5216-delivering-dolby-atmos-audio)
+
+---
+
+
+## Appendix: DAW support
 
 * Pro Tools Studio and Ultimate: integrated or external Dolby Atmos Renderer
 * Nuendo: internal Atmos authoring with external-renderer support
@@ -225,7 +324,7 @@ a direct ADM BWF export.
 
 ---
 
-## Dolby Atmos Composer
+## Appendix: Atmos Composer
 
 * [fiedler-audio.com/dolby-atmos-composer/](https://fiedler-audio.com/dolby-atmos-composer/)
 * Atmos authoring in DAWs with limited multichannel routing
@@ -246,7 +345,7 @@ that do not provide native multichannel routing.
 
 ---
 
-## Other immersive formats
+## Appendix: other formats
 
 * MPEG-H Audio: channels, objects, scenes, and listener interactivity
 * IAMF: an open, codec-agnostic immersive-audio specification
@@ -269,34 +368,13 @@ Immersive Video and newer Apple-platform media. It is separate from the Dolby
 Atmos music workflow used by Apple Music.
 {{%/ note %}}
 
----
-
-{{< slide class="stepped" >}}
-
-## Questions to carry forward
-
-* Does this sound belong in the bed or in an object?
-* Which renderer will the audience hear?
-* Which alternate renders need QC?
-* What master does the recipient require?
-
-{{% note %}}
-Atmos is not a single plug-in setting or speaker count. It is a production and
-delivery system built around audio, metadata, rendering, and quality control.
-These four questions are more useful than memorizing a list of platforms.
-{{%/ note %}}
 
 ---
 
-## References
+## Appendix references
 
-* [Dolby: Overview of Dolby Atmos Master File Formats](https://professionalsupport.dolby.com/s/article/Overview-of-Dolby-Atmos-Master-File-Formats)
-* [Dolby: Object Beds](https://professionalsupport.dolby.com/s/article/What-is-an-Object-Bed-and-how-do-I-set-it-up)
-* [Apple: Overview of Spatial Audio with Dolby Atmos in Logic Pro](https://support.apple.com/guide/logicpro/overview-of-spatial-audio-with-dolby-atmos-lgcp449359b0/mac)
-* [Apple: 3D Object Panner Parameters](https://support.apple.com/guide/logicpro/3d-object-panner-lgcp3f532b96/mac)
-* [Apple: Spatial Audio Monitoring Formats](https://support.apple.com/guide/logicpro/spatial-audio-monitoring-formats-lgcp179f27c1/mac)
-* [Avid: Pro Tools and the Dolby Atmos Renderer](https://kb.avid.com/pkb/articles/Knowledge/Pro-Tools-and-the-Dolby-Atmos-Renderer-FAQ)
+* [Avid: Pro Tools renderer FAQ](https://kb.avid.com/pkb/articles/Knowledge/Pro-Tools-and-the-Dolby-Atmos-Renderer-FAQ)
 * [Fiedler Audio: Dolby Atmos Composer](https://fiedler-audio.com/dolby-atmos-composer/)
-* [Alliance for Open Media: IAMF](https://aomedia.org/specifications/iamf/)
-* [Fraunhofer IIS: MPEG-H Audio](https://www.iis.fraunhofer.de/en/ff/amm/broadcast-streaming/mpegh-audio-production-tools.html)
-* [Apple Developer: ASAF and APAC](https://developer.apple.com/videos/play/wwdc2025/403/)
+* [AOMedia: IAMF](https://aomedia.org/specifications/iamf/)
+* [Fraunhofer: MPEG-H Audio](https://www.iis.fraunhofer.de/en/ff/amm/broadcast-streaming/mpegh-audio-production-tools.html)
+* [Apple: ASAF and APAC](https://developer.apple.com/videos/play/wwdc2025/403/)

@@ -4,9 +4,9 @@ title: "Dolby Atmos with Logic Pro"
 
 ## Overview
 
-Logic Pro includes a built-in Dolby Atmos renderer, so you can author, monitor, and bounce ADM without a separate app. Pro Tools also now includes an integrated renderer (in addition to workflows that use the external Dolby Atmos Renderer), so the main difference is workflow, not capability.
+Logic Pro includes a built-in Dolby Atmos renderer, so you can author, monitor, and export ADM without a separate app. Pro Tools also now includes an integrated renderer (in addition to workflows that use the external Dolby Atmos Renderer), so the main difference is workflow, not capability.
 
-In Logic, the bed is a 7.1.2 bus and any channel set to 3D Object becomes a discrete object. Atmos supports up to 128 total channels: the 10-channel bed (7.1.2) plus up to 118 objects.
+Logic routes bed tracks to one shared bus, selectable as 5.1, 7.1, or 7.1.2. We will use 7.1.2. Object tracks send separate audio and position metadata directly to the renderer. At 48 kHz, a ten-channel bed leaves up to 118 mono object inputs within the 128-channel budget; a stereo object track uses two inputs.
 
 ## Setup in Logic Pro
 
@@ -16,9 +16,7 @@ In Logic, the bed is a 7.1.2 bus and any channel set to 3D Object becomes a disc
 - Bed format: 7.1.2. Monitoring format should match your room (e.g., 7.1, 7.1.4) or Binaural on headphones.
 - On each track, choose the panner you need:
   - Surround Panner = feeds the bed.
-  - 3D Object Panner = routes as an object (with per-object binaural render modes: Near, Mid, Far).
-
-## Channel Routing
+  - 3D Object Panner = routes as an object. Dolby binaural render modes are Off, Near, Mid, and Far; they do not affect the Apple Renderer.
 
 ## Mono Components vs. Stereo Components
 
@@ -50,7 +48,7 @@ Enabling Atmos and switching tracks to surround/object updates the master channe
 
 ## Beds vs. Objects (Music Mixing)
 
-Both bed and object tracks shape the 3D mix. Typical use in music:
+Choose a path for the routing and spatial control you need. Both bed and object tracks can be stationary or automated; movement alone does not determine the choice. Typical uses in music:
 
 ### Bed tracks (7.1.2)
 
@@ -61,16 +59,21 @@ Both bed and object tracks shape the 3D mix. Typical use in music:
 ### Object tracks
 
 - Discrete position and movement anywhere in 3D space via the 3D Object Panner.
-- Per-object binaural distance (Near/Mid/Far) for better headphone translation.
+- Per-object Dolby binaural settings (Off/Near/Mid/Far); compare the result over headphones.
 - Useful for lead elements, featured instruments, ad-libs, ear-candy, and moments that move.
 
 Notes
 
-- Keep critical anchors (kick, bass, lead vocal) either in the bed or as carefully managed objects to ensure downmixs remain solid.
-- The bed is fixed at 7.1.2; any height speakers beyond that are addressed with objects.
+- Keep critical anchors (kick, bass, lead vocal) either in the bed or as carefully managed objects to ensure downmixes remain solid.
+- A 7.1.2 bed has one top-middle pair. Use objects for independent front-to-back height positioning. The renderer maps bed and object audio to the monitoring layout; the number of physical height speakers does not change the bed format.
 - Total budget: 128 channels max (10 bed + up to 118 objects).
 
 ## Bounce and Delivery
 
-- File → Bounce → Project or Section → Dolby Atmos ADM BWF for delivery.
+- Choose **File > Export > Project as Spatial Audio**, then **Dolby Atmos ADM BWF**. The monitoring format does not change this master export. Reopen it in a new project to verify the mix.
 - Optionally also bounce a stereo downmix for reference. The renderer’s downmix may differ from a dedicated stereo mix.
+
+## References
+
+- [Apple: bed tracks and object tracks](https://support.apple.com/en-au/guide/logicpro/lgcp73f9b9ac/mac)
+- [Apple: export an Atmos master](https://support.apple.com/en-au/guide/logicpro/lgcp258ed132/mac)

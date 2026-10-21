@@ -1,35 +1,52 @@
 ---
-title: "Sound Particles Introduction"
+title: "Sound Particles: Optional Exploration"
 ---
 
-Sound particles is free for student use. See [here](https://soundparticles.com/products/soundparticles/plans) for details.
+This is an optional extension to [Surround mixing in REAPER](/lectures/week-7/reasurround-new/).
+There is no separate submission. Start here after you can route, pan, and verify
+a 7.1 mix in REAPER.
 
-Sound Particles is an immersive audio software capable of generating thousands (even millions) of sounds in a virtual 3D audio world. Creating highly complex sounds has never been this quick.
+Sound Particles places and moves sound sources in a virtual space, then renders
+the result through a virtual microphone system. Try it when a scene calls for
+a crowd, swarm, or many moving sounds rather than a single panning gesture.
 
-## Presets
+You can request a student education license. Check the
+[manufacturer's education page](https://soundparticles.com/community/education/)
+for the current edition, renewal requirements, and permitted use. Interface
+labels and available formats vary by version; use the
+[official manual](https://soundparticles.com/assets/files/support/soundparticles_manual.pdf)
+for your installed version.
 
-When first opening up sound particles look at the templates. The interface has an allows you to play the original sound, then audition the sound effected with sound particles.
+## Start small and listen
 
-Once one of the presets is opened you have to add one or multiple sounds to the _audio files_ box. Now you can render your sound particles. This can be done either in real-time or offline. To render in real-time just press the space bar. If you hear drop outs try to render offline by clicking the render button.
+1. Choose one short source recording and audition it on its own.
+2. Open a template or a blank scene. Add the audio and a small particle group, then choose a starting region such as a sphere's surface.
+3. Add a movement modifier and render a short preview. Compare it with the stationary version. What does the motion add?
+4. Try a random start delay to spread the entries over time. Change one setting at a time so you can hear its effect.
 
-## Particles
+Use a modest particle count while learning. More particles can increase level
+and processing load without making the result more useful. If real-time
+playback drops out, render offline and audition that result.
 
-Now let's start with a blank project so we can see how each part works together. Add a _particle group_ by clicking on the plus on the left side of the screen. Add or remove particles under the general box on the right hand side. Leave this at 100 for now.
+## Render for the playback system
 
-Change the shape of the particle starting point with the start zone drop down. There are many shapes to chose from. Set this to _Sphere (surface)_ for this example.
+The virtual microphone system determines the output representation. For this
+classroom, choose a **channel-based 7.1** output and note the exported speaker
+order. Check the output level before auditioning in the room.
 
-Now this becomes interesting if you add movement modifiers. These will move the particles during playback, sort of like automation. Try _Straight line movement -> Add velocity_. Particles move in a straight line from the start place with random velocities.
+Export the microphone system's rendered audio, import it onto an eight-channel
+REAPER track, and compare its channel labels with our room configuration. Route
+the finished speaker feeds directly to the verified eight-channel Master path.
+Do not treat the rendered 7.1 file as a new mono source in ReaSurroundPan.
 
-Add an audio modifier _Random Delay (2s)_. This will delay the start of each particle randomly between 0 and 2 seconds. This time can be changed, try 5 seconds.
+If you choose **AmbiX** instead, note the Ambisonic order and normalization and
+use a matching decoder. Those channels are sound-field components, not eight
+speaker feeds. See the [surround mixing lesson's optional section](/lectures/week-7/reasurround-new/#optional-extensions)
+for decoder choices.
 
-Now it's time to import audio. Import multiple audio files to get a complex scene.
+## Decide whether it helped
 
-Finally add a microphone system to "record" your particles. By default it's mono, but it can be any type of system. This represents the output file format. So for our purposes we wna tto use "Multichannel 7.1 (3/4)".
-
-Finally we can export this rendered microphone array for use in another DAW. Right click on the microphone track and select _Export Audio_. Make sure your channel order is correct and export. It may be a good idea to export with a standard channel order so that you can use these files in other places, and then remap the channels in a DAW.
-
-Other things to make:
-
-- an explosion with the doppler explosion preset
-- Fly by with plane
-- Jet information - sounds like space ships
+Compare the source and the spatial result at similar listening loudness.
+Can you describe a scene where the result would be useful? Does the movement
+remain clear, or do overlapping particles obscure it? Save one short test and
+your output-format notes if you want to return to the experiment.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" role="img" aria-labelledby="title desc">
+<title id="title">Bed and object paths into an Atmos renderer</title>
+<desc id="desc">Bed tracks combine through surround panning into bed-channel audio. Object audio and separate position metadata feed the renderer directly. The renderer produces speaker outputs or a binaural headphone output.</desc>
+<defs><marker id="audio" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#cfd7ce" stroke-width="1.5"/></marker><marker id="meta" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#ffb45b" stroke-width="1.5"/></marker></defs>
+<g font-family="'JetBrains Mono', monospace" fill="#cfd7ce">
+<rect x="20" y="30" width="430" height="200" rx="4" fill="#101710" stroke="#b6ff5c" stroke-width="2"/>
+<text x="45" y="78" font-size="38" fill="#b6ff5c">Bed tracks</text>
+<text x="45" y="126" font-size="30">Surround panning</text>
+<text x="45" y="172" font-size="30">Shared 7.1.2 bed</text>
+<text x="45" y="211" font-size="25">10 channel signals</text>
+<rect x="20" y="290" width="430" height="200" rx="4" fill="#10171b" stroke="#73c3ff" stroke-width="2"/>
+<text x="45" y="338" font-size="38" fill="#73c3ff">Object track</text>
+<text x="45" y="388" font-size="30">Separate audio</text>
+<text x="45" y="444" font-size="30" fill="#ffb45b">Position + size</text>
+<rect x="630" y="110" width="440" height="350" rx="4" fill="#121a20" stroke="#cfd7ce" stroke-width="2"/>
+<text x="850" y="255" font-size="40" text-anchor="middle">Renderer</text>
+<text x="850" y="310" font-size="28" text-anchor="middle">Maps the mix to</text>
+<text x="850" y="350" font-size="28" text-anchor="middle">the playback layout</text>
+<path d="M450 155 H620" stroke="#cfd7ce" stroke-width="4" marker-end="url(#audio)"/>
+<path d="M450 380 H620" stroke="#cfd7ce" stroke-width="4" marker-end="url(#audio)"/>
+<path d="M450 435 H620" stroke="#ffb45b" stroke-width="4" stroke-dasharray="12 9" marker-end="url(#meta)"/>
+<path d="M850 460 V520" stroke="#cfd7ce" stroke-width="4" marker-end="url(#audio)"/>
+<text x="850" y="560" font-size="29" text-anchor="middle">Speakers / headphones</text>
+<text x="30" y="560" font-size="24">Solid: audio</text>
+<text x="30" y="592" font-size="24" fill="#ffb45b">Dashed: metadata</text>
+</g></svg>

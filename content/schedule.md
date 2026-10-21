@@ -151,11 +151,11 @@ funds undergraduate work.
   - [How to use ReaSurroundPan for spatial audio in REAPER (part 2)](https://www.youtube.com/watch?v=vg28Dok2vqQ)
 
 ## 10/21
-- Show [ReaSurroundPan](https://dlz.reaper.fm/userguide/ReaperUserGuide723d.pdf#page=186.08)
-- [slides] [ReaSurroundPan](/lectures/week-7/reasurround-new/)
+- [lab] [Surround mixing in REAPER](/lectures/week-7/reasurround-new/) — verify the speaker routing, place one source, and automate one deliberate move
 - [lab] Group mix in 7.1 using ReaSurroundPan to learn how it works — in the room we calibrated on 9/23
   - This is an option: [Aiguille Rouge](https://cambridge-mt.com/ms/mtk/#BabeGrand)
   - Or we can pick a different song
+- Optional extra after the group mix: [Sound Particles](/lectures/week-7/sound-particles/) — explore a short spatial sound-design experiment; no separate submission
 
 ## 10/23
 ### Technical introduction to Dolby Atmos
