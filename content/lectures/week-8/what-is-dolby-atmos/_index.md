@@ -305,76 +305,41 @@ later delivery lesson covers levels, format checks, and headphone QC.
 ---
 
 
-## Appendix: DAW support
+## Appendix: other Atmos tools
 
-* Pro Tools Studio and Ultimate: integrated or external Dolby Atmos Renderer
-* Nuendo: internal Atmos authoring with external-renderer support
-* Logic Pro: built-in Dolby Atmos plug-in and ADM BWF export
+* Pro Tools Studio and Ultimate: integrated or external renderer
+* Nuendo: internal authoring and external-renderer support
+* [Dolby Atmos Composer](https://fiedler-audio.com/dolby-atmos-composer/): adds Atmos authoring to other DAWs
 
 {{% note %}}
-The basic workflow is similar across these systems: route tracks to beds or
-objects, send them through a renderer, monitor several output formats, and
-export a master.
-
-The details differ. Pro Tools can switch between its integrated renderer and
-the separate Dolby Atmos Renderer. Nuendo has extensive multichannel and
-post-production tools. Logic keeps the renderer inside the project and offers
-a direct ADM BWF export.
+Fiedler's Beam plug-in connects DAW tracks to Composer. The full Composer
+version also hosts OBAM processing across the Atmos master; Essential has a
+smaller feature set. These are alternative tools for the same production
+concepts, rather than additional formats to deliver for Project 4.
 {{%/ note %}}
 
 ---
 
-## Appendix: Atmos Composer
-
-* [fiedler-audio.com/dolby-atmos-composer/](https://fiedler-audio.com/dolby-atmos-composer/)
-* Atmos authoring in DAWs with limited multichannel routing
-* Beam plug-in for audio and object positioning
-* ADM BWF import and export
-* Optional OBAM processing on the Atmos master channel
-
-{{% note %}}
-Fiedler Audio's Dolby Atmos Composer is an alternative to a DAW's native Atmos
-workflow. The Beam plug-in sends audio and panning information from tracks to
-Composer. Composer handles monitoring, metadata, and ADM BWF export.
-
-The full version can host OBAM plug-ins on its Master Channel for processing
-up to the complete 128-channel Atmos mix. Composer Essential provides a
-simpler feature set. Fiedler states that both workflows can operate in DAWs
-that do not provide native multichannel routing.
-{{%/ note %}}
-
----
-
-## Appendix: other formats
+## Appendix: other immersive formats
 
 * MPEG-H Audio: channels, objects, scenes, and listener interactivity
-* IAMF: an open, codec-agnostic immersive-audio specification
-* Eclipsa Audio: a Samsung and Google implementation based on IAMF
+* IAMF: an open, codec-agnostic specification; Eclipsa Audio is based on it
 * ASAF and APAC: Apple's production format and delivery codec
 
 {{% note %}}
-MPEG-H Audio supports channel-, object-, and scene-based material. Producers
-can authorize playback controls such as dialogue level, language choice, or
+MPEG-H can offer producer-authorized dialogue levels, language choices, or
 alternate sports commentary. Sony 360 Reality Audio uses MPEG-H Audio.
 
-IAMF is an open specification from the Alliance for Open Media. It can carry
-information for rendering to speakers or headphones without requiring one
-specific audio codec. Eclipsa Audio is based on IAMF and is supported in parts
-of the YouTube and Samsung ecosystem.
-
-Apple introduced ASAF as a production format for high-resolution spatial
-audio and APAC as its delivery codec. That workflow is associated with Apple
-Immersive Video and newer Apple-platform media. It is separate from the Dolby
-Atmos music workflow used by Apple Music.
+Eclipsa Audio appears in parts of the YouTube and Samsung ecosystem. Apple's
+ASAF/APAC workflow is associated with Apple Immersive Video; it is separate
+from the Dolby Atmos music workflow used by Apple Music.
 {{%/ note %}}
-
 
 ---
 
 ## Appendix references
 
 * [Avid: Pro Tools renderer FAQ](https://kb.avid.com/pkb/articles/Knowledge/Pro-Tools-and-the-Dolby-Atmos-Renderer-FAQ)
-* [Fiedler Audio: Dolby Atmos Composer](https://fiedler-audio.com/dolby-atmos-composer/)
 * [AOMedia: IAMF](https://aomedia.org/specifications/iamf/)
 * [Fraunhofer: MPEG-H Audio](https://www.iis.fraunhofer.de/en/ff/amm/broadcast-streaming/mpegh-audio-production-tools.html)
 * [Apple: ASAF and APAC](https://developer.apple.com/videos/play/wwdc2025/403/)

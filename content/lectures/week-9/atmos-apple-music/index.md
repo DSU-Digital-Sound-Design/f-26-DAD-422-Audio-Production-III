@@ -6,6 +6,38 @@ description: "A practical guide for setting up a Mac to route true 7.1.4 (or 7.1
 categories: ["lectures", "week-9", "atmos-apple-music"]
 ---
 
+## Listening in class
+
+I'll play the examples from my Apple Music account through the studio system.
+You do not need an Apple Music subscription or your own playback setup to
+participate. The routing guide below describes the class playback setup.
+
+## Other ways to listen
+
+These are optional possibilities for listening outside class. No subscription
+or purchase is required for this lesson.
+
+- **Amazon Music Unlimited:** Atmos music is available on supported devices.
+  See [Dolby's Amazon Music guide](https://www.dolby.com/experience/amazon-music/).
+- **TIDAL:** Atmos is available on compatible mobile and home-theater devices.
+  Its desktop apps do not support Atmos playback. Check
+  [TIDAL's device requirements](https://support.tidal.com/hc/en-us/articles/360004255778-Dolby-Atmos).
+- **Free downloads:** [Bayview Audio](https://www.bayviewaudio.com/free-dolby-atmos-mixes)
+  offers Atmos music MP4s and separate binaural MP3s. The MP4s need a compatible
+  Atmos playback path. The binaural versions work in an ordinary player with
+  headphones; they are already-rendered headphone previews.
+- **Purchased downloads:** [Immersive Audio Album](https://immersiveaudioalbum.com/how-to-play/)
+  sells Atmos releases in downloadable formats. Check the playback requirements
+  before buying; an MP4 or MKV extension alone does not establish compatibility.
+- **ADM masters in Logic:** With access to Logic and an authorized ADM example,
+  you can compare speaker and headphone renders without a streaming subscription.
+  We will use this workflow in the [Logic lesson](/lectures/week-9/atmos-logic/).
+
+Check that the app and playback device support the format you selected. A
+service may offer an Atmos mix while a particular device plays its stereo
+version. A binaural download lets you hear a headphone rendering, but does not
+let you change the renderer or edit the objects.
+
 ***
 
 **Want to experience Apple Music’s Dolby Atmos tracks through your multichannel studio rig or home theater system? Here’s a practical guide for setting up a Mac to route true 7.1.4 (or 7.1) Atmos audio from Apple Music, using only the free BlackHole virtual audio driver.**
