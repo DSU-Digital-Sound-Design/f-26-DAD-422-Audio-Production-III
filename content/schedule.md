@@ -176,7 +176,7 @@ funds undergraduate work.
 - **Project 4: Atmos Mix** — due Monday 11/16
 
 ## 11/2
-- [lab] [Like Lambs surround group exercise](/projects/like-lambs-5-1/) — compare channel-based placement with the Atmos workflow; the supplied film is an optional source for [Project 4](/projects/atmos/)
+- [lab] [Like Lambs: in-class film mix](/projects/like-lambs-5-1/) — apply multichannel mixing to dialogue, effects, and picture; explore the film as an option for [Project 4](/projects/atmos/)
 - Choose the music or film route for Project 4 and identify a 2–3 minute passage
 
 ## 11/4

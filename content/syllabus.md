@@ -73,7 +73,7 @@ Projects 50% · Attendance and participation 30% · Final project 20%.
   assignments and in-class exercises:
   - The week 1 reading discussions (Physical Attributes of Acoustic Waves, parts I and II)
   - The [NPR Binaural Soundscapes reflection](/projects/npr-binaural-soundscapes/)
-  - The [Like Lambs 5.1 group mix](/projects/like-lambs-5-1/) and the 7.1 ReaSurroundPan lab
+  - The [Like Lambs in-class film mix](/projects/like-lambs-5-1/) and the 7.1 ReaSurroundPan lab
   - The progress bounce posted to D2L during the ATMI conference week
   - Feedback during the ambisonics check-in, the proposal workshop, and the
     midpoint critique — one specific observation and one concrete suggestion

@@ -26,6 +26,8 @@ Choose one route. Use enough separately controllable source tracks to build a be
 | Music | A coherent 2–3 minute passage from [Aiguille Rouge – Bebe Grand](https://cambridge-mt.com/ms/mtk/#BabeGrand), or another multitrack agreed with the instructor | Keep the intended focal elements clear; use space to support phrasing, arrangement, and contrast |
 | Film | A continuous 2–3 minute excerpt from [Like Lambs](/projects/like-lambs-5-1/), using the supplied dialogue and effects | Preserve picture sync, intelligible dialogue, and convincing perspective; use placement and movement to support the scene |
 
+The [November 2 in-class film mix](/projects/like-lambs-5-1/) introduces the film sources and spatial choices before you commit to a route.
+
 Choose a passage with a clear beginning and ending, and allow effects to decay naturally. Confirm your source and excerpt by the **November 6 checkpoint**. The same duration and technical requirements apply to both routes.
 
 ## 2. Set up and mix
