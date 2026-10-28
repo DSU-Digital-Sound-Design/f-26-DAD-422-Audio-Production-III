@@ -11,79 +11,69 @@ tools: ["Logic Pro", "Dolby Atmos Renderer"]
 rubric: false
 ---
 
-## Project Overview
+## Your task
 
-For this project, you will create a Dolby Atmos mix in Logic Pro. You have two options for source material:
+Create a **2–3 minute Dolby Atmos mix in Logic Pro**, due **Monday, November 16**. Use spatial placement and movement to support a song or film scene, then verify that the mix translates to speakers and headphones and survives ADM export.
 
-1. [Aiguille Rouge – Bebe Grand](https://cambridge-mt.com/ms/mtk/#BabeGrand)
-   1. Or pick a similarly difficult multitrack of your choice.
-2. [The Film Lambs](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=NOo8Rt)
+You may develop the session started in class. This project assesses mixing and delivery; you do not need to compose new music, record new sources, or redesign a film's entire soundtrack.
 
+## 1. Choose your source
 
-Your task is to configure the session for Dolby Atmos, differentiate between bed and object tracks, and produce a technically compliant and creatively engaging immersive mix.
+Choose one route. Use enough separately controllable source tracks to build a bed and at least four object tracks.
 
-## Learning Objectives
+| Route | Source and scope | What the mix should achieve |
+| --- | --- | --- |
+| Music | A coherent 2–3 minute passage from [Aiguille Rouge – Bebe Grand](https://cambridge-mt.com/ms/mtk/#BabeGrand), or another multitrack agreed with the instructor | Keep the intended focal elements clear; use space to support phrasing, arrangement, and contrast |
+| Film | A continuous 2–3 minute excerpt from [Like Lambs](/projects/like-lambs-5-1/), using the supplied dialogue and effects | Preserve picture sync, intelligible dialogue, and convincing perspective; use placement and movement to support the scene |
 
-By completing this project, you will:
+Choose a passage with a clear beginning and ending, and allow effects to decay naturally. Confirm your source and excerpt by the **November 6 checkpoint**. The same duration and technical requirements apply to both routes.
 
-* Configure Logic Pro for Dolby Atmos mixing at 48 kHz and 24-bit recording. For film, match the project frame rate to the supplied picture.
-* Differentiate channel-based bed routing from separate object audio and position metadata, and justify your choices.
-* Apply spatialization techniques to enhance immersion, narrative clarity, or musical impact.
-* Meet Dolby Atmos loudness and technical delivery standards.
-* Deliver a finished mix in both Logic Pro project format and ADM BWF format.
+## 2. Set up and mix
 
-## Creative Expectations
+Use the [Logic Atmos workshop](/lectures/week-9/atmos-logic/) for setup instructions.
 
-* Allocate tracks intentionally to beds or objects based on their role in the mix.
-* Use at least four object tracks with panning automation that includes a variety of movement types (e.g., lateral, vertical, front-to-back).
-* Ensure spatial decisions serve the arrangement’s clarity, emotional tone, or storytelling.
-* Maintain a cohesive balance between static and moving elements to avoid listener fatigue.
+1. Work at **48 kHz** with a **7.1.2 bed**. Use 24-bit recording for any new audio. For film, match the project frame rate to the supplied picture.
+2. Use both the shared bed and **at least four object tracks**. Explain why the routing suits each source's role. A stereo object track is valid; it uses two object inputs.
+3. Include **at least two purposeful spatial automation gestures across at least two object tracks**. Make their positions and timing serve musical phrasing or on-screen/offscreen action. Other objects may remain stationary; explain any featured stationary placement.
+4. Balance the bed and objects so intended focal elements remain clear. Use width, depth, and height where they help. More movement or more extreme placement does not earn more credit.
+5. Check the mix through the room's verified **7.1 monitoring layout** and on headphones. Compare the Dolby binaural and Apple Renderer previews, plus a stereo render. Address missing elements, distracting level shifts, and unwanted masking.
 
-## Project Setup
+Our room has no discrete height speakers. You can author height positions, but assess their translation through the available speaker and headphone renders. Do not select 7.1.4 monitoring for the 7.1 room.
 
-### Session Configuration
+## 3. Check levels and export
 
-1. **Set Project Audio Format**
-   * Set the project sample rate to **48 kHz** in **File > Project Settings > Audio**. Use 24-bit recording for any new audio.
-   * For film, set the frame rate in the project synchronization settings to match the picture; 24 fps is not a universal Atmos requirement.
-2. **Enable Spatial Audio**
-   * Navigate to `Project Settings -> Audio -> General`.
-   * Under “Spatial Audio,” select **Dolby Atmos**.
-   * Set “Surround Format” to **7.1.2**.
-3. **Bed Tracks**
-   * Use the Surround Panner when you want tracks to feed the shared channel-based bed. Bed panning can be static or automated.
-4. **Object Tracks**
-   * Use the 3D Object Panner for independent spatial positioning, size, or binaural settings. Objects may stay in place or move.
-   * Automate movement to support creative goals.
-5. **Monitoring**
-   * In the Dolby Atmos plug-in, select the monitoring format that matches the actual speaker system, or a binaural renderer for headphones. Use 7.1.4 only with the corresponding speaker layout; our 7.1 room has no discrete height outputs.
-   * Check placement in the available room and over headphones, including a comparison of the Dolby and Apple renderers.
+Follow the [Atmos delivery lesson](/lectures/week-11/atmos-delivery/) for measurement and export procedures.
 
-## Mixing Guidelines
+- Measure the complete submitted passage through the **5.1 render**, using a multichannel loudness meter after the Dolby Atmos plug-in. Meet the course limits of **−18 LUFS-I or quieter** and **−1 dBTP or lower**. These limits apply to both routes for this assignment; they are not universal film or Atmos delivery standards.
+- Export **Dolby Atmos ADM BWF** using **File > Export > Project as Spatial Audio**. The monitoring format does not change this master export.
+- Use **File > Import > Create Project from ADM BWF** to open the exported master as a new verification project. Check its start, ending, bed/object content, automation, and balance. Fix problems in the source project and export again.
 
-* Use panning automation on at least four object tracks, varying motion type and speed.
-* Use the 3D Object Panner for object tracks. A stereo object track is valid and uses two object inputs; use its Spread control deliberately.
-* On your Master track, meter **after** the Dolby Atmos Renderer plugin with the plugin's monitoring format set to **5.1** — the spec measures a 5.1 render, not your 7.1.4 monitor mix. For this project, stay at or below **-18 LUFS-I** integrated and **-1 dBTP**; quieter mixes are acceptable. These are music-delivery targets used for this course, not universal targets for all Atmos content. See the [Atmos delivery lesson](/lectures/week-11/atmos-delivery/) for the full QC pass.
+## Checkpoints
 
-## Submission Requirements
+These checks support the project and do not add separate graded deliverables.
 
-Submit the following:
+- **November 6: working mix.** Bring the chosen passage in a Logic session with its media, working bed/object routing, and one automation gesture. Play an excerpt, identify your intended focus, and bring one question.
+- **November 9: delivery check.** Bring the mix far enough along to measure and export an ADM test. Verify that it reopens while the instructor is available. Save the remaining fixes for the independent work days, then repeat the checks on the final mix.
+- **November 13: progress bounce.** Post the scheduled 1–2 minute listening preview to D2L for conference-week participation. Identify it as a stereo or binaural render and include one question. This preview is separate from the final ADM master.
 
-1. Logic Pro project folder with all media included.
-2. ADM BWF export of your final mix, verified by re-importing it into an empty project. Use **File > Export > Project as Spatial Audio > Dolby Atmos ADM BWF**; changing the monitoring format does not change the master export.
-3. Written reflection (1–2 paragraphs) addressing:
-   * Your approach to bed vs. object allocation.
-   * The reasoning behind your spatial automation choices.
-   * Any technical challenges and how you solved them.
+Arrange a room listening check by November 9. November 11 and 13 are independent work days; studio access during the instructor's absence requires prior arrangements. Continue headphone checks on laptops and keep the final weekend for revisions rather than first-time setup.
 
-## Grading Rubric (70 points total)
+## Submit to D2L by November 16
+
+1. **Logic Pro project folder**, with all source media included.
+2. **Final ADM BWF master**, verified by creating a new project from it.
+3. **One short document** containing:
+   - **Reflection, 1–2 paragraphs:** explain bed/object choices, the two automation gestures, and one problem you solved. Include timestamps for the gestures. For film, describe how placement supports the picture; for music, describe its role in the arrangement.
+   - **QC record:** measured integrated loudness and true peak from the final 5.1 render; speaker/headphone formats checked, including Dolby and Apple previews and stereo; one timestamped observation and the change you made or why you kept the result; confirmation that the final ADM reopened correctly. Add one meter screenshot showing the final readings.
+
+## Grading rubric: 70 points
 
 | Criterion | Exemplary | Proficient | Developing | Emerging | Points |
 | --- | --- | --- | --- | --- | --- |
-| **Bed and Object Use (19 pts)** | Bed and object routing is intentional and explained in the reflection; object placement, size, or metadata serves the mix | Routing works and most choices are explained; one choice needs clearer justification | Routing choices are unexplained, or the required object automation is incomplete | No meaningful distinction | /19 |
-| **Spatial Design (16 pts)** | Height and surround placement serve the music or scene rather than demonstrating the format | Placement is effective and mostly purposeful | Elements placed around the field without evident reason | Effectively a stereo mix in an Atmos session | /16 |
-| **Mix Balance (14 pts)** | The mix holds together across the bed and objects; nothing masks anything else | Balanced with one or two elements competing | Several elements masked or jumping forward | No balancing attempted | /14 |
-| **Loudness and Delivery (12 pts)** | Loudness meets the course targets; the ADM reopens correctly and the project contains all media | On target with a minor delivery deviation | Loudness off target, or the ADM master has problems | Will not render to spec | /12 |
-| **Binaural QC (9 pts)** | Checked on headphones; the binaural fold-down holds up with no collapsed or lost elements | Fold-down works with one element weaker than intended | Fold-down noticeably degrades the mix | Not checked | /9 |
+| **Bed and object use** | Working bed and at least four object tracks; routing and stationary/moving choices clearly serve source roles and are explained | Required routing works; most choices are explained | A required source path or object track is missing, or choices are unclear | Bed/object routing does not work or is not demonstrated | /19 |
+| **Spatial design** | At least two purposeful automation gestures across two objects; placement and restraint support the musical or narrative focus | Required gestures work and mostly support the piece | Required gestures incomplete, or placement distracts from the intended focus | Little intentional spatial design or automation is demonstrated | /16 |
+| **Mix balance** | Intended focal elements stay clear; levels and transitions are controlled; perspective suits the source | Mostly clear and balanced, with minor unwanted masking or level shifts | Repeated masking, abrupt level changes, or perspective problems obscure the material | Balance makes essential material difficult to follow | /14 |
+| **Loudness and delivery** | Course limits met and documented; ADM reopens with expected content and automation; project includes all media | Delivery works with a minor documentation or organization omission | Level limits missed, media incomplete, or ADM verification identifies unresolved problems | Master or project cannot be used, or required delivery evidence is missing | /12 |
+| **Monitoring and QC** | Speaker, Dolby/Apple headphone, and stereo checks documented; a timestamped observation supports a revision or justified decision; essential content translates | Required checks documented; one minor translation issue or weak explanation remains | Some checks or evidence missing, or significant translation problems remain | No meaningful monitoring comparison or QC evidence | /9 |
 
-**Total: \_\_\_ / 70**
+**Total: ___ / 70**

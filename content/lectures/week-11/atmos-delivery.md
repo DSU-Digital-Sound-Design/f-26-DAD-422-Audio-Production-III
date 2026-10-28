@@ -10,17 +10,17 @@ translates to several playback formats before you submit it.
 
 ## Delivery levels
 
-Use these targets for the music project:
+Use these course limits for both the music and film routes of [Project 4](/projects/atmos/). They are adapted from music delivery practice, not universal specifications for all film or Atmos content:
 
 {{< stats >}}
-{{< stat value="-18 LKFS" label="Maximum integrated loudness" note="Measure the full track from the 5.1 loudness re-render according to ITU-R BS.1770. Quieter is acceptable." >}}
+{{< stat value="-18 LKFS" label="Maximum integrated loudness" note="Measure the full submitted passage from the 5.1 loudness re-render according to ITU-R BS.1770. Quieter is acceptable." >}}
 {{< stat value="-1 dBTP" label="Maximum true peak" note="Measure true peak from the same 5.1 loudness re-render." >}}
 {{< /stats >}}
 
-These numbers apply to the 5.1 loudness re-render, not the 7.1.4 speaker output
+These numbers apply to the 5.1 loudness re-render, not the room's 7.1 speaker output
 or a binaural render. In Logic, choose 5.1 as the monitoring format in the
 Dolby Atmos plug-in. Place a multichannel loudness meter after the plug-in,
-reset the meter, and play the entire song without interruption.
+reset the meter, and play the entire submitted passage without interruption.
 
 If the mix measures -15 LKFS, lower the overall level. Heavy limiting may
 raise loudness while reducing the dynamics and space that Atmos is meant to
@@ -44,18 +44,16 @@ In current versions of Logic, choose
 `Dolby Atmos ADM BWF`. The monitoring format selected in the Dolby Atmos
 plug-in does not affect this export.
 
-After exporting, create a project from the ADM BWF and listen through it.
+After exporting, choose **File > Import > Create Project from ADM BWF** and listen through the resulting verification project.
 Confirm the beginning and end, object movement, automation, and overall
 balance. If you find a problem, correct it in the source project and export a
 new master.
 
-Apple requires the Atmos master to match its stereo reference in length and
-sync. Export both from the same version of the project and use the same start
-and end points.
+For an Apple Music release, the Atmos master must match its stereo reference in length and sync. Use the same project version and start/end points for both. Project 4 requires the ADM master and QC record listed in its brief; it does not require a separate stereo master for release.
 
 ## Check the renders
 
-Listeners will not all hear the 7.1.4 mix you hear in the studio. The Atmos
+Our studio monitors a 7.1 render of the Atmos mix; it has no discrete height speakers. Listeners may hear other renders. The Atmos
 master may be rendered for headphones, stereo speakers, surround systems, or
 a device with speaker virtualization. Check those versions as part of the
 mixing process.
@@ -68,8 +66,8 @@ mixing process.
   affect monitoring only; they are not written to the ADM BWF.
 - Check the 5.1 and stereo re-renders. Listen for missing elements, level
   changes, masking, phase problems, and an unstable center image.
-- Return to 7.1.4 after making changes to a re-render. A correction for one
-  format should not damage the main mix.
+- Return to the room's verified 7.1 monitoring layout after making changes for
+  another render. A correction for one format should not damage the main mix.
 
 The goal is one mix that translates across all of these formats, meets the
 delivery levels, and survives export and re-import without surprises.
@@ -78,7 +76,7 @@ delivery levels, and survives export and re-import without surprises.
 Bring your Atmos mix in progress.
 
 1. Choose the 5.1 monitoring format and measure integrated loudness and true
-   peak over the full song. Record both values.
+   peak over the full submitted passage. Record both values.
 2. Adjust the overall level until the mix is at or below -18 LKFS integrated
    and -1 dBTP. Do not use heavy limiting simply to reach -18 LKFS.
 3. Monitor through the Dolby Renderer over headphones. Review the binaural
@@ -87,6 +85,9 @@ Bring your Atmos mix in progress.
    re-render. Write down anything that disappears, shifts, or becomes masked.
 5. Export an ADM BWF, create a new project from it, and compare it with the
    source project.
+6. Record the final readings, monitoring formats, one timestamped listening
+   observation and resulting decision, and the ADM verification result in your
+   project QC record. Include a screenshot of the final meter readings.
 {{< /drill >}}
 
 ## References

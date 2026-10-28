@@ -176,12 +176,8 @@ funds undergraduate work.
 - **Project 4: Atmos Mix** — due Monday 11/16
 
 ## 11/2
-- Show the [Like Lambs film project](/projects/like-lambs-5-1/)
-  - Do a 7.1 mix in Reaper
-  - [Download the project files](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/EcGU4cdZ10ZNiSfQi1nFA9MBwZY9WMR_pZnY7I5Nv0VkFg?e=xhLWbK)
-- Talk about the next project
-  - Atmos mix of a song
-  - Atmos mix of the Like Lambs film project
+- [lab] [Like Lambs surround group exercise](/projects/like-lambs-5-1/) — compare channel-based placement with the Atmos workflow; the supplied film is an optional source for [Project 4](/projects/atmos/)
+- Choose the music or film route for Project 4 and identify a 2–3 minute passage
 
 ## 11/4
 ### Focus: commercial and hybrid systems
@@ -192,23 +188,22 @@ funds undergraduate work.
 - What workflow does each tool expect? How does it render and export the mix?
 
 ## 11/6
-- [lab] Supervised work session for [Project 4](/projects/atmos/) in Logic, due 11/16
-- Bring a specific question about your mix. We will solve a few as a group.
+- [lab] [Project 4 working-mix checkpoint](/projects/atmos/#checkpoints) — confirm the source passage, check bed/object routing and one automation gesture, and get feedback. Bring one question
 
 ## 11/9
 - [slides] [Atmos delivery: loudness, the ADM master, and binaural QC](/lectures/week-11/atmos-delivery/) — make your Project 4 mix submission-ready before the independent work days
-- [lab] Measure your mix on the 5.1 render and bring it into spec
-- [slides] [Advanced ambisonics and spatial audio](/lectures/week-11/advanced-ambisonics/)
+- [lab] [Project 4 delivery checkpoint](/projects/atmos/#checkpoints) — measure the 5.1 render, complete a room listening check, and export/reopen an ADM test before the independent work days
+- [slides] If time permits after delivery checks: [Advanced ambisonics and spatial audio](/lectures/week-11/advanced-ambisonics/)
 
 ## 11/11
 - **No class meeting — I'm at [ATMI](https://atmimusic.com/) in Grand Rapids, MI** (Nov 11–14). These two days are independent work days; they don't count against attendance.
-- [lab] Pick one thing we've learned recently and experiment with it on your own
+- [lab] Continue Project 4 using the fixes identified at Monday's delivery checkpoint
 - Studio A / Studio B won't be supervised — work on laptops unless you've already arranged studio access
 
 ## 11/13
 - **No class meeting — I'm at [ATMI](https://atmimusic.com/) in Grand Rapids, MI** (Nov 11–14)
 - [lab] Independent work on the Atmos mix due Monday
-- Post a progress bounce (1–2 minutes) to D2L by end of day in place of the in-class check-in — I'll listen and reply over the weekend
+- Post a 1–2 minute stereo or binaural progress bounce to D2L by end of day, labeled with its render type and one question — I'll listen and reply over the weekend
 
 ## 11/16
 - [due] **Project 4: Atmos Mix** — due today
