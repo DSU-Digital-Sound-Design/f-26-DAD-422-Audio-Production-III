@@ -180,12 +180,12 @@ funds undergraduate work.
 - Choose the music or film route for Project 4 and identify a 2–3 minute passage
 
 ## 11/4
-### Focus: commercial and hybrid systems
-- Compare the interfaces, rendering, and export workflows of three tools
-  - Fiedler Audio: [Dolby Atmos Composer Essential](https://fiedler-audio.com/dolby-atmos-composer-essential/)
-  - [EAR Production Suite (BBC R&D / IRT)](https://ear-production-suite.ebu.io/)
-  - [Sound Particles](https://soundparticles.com/): 3D audio for immersive sound design
-- What workflow does each tool expect? How does it render and export the mix?
+- [lab] Continue Monday's [Like Lambs film mix](/projects/like-lambs-5-1/) — replay the passage, identify one balance or spatial problem, and revise it together. Compare before and after — about 15 minutes
+- [lab] Develop your chosen [Project 4 passage](/projects/atmos/#2-set-up-and-mix) in Logic — about 25 minutes
+  - Music route: continue the Atmos session started last week. Film route: bring the chosen film passage and its separate source audio into Logic, preserving sync with picture
+  - Check bed/object routing and balance, then make one purposeful object automation gesture. Use Monday's placement decisions as a starting point where they suit your passage
+  - Ask for help with setup or routing before Friday's checkpoint
+- [lab] Partner listening check — about 10 minutes: play a short excerpt, explain the intended focus, and identify one revision to make before [Friday's working-mix checkpoint](/projects/atmos/#checkpoints). Save the session with its media
 
 ## 11/6
 - [lab] [Project 4 working-mix checkpoint](/projects/atmos/#checkpoints) — confirm the source passage, check bed/object routing and one automation gesture, and get feedback. Bring one question
