@@ -18,12 +18,12 @@ prepared session.
 Use these course limits for both the music and film routes of [Project 4](/projects/atmos/). They are adapted from music delivery practice, not universal specifications for all film or Atmos content:
 
 {{< stats >}}
-{{< stat value="-18 LUFS-I" label="Maximum integrated loudness" note="Measure the full submitted passage from the 5.1 loudness re-render according to ITU-R BS.1770. Quieter is acceptable." >}}
+{{< stat value="-18 LUFS-I" label="Maximum integrated loudness" note="Measure the complete song or supplied film from the 5.1 loudness re-render according to ITU-R BS.1770. Quieter is acceptable." >}}
 {{< stat value="-1 dBTP" label="Maximum true peak" note="Measure true peak from the same 5.1 loudness re-render." >}}
 {{< /stats >}}
 
 LUFS and LKFS are numerically equivalent. Integrated loudness measures the
-passage as a whole; true peak checks the highest reconstructed signal peak.
+mix as a whole; true peak checks the highest reconstructed signal peak.
 A mix can pass one limit and fail the other.
 
 ### Set up the surround master strip
@@ -37,22 +37,22 @@ Add the meters from **Audio FX > Metering**. Use their multichannel versions
 so they measure the rendered bed and objects together. These readings apply
 to the 5.1 render, not the room's 7.1 output or a binaural render.
 
-1. Set the passage's start and end, including the final decay. Turn cycle off.
+1. Set the full mix's start and end, including the final decay. Turn cycle off.
 2. Reset the Level Meter peak values and the Loudness Meter. Enable the
    Loudness Meter's **Start/Pause** analysis button.
-3. Play the complete passage once without stopping. Read the **Integrated**
+3. Play the complete song or supplied film once without stopping. Read the **Integrated**
    value and the highest true-peak value across the channels.
 4. Record both readings before starting another playback, which can reset
    the Level Meter's peak holds.
 
 Do not judge the integrated result from a short loop or from the momentary
 loudness display. We can use short excerpts for listening comparisons, but
-the delivery measurement covers the complete submitted passage.
+the delivery measurement covers the complete song or supplied film.
 
 ### Correct the level in the source mix
 
 If the mix measures -15 LUFS-I, reducing the complete mix by about 3 dB is a
-starting point. Remeasure the full passage and check true peak as well.
+starting point. Remeasure the full mix and check true peak as well.
 Quieter than -18 LUFS-I is acceptable; do not raise a mix simply to hit the ceiling.
 
 Adjust the bed and object source levels together while preserving their
@@ -116,7 +116,7 @@ the mix for different playback systems.
 In current versions of Logic, choose
 `File > Export > Project as Spatial Audio`, then select
 `Dolby Atmos ADM BWF`. Choose **Project** for the whole project or **Selection**
-for the intended passage. Check the range includes the final decay. In older
+for the complete song or supplied film if it occupies only part of the session. Check the range includes the final decay. In older
 versions, the command may be named **Project as ADM BWF**. The monitoring format selected in the Dolby Atmos
 plug-in does not affect this export.
 

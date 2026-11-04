@@ -140,7 +140,7 @@ Show the instructor or a partner:
 - One intentional automated movement and your monitoring observation.
 - The reopened ADM test, or the specific issue to resolve Friday.
 
-Next class, expand the song mix from this working session. Project 4 requires at least four automated object tracks and a finished mix; today's small test is a starting point. The [Atmos delivery lesson](/lectures/week-11/atmos-delivery/) covers the full loudness and delivery checks before submission.
+Next class, expand the song mix from this working session. Project 4 requires at least four object tracks, two purposeful automation gestures across two objects, and a finished full-song or full-film mix; today's small test is a starting point. The [Atmos delivery lesson](/lectures/week-11/atmos-delivery/) covers the full loudness and delivery checks before submission.
 
 ## Troubleshooting
 

@@ -5,7 +5,7 @@ weight: 4
 week: 10
 assigned: "2026-10-30"
 due: "2026-11-16"
-summary: "A Dolby Atmos mix of a song or a film excerpt, using object-based panning and automation in Logic Pro."
+summary: "A Dolby Atmos mix of a complete song or the full supplied film, using object-based panning and automation in Logic Pro."
 tools: ["Logic Pro", "Dolby Atmos Renderer"]
 # the brief in the body already spells out deliverables and grading
 rubric: false
@@ -13,9 +13,9 @@ rubric: false
 
 ## Your task
 
-Create a **2–3 minute Dolby Atmos mix in Logic Pro**, due **Monday, November 16**. Use spatial placement and movement to support a song or film scene, then verify that the mix translates to speakers and headphones and survives ADM export.
+Create a **complete Dolby Atmos music or film mix in Logic Pro**, due **Monday, November 16**. Mix the entire chosen song or the full supplied film, from beginning to end. Use spatial placement and movement to support the music or picture, then verify that the mix translates to speakers and headphones and survives ADM export.
 
-You may develop the session started in class. This project assesses mixing and delivery; you do not need to compose new music, record new sources, or redesign a film's entire soundtrack.
+You may develop the session started in class. This project assesses mixing and delivery; work from the supplied multitracks or film audio. You do not need to compose new music or record replacement sources.
 
 ## 1. Choose your source
 
@@ -23,12 +23,12 @@ Choose one route. Use enough separately controllable source tracks to build a be
 
 | Route | Source and scope | What the mix should achieve |
 | --- | --- | --- |
-| Music | A coherent 2–3 minute passage from [Aiguille Rouge – Bebe Grand](https://cambridge-mt.com/ms/mtk/#BabeGrand), or another multitrack agreed with the instructor | Keep the intended focal elements clear; use space to support phrasing, arrangement, and contrast |
-| Film | A continuous 2–3 minute excerpt from [Like Lambs](/projects/like-lambs-5-1/), using the supplied dialogue and effects | Preserve picture sync, intelligible dialogue, and convincing perspective; use placement and movement to support the scene |
+| Music | The complete song [Aiguille Rouge – Bebe Grand](https://cambridge-mt.com/ms/mtk/#BabeGrand), or another multitrack agreed with the instructor | Keep the intended focal elements clear; use space to support phrasing, arrangement, and contrast |
+| Film | The full supplied film [Like Lambs](/projects/like-lambs-5-1/), using the supplied dialogue and effects | Preserve picture sync, intelligible dialogue, and convincing perspective; use placement and movement to support the scene |
 
 The [November 2 in-class film mix](/projects/like-lambs-5-1/) introduces the film sources and spatial choices before you commit to a route.
 
-Choose a passage with a clear beginning and ending, and allow effects to decay naturally. Confirm your source and excerpt by the **November 6 checkpoint**. The same duration and technical requirements apply to both routes.
+Confirm your source by the **November 6 checkpoint**. Cover its full duration, including the ending and natural effects tails. There is no fixed 2–3 minute limit; the source determines the length. Both routes have the same technical requirements.
 
 ## 2. Set up and mix
 
@@ -46,7 +46,7 @@ Our room has no discrete height speakers. You can author height positions, but a
 
 Follow the [Atmos delivery lesson](/lectures/week-11/atmos-delivery/) for measurement and export procedures.
 
-- Measure the complete submitted passage through the **5.1 render**, using a multichannel loudness meter after the Dolby Atmos plug-in. Meet the course limits of **−18 LUFS-I or quieter** and **−1 dBTP or lower**. These limits apply to both routes for this assignment; they are not universal film or Atmos delivery standards.
+- Measure the complete mix, from beginning to end, through the **5.1 render**, using a multichannel loudness meter after the Dolby Atmos plug-in. Meet the course limits of **−18 LUFS-I or quieter** and **−1 dBTP or lower**. These limits apply to both routes for this assignment; they are not universal film or Atmos delivery standards.
 - Export **Dolby Atmos ADM BWF** using **File > Export > Project as Spatial Audio**. The monitoring format does not change this master export.
 - Use **File > Import > Create Project from ADM BWF** to open the exported master as a new verification project. Check its start, ending, bed/object content, automation, and balance. Fix problems in the source project and export again.
 
@@ -54,7 +54,7 @@ Follow the [Atmos delivery lesson](/lectures/week-11/atmos-delivery/) for measur
 
 These checks support the project and do not add separate graded deliverables.
 
-- **November 6: working mix.** Bring the chosen passage in a Logic session with its media, working bed/object routing, and one automation gesture. Play an excerpt, identify your intended focus, and bring one question.
+- **November 6: working mix.** Bring your full-song or full-film session in Logic with its media, working bed/object routing, and one automation gesture. Play an excerpt, identify your intended focus, and bring one question.
 - **November 13: progress bounce.** Post the scheduled 1–2 minute listening preview to D2L for conference-week participation. Identify it as a stereo or binaural render and include one question. This preview is separate from the final ADM master.
 
 November 9 covers the [Atmos delivery lesson](/lectures/week-11/atmos-delivery/). Apply the measurement, export, and verification procedures as you finish your mix. November 11 and 13 are independent work days; studio access during the instructor's absence requires prior arrangements. Arrange access for your room listening check and continue headphone checks on laptops.
@@ -62,7 +62,7 @@ November 9 covers the [Atmos delivery lesson](/lectures/week-11/atmos-delivery/)
 ## Submit to D2L by November 16
 
 1. **Logic Pro project folder**, with all source media included.
-2. **Final ADM BWF master**, verified by creating a new project from it.
+2. **Final ADM BWF master of the complete song or supplied film**, verified by creating a new project from it.
 3. **One short document** containing:
    - **Reflection, 1–2 paragraphs:** explain bed/object choices, the two automation gestures, and one problem you solved. Include timestamps for the gestures. For film, describe how placement supports the picture; for music, describe its role in the arrangement.
    - **QC record:** measured integrated loudness and true peak from the final 5.1 render; speaker/headphone formats checked, including Dolby and Apple previews and stereo; one timestamped observation and the change you made or why you kept the result; confirmation that the final ADM reopened correctly. Add one meter screenshot showing the final readings.

@@ -18,11 +18,11 @@ This is a **shared in-class project**, assessed complete/incomplete for particip
 - **Projects 1–2: mono and binaural/stereo.** Apply your listening for distance, perspective, and the relationship between foreground and background to a film scene.
 - **Project 3: ambisonics.** Reuse your experience balancing an immersive mix and making purposeful spatial moves. Here, REAPER sends audio to speaker channels rather than an ambisonic sound field.
 - **The October 21 surround lab.** Use the same verified 7.1 room routing and ReaSurroundPan workflow, now with dialogue, effects, and picture instead of a song.
-- **Project 4: Atmos.** Compare the film's needs with those of the music session started in Logic. Decide which material you want to develop into your own 2–3 minute Atmos mix.
+- **Project 4: Atmos.** Compare the film's needs with those of the music session started in Logic. Decide which material you want to develop into your own full-film Atmos mix.
 
 ## Have ready
 
-- [Download the supplied film project and media](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/ESn1ORSMsOtEqg3ll7hcLDABlVev1egh6Jh-BYds3spYrA?e=FJ95pH).
+- [Download the REAPER project and media](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/IQAV-YK-hMybSI5hovaIO3B3Ac_tDEmmEPjicQA7HmIB_rs) — ZIP, about 224 MB. Sign in with your DSU account, download and extract the ZIP, then open `Lambs sound.rpp` inside the `Lambs sound` folder. Keep its `Audio` folder alongside the project; it contains the video and audio sources.
 - REAPER and the [surround-mixing guide](/lectures/week-7/reasurround-new/).
 - The classroom's verified **7.1 speaker routing**. If the supplied session starts in another format, check its routing before playback.
 
@@ -56,7 +56,7 @@ Each student should contribute a placement or balance decision, help operate the
 
 ## Developing this into Project 4
 
-You may choose *Like Lambs* instead of music for the Atmos assignment. Select a **continuous 2–3 minute excerpt** and confirm it by the **November 6 checkpoint**.
+You may choose *Like Lambs* instead of music for the Atmos assignment. Mix the **full supplied film**, from beginning to end, and confirm your source by the **November 6 checkpoint**. The short passage used in class is a practice exercise; Project 4 covers the complete film.
 
 Use the supplied source audio to build your own Logic Atmos session, preserving its alignment with picture. Carry over useful balance and placement decisions from the class exercise, then decide what belongs in the bed and what needs independent object control. A finished 7.1 render is not a substitute for those separate sources or an ADM master.
 
