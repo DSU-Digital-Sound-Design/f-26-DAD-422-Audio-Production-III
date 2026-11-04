@@ -55,10 +55,9 @@ Follow the [Atmos delivery lesson](/lectures/week-11/atmos-delivery/) for measur
 These checks support the project and do not add separate graded deliverables.
 
 - **November 6: working mix.** Bring the chosen passage in a Logic session with its media, working bed/object routing, and one automation gesture. Play an excerpt, identify your intended focus, and bring one question.
-- **November 9: delivery check.** Bring the mix far enough along to measure and export an ADM test. Verify that it reopens while the instructor is available. Save the remaining fixes for the independent work days, then repeat the checks on the final mix.
 - **November 13: progress bounce.** Post the scheduled 1–2 minute listening preview to D2L for conference-week participation. Identify it as a stereo or binaural render and include one question. This preview is separate from the final ADM master.
 
-Arrange a room listening check by November 9. November 11 and 13 are independent work days; studio access during the instructor's absence requires prior arrangements. Continue headphone checks on laptops and keep the final weekend for revisions rather than first-time setup.
+November 9 covers the [Atmos delivery lesson](/lectures/week-11/atmos-delivery/). Apply the measurement, export, and verification procedures as you finish your mix. November 11 and 13 are independent work days; studio access during the instructor's absence requires prior arrangements. Arrange access for your room listening check and continue headphone checks on laptops.
 
 ## Submit to D2L by November 16
 

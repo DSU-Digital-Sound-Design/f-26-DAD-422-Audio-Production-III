@@ -188,16 +188,15 @@ funds undergraduate work.
 - [lab] Partner listening check — about 10 minutes: play a short excerpt, explain the intended focus, and identify one revision to make before [Friday's working-mix checkpoint](/projects/atmos/#checkpoints). Save the session with its media
 
 ## 11/6
+- [slides] [Native surround plug-ins](/lectures/week-11/atmos-delivery/#native-surround-plug-ins) — 5–10 minutes: compare native surround and multi-mono processing, look at a few Logic examples, and hear which processing affects the bed versus objects
 - [lab] [Project 4 working-mix checkpoint](/projects/atmos/#checkpoints) — confirm the source passage, check bed/object routing and one automation gesture, and get feedback. Bring one question
 
 ## 11/9
 - [slides] [Atmos delivery: loudness, the ADM master, and binaural QC](/lectures/week-11/atmos-delivery/) — make your Project 4 mix submission-ready before the independent work days
-- [lab] [Project 4 delivery checkpoint](/projects/atmos/#checkpoints) — measure the 5.1 render, complete a room listening check, and export/reopen an ADM test before the independent work days
-- [slides] If time permits after delivery checks: [Advanced ambisonics and spatial audio](/lectures/week-11/advanced-ambisonics/)
 
 ## 11/11
 - **No class meeting — I'm at [ATMI](https://atmimusic.com/) in Grand Rapids, MI** (Nov 11–14). These two days are independent work days; they don't count against attendance.
-- [lab] Continue Project 4 using the fixes identified at Monday's delivery checkpoint
+- [lab] Continue Project 4 and apply Monday's Atmos delivery lesson to your mix
 - Studio A / Studio B won't be supervised — work on laptops unless you've already arranged studio access
 
 ## 11/13
