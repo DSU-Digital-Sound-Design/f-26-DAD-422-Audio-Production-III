@@ -26,6 +26,9 @@ Choose one route. Use enough separately controllable source tracks to build a be
 | Music | The complete song [Aiguille Rouge – Bebe Grand](https://cambridge-mt.com/ms/mtk/#BabeGrand), or another multitrack agreed with the instructor | Keep the intended focal elements clear; use space to support phrasing, arrangement, and contrast |
 | Film | The full supplied film [Like Lambs](/projects/like-lambs-5-1/), using the supplied dialogue and effects | Preserve picture sync, intelligible dialogue, and convincing perspective; use placement and movement to support the scene |
 | Film | The full film [Sol Levante](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/IQCvfstRA6CUT4m9gD3pvUGcAZ_nmBoQ3b1eMn-TnGIeDmw?e=lB6dcz), using the supplied music and effects tracks | Preserve picture sync; use placement and movement to support the scene |
+| Film | The full four-minute film [The Lost Piano](https://thecuetube.com/product/the-lost-piano/), available free from The Cue Tube | Keep the monologue clear; use space and perspective to support the picture |
+
+*The Lost Piano* is supplied as an unscored HD film. Its download page does not list separate audio stems. Check the downloaded audio with the instructor before starting this route so you have enough separately controllable sources to meet the bed and object requirements.
 
 The [November 2 in-class film mix](/projects/like-lambs-5-1/) introduces the film sources and spatial choices before you commit to a route.
 

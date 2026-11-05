@@ -63,6 +63,7 @@ The proposal earns its 30 points for being complete — all three elements below
 * **Musical composition** – original music, soundscape, or electroacoustic piece.
 * **Short film sound design** – new sound effects, Foley, ambience, and/or spatial mix.
   * One option is [Sol Levante](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/IQCvfstRA6CUT4m9gD3pvUGcAZ_nmBoQ3b1eMn-TnGIeDmw?e=lB6dcz), with its music and effects tracks.
+  * Another option is [The Lost Piano](https://thecuetube.com/product/the-lost-piano/), a four-minute live-action film with a reflective monologue, available free from The Cue Tube. The unscored HD film is licensed for coursework and portfolio use. In your proposal, describe the music, ambience, effects, or spatial treatment you plan to develop around the voice and picture.
 
 **What I’ll look for:**
 
