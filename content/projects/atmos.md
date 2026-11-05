@@ -25,10 +25,11 @@ Choose one route. Use enough separately controllable source tracks to build a be
 | --- | --- | --- |
 | Music | The complete song [Aiguille Rouge – Bebe Grand](https://cambridge-mt.com/ms/mtk/#BabeGrand), or another multitrack agreed with the instructor | Keep the intended focal elements clear; use space to support phrasing, arrangement, and contrast |
 | Film | The full supplied film [Like Lambs](/projects/like-lambs-5-1/), using the supplied dialogue and effects | Preserve picture sync, intelligible dialogue, and convincing perspective; use placement and movement to support the scene |
+| Film | The full film [Sol Levante](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/IQCvfstRA6CUT4m9gD3pvUGcAZ_nmBoQ3b1eMn-TnGIeDmw?e=lB6dcz), using the supplied music and effects tracks | Preserve picture sync; use placement and movement to support the scene |
 
 The [November 2 in-class film mix](/projects/like-lambs-5-1/) introduces the film sources and spatial choices before you commit to a route.
 
-Confirm your source by the **November 6 checkpoint**. Cover its full duration, including the ending and natural effects tails. There is no fixed 2–3 minute limit; the source determines the length. Both routes have the same technical requirements.
+Confirm your source by the **November 6 checkpoint**. Cover its full duration, including the ending and natural effects tails. There is no fixed 2–3 minute limit; the source determines the length. All routes have the same technical requirements.
 
 ## 2. Set up and mix
 
@@ -46,7 +47,7 @@ Our room has no discrete height speakers. You can author height positions, but a
 
 Follow the [Atmos delivery lesson](/lectures/week-11/atmos-delivery/) for measurement and export procedures.
 
-- Measure the complete mix, from beginning to end, through the **5.1 render**, using a multichannel loudness meter after the Dolby Atmos plug-in. Meet the course limits of **−18 LUFS-I or quieter** and **−1 dBTP or lower**. These limits apply to both routes for this assignment; they are not universal film or Atmos delivery standards.
+- Measure the complete mix, from beginning to end, through the **5.1 render**, using a multichannel loudness meter after the Dolby Atmos plug-in. Meet the course limits of **−18 LUFS-I or quieter** and **−1 dBTP or lower**. These limits apply to all routes for this assignment; they are not universal film or Atmos delivery standards.
 - Export **Dolby Atmos ADM BWF** using **File > Export > Project as Spatial Audio**. The monitoring format does not change this master export.
 - Use **File > Import > Create Project from ADM BWF** to open the exported master as a new verification project. Check its start, ending, bed/object content, automation, and balance. Fix problems in the source project and export again.
 

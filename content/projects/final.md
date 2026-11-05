@@ -62,6 +62,7 @@ The proposal earns its 30 points for being complete — all three elements below
 
 * **Musical composition** – original music, soundscape, or electroacoustic piece.
 * **Short film sound design** – new sound effects, Foley, ambience, and/or spatial mix.
+  * One option is [Sol Levante](https://dakotastateuniversity-my.sharepoint.com/:u:/g/personal/tate_carson_dsu_edu/IQCvfstRA6CUT4m9gD3pvUGcAZ_nmBoQ3b1eMn-TnGIeDmw?e=lB6dcz), with its music and effects tracks.
 
 **What I’ll look for:**
 
