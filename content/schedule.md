@@ -207,24 +207,32 @@ funds undergraduate work.
 ## 11/16
 - [due] **Project 4: Atmos Mix** — due today
 - Listen to your mixes
-- [project] Introduce the [Final Project](/projects/final/)
+- [project] Introduce the [Final Project](/projects/final/): shared quality standards, individual learning goals, and a finished portfolio piece
+  - Choose an artistic goal, a technical skill to develop, and a listening experiment. Start a new piece and production session; earlier graded projects cannot be revised or resubmitted for the final
 ### homework
-- **Final project proposal** — due Monday 11/23, submitted via D2L
+- Bring a concept, influences, source information, and draft goals to Wednesday's proposal workshop
+- **Written final project proposal** — due Monday 11/23 via D2L; no prototype or finished audio required
 
 ## 11/18
-- [lab] Proposal workshop
-  - Come in with specific ideas — concepts, tools, influences — for your final project, and we'll discuss them as a class
+- [lab] [Final project proposal workshop](/projects/final/#proposal-november-23)
+  - Discuss the intended listener experience, scope, three goals, source credits, and intended sharing permissions
+  - Confirm a new composition, soundscape, film, or film excerpt and plan how you will test your spatial idea
+  - Plan room access and identify a small spatial idea to test after the proposal
 
 ## 11/20
-- Open session to talk about proposals
-- [slides] [SpatGris](/lectures/week-12/spat-gris/) — spatialization outside the DAW, and where the same idea runs at concert scale (L-ISA, Soundscape, 4DSound)
-- If SuperCollider fits your final project, ask me for a starting point
+- [lab] Proposal planning: bring your draft and practical questions; refine scope, sources, and the production plan
+  - Discuss the proposed master format and playback setup
+- Optional resource for relevant projects: [SpatGris](/lectures/week-12/spat-gris/) — spatialization outside the DAW and at concert scale
+- If SuperCollider fits your final project, ask me for a starting point; new software is not required
+### homework
+- Finish the written proposal for Monday; no audio or working session is required yet
 
 ## 11/23
-- [due] **Final project proposal** — due today via D2L
-- Each student briefly presents their proposal
-  - This is a chance to get feedback and suggestions from the class
-  - We'll also listen to the influences listed in your proposal
+- [due] **[Written final project proposal](/projects/final/#proposal-november-23)** — submit to D2L by class; no prototype required
+- Briefly present the concept and goals and identify an influence
+  - Get feedback and agree on achievable goals, scope, sources, and delivery specifications
+### homework
+- Begin a **short audible prototype for Monday 11/30** to test the central spatial idea; preserve versions for comparison
 
 ## 11/25
 - [off] **No class — Thanksgiving recess**
@@ -233,26 +241,34 @@ funds undergraduate work.
 - [off] **No class — Thanksgiving recess**
 
 ## 11/30
-- [lab] Final project setup session
-  - Meet in small groups to set up your project and ask questions
+- [lab] **[Audible prototype check-in](/projects/final/#work-listen-and-revise)** — upload a labeled 30–60 second headphone preview to D2L by class and bring the session
+  - Test the central spatial idea and routing; temporary sources are fine and the whole piece is not required yet
+  - Listen in small groups and use class time to troubleshoot and develop the work
+  - Build toward a complete rough mix for Friday 12/4 and bring one specific listening question
 
 ## 12/2
 - Undergraduate Research showcase — Science Center Lobby, **2–4 PM**
   - Our class period sits inside the showcase window, so we go as a group
 
 ## 12/4
-- [lab] Midpoint critique
-  - Each student shows their progress so far, playing 1–2 minutes of a mix or composition
-  - Other students provide feedback and encouragement
+- [lab] **[Complete rough mix and focused critique](/projects/final/#work-listen-and-revise)** — upload a labeled headphone preview to D2L by class, bring the session, and prepare one specific listening question
+  - Cover the full approved duration, including the ending; balance and spatial details can still be rough
+  - Play a selected passage. Listeners give one timestamped observation and one actionable suggestion tied to the question
+  - Record the feedback and plan at least one substantive revision; discuss and post any agreed goal changes to D2L
+  - All students receive feedback today, using small groups if needed
+### homework
+- Revise after critique and preserve before-and-after excerpts for your self-assessment
 
 ## 12/7
-- Remaining students show their work
+- [lab] Revision and delivery check: compare a before-and-after passage, explain the change, and troubleshoot final exports
+  - Listen through the playback exports; check the immersive master, labeled headphone version, collected session media, and credits. Ambisonic projects also need the undecoded B-format WAV
+  - For film, check the picture-synced listening video too
 - Fill out course evaluations
-- Ask any final questions or request further feedback before the final exam presentation
 
 ## 12/9
 - [off] **Reading / study day — no class**
 
 ## 12/11
-- [due] **Final project** — due today, submitted via D2L
+- [due] **[Final project portfolio package](/projects/final/#final-submission-and-portfolio-package)** — submit to D2L before **1:00 PM**
+  - Include the immersive master and playback files, headphone version, complete session, portfolio description and credits, and evidence-based self-assessment. Ambisonic projects must include the undecoded B-format WAV as well as the decoded 7.1 WAV; no separate QC report is required
 - Final project presentations — **1:00–3:00 PM**, our scheduled final exam slot
