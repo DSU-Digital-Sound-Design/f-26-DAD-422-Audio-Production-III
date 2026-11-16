@@ -217,15 +217,19 @@ funds undergraduate work.
 - [lab] [Final project proposal workshop](/projects/final/#proposal-november-23)
   - Discuss the intended listener experience, scope, three goals, source credits, and intended sharing permissions
   - Confirm a new composition, soundscape, film, or film excerpt and plan how you will test your spatial idea
-  - Plan room access and identify a small spatial idea to test after the proposal
+  - Exchange feedback with a partner and leave with a rough written plan and one practical question to investigate Friday
+  - Plan room access and identify a small spatial idea to test
 
 ## 11/20
-- [lab] Proposal planning: bring your draft and practical questions; refine scope, sources, and the production plan
-  - Discuss the proposed master format and playback setup
+- [lab] Final project feasibility lab: bring your revised proposal and investigate one practical uncertainty
+  - Check your source files, verify routing and playback for your proposed format, or try a small spatial gesture
+  - Meet with me to resolve scope, source, or playback questions
+  - End with a brief note: what you checked, what you learned, and what needs to change in your proposal
+  - These are exploratory checks; no polished audio or audio submission is required
 - Optional resource for relevant projects: [SpatGris](/lectures/week-12/spat-gris/) — spatialization outside the DAW and at concert scale
 - If SuperCollider fits your final project, ask me for a starting point; new software is not required
 ### homework
-- Finish the written proposal for Monday; no audio or working session is required yet
+- Revise and finish the written proposal for Monday using what you learned; no audio or working session submission is required
 
 ## 11/23
 - [due] **[Written final project proposal](/projects/final/#proposal-november-23)** — submit to D2L by class; no prototype required

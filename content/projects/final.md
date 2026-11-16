@@ -30,8 +30,12 @@ tools can be a substantial challenge.
 
 ## Proposal: November 23
 
-Bring ideas to the **November 18 proposal workshop**. We will use November 20
-to discuss scope, sources, and practical questions. Submit the following written
+Bring ideas to the **November 18 proposal workshop** and leave with a rough written
+plan. On November 20, bring your revised plan to a feasibility lab: check source
+material, routing and playback, or a small spatial gesture to resolve one practical
+uncertainty. Record what you checked, what you learned, and what needs to change
+in your proposal. No polished audio or audio submission is required for the lab.
+Submit the following written
 proposal to D2L by class on **November 23**, ready to discuss your plan.
 **No prototype or finished audio is required with the proposal.**
 
@@ -82,7 +86,7 @@ work by the original creators.
 | Date | Bring or submit | What we will do |
 | --- | --- | --- |
 | November 18 | Initial concept, influences, sources, and draft goals | Proposal workshop: narrow the scope and identify a useful learning challenge |
-| November 20 | Draft proposal and practical questions | Refine the scope, source choices, and production plan |
+| November 20 | Revised proposal and one practical uncertainty | Feasibility lab: check sources, routing and playback, or a small spatial gesture; note what you learned and revise the plan |
 | November 23 | Written proposal to D2L by class; no prototype required | Present the idea, hear feedback, and agree on goals and delivery |
 | November 30 | Short audible prototype and labeled headphone preview to D2L by class; bring the working session | Test the central spatial idea, check routing, and get feedback before developing the whole piece |
 | December 4 | Complete rough mix, labeled headphone preview to D2L by class, and one specific listening question | Focused critique: check the whole structure, play a selected passage, and make a revision plan |
