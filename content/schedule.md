@@ -210,26 +210,15 @@ funds undergraduate work.
 - [project] Introduce the [Final Project](/projects/final/): shared quality standards, individual learning goals, and a finished portfolio piece
   - Choose an artistic goal, a technical skill to develop, and a listening experiment. Start a new piece and production session; earlier graded projects cannot be revised or resubmitted for the final
 ### homework
-- Bring a concept, influences, source information, and draft goals to Wednesday's proposal workshop
+- Bring a concept, influences, source information, and draft goals to Wednesday's final project discussion
 - **Written final project proposal** — due Monday 11/23 via D2L; no prototype or finished audio required
 
 ## 11/18
-- [lab] [Final project proposal workshop](/projects/final/#proposal-november-23)
-  - Discuss the intended listener experience, scope, three goals, source credits, and intended sharing permissions
-  - Confirm a new composition, soundscape, film, or film excerpt and plan how you will test your spatial idea
-  - Exchange feedback with a partner and leave with a rough written plan and one practical question to investigate Friday
-  - Plan room access and identify a small spatial idea to test
+- Play the [Project 4 Atmos mixes](/projects/atmos/) we didn't get to on Monday
+- [project] Discuss the [Final Project](/projects/final/) and go over the [written proposal due Monday 11/23](/projects/final/#proposal-november-23)
 
 ## 11/20
-- [lab] Final project feasibility lab: bring your revised proposal and investigate one practical uncertainty
-  - Check your source files, verify routing and playback for your proposed format, or try a small spatial gesture
-  - Meet with me to resolve scope, source, or playback questions
-  - End with a brief note: what you checked, what you learned, and what needs to change in your proposal
-  - These are exploratory checks; no polished audio or audio submission is required
-- Optional resource for relevant projects: [SpatGris](/lectures/week-12/spat-gris/) — spatialization outside the DAW and at concert scale
-- If SuperCollider fits your final project, ask me for a starting point; new software is not required
-### homework
-- Revise and finish the written proposal for Monday using what you learned; no audio or working session submission is required
+- [lab] [SpatGRIS](/lectures/week-12/spat-gris/) — route audio from a DAW and move sources around a multichannel speaker array
 
 ## 11/23
 - [due] **[Written final project proposal](/projects/final/#proposal-november-23)** — submit to D2L by class; no prototype required
