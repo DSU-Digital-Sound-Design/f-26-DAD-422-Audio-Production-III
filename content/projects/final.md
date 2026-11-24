@@ -4,7 +4,7 @@ number: "05"
 weight: 5
 week: 13
 assigned: "2026-11-16"
-due: "2026-12-11"
+due: "2026-12-14"
 summary: "Create a portfolio-ready immersive piece through an audible prototype, a complete rough mix, critique, and revision, with shared quality standards and individual learning goals."
 tools: ["Your choice"]
 rubric: false
@@ -86,7 +86,7 @@ work by the original creators.
 | November 30 | Short audible prototype and labeled headphone preview to D2L by class; bring the working session | Test the central spatial idea, check routing, and get feedback before developing the whole piece |
 | December 4 | Complete rough mix, labeled headphone preview to D2L by class, and one specific listening question | Focused critique: check the whole structure, play a selected passage, and make a revision plan |
 | December 7 | Further revision, a before-and-after excerpt, and delivery questions | Compare changes and troubleshoot exports before the final |
-| December 11 | Final package to D2L before the 1:00 PM presentation | Present and play the finished work during the 1:00–3:00 PM exam slot |
+| December 14 | Final package to D2L before the 3:30 PM presentation | Present and play the finished work during the 3:30–5:30 PM exam slot |
 
 The **November 30 prototype** is a rough excerpt of about 30–60 seconds that
 tests your central spatial idea and routing. It can use temporary sources; it
@@ -128,7 +128,7 @@ height choices.
 
 ## Final submission and portfolio package
 
-Submit one clearly organized folder to D2L by **1:00 PM on December 11**.
+Submit one clearly organized folder to D2L by **3:30 PM on December 14**.
 Use filenames that identify you, the piece, and the format.
 
 1. **Immersive master and room playback file.**

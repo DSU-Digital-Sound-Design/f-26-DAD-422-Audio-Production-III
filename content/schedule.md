@@ -261,7 +261,7 @@ funds undergraduate work.
 ## 12/9
 - [off] **Reading / study day — no class**
 
-## 12/11
-- [due] **[Final project portfolio package](/projects/final/#final-submission-and-portfolio-package)** — submit to D2L before **1:00 PM**
+## 12/14
+- [due] **[Final project portfolio package](/projects/final/#final-submission-and-portfolio-package)** — submit to D2L before **3:30 PM**
   - Include the immersive master and playback files, headphone version, complete session, portfolio description and credits, and evidence-based self-assessment. Ambisonic projects must include the undecoded B-format WAV as well as the decoded 7.1 WAV; no separate QC report is required
-- Final project presentations — **1:00–3:00 PM**, our scheduled final exam slot
+- Final project presentations during the **3:30–5:30 PM** final exam slot
